@@ -1,0 +1,2085 @@
+{
+  "generated_at": "2026-02-27T04:33:38.617449Z",
+  "files": [
+    {
+      "path": "README.md",
+      "md5": "54d6d1b34b0c13600ffd6e886fb4432a",
+      "bytes": 1413
+    },
+    {
+      "path": "docs/00_ONE_PAGER.md",
+      "md5": "cbc37dae9a40ad5bd5d9206731b5112b",
+      "bytes": 947
+    },
+    {
+      "path": "docs/01_QUICKSTART.md",
+      "md5": "24ed80c2551c848d81754ef041e160d8",
+      "bytes": 1033
+    },
+    {
+      "path": "docs/02_ROUTING_MAP.md",
+      "md5": "3c7b6e57d71530557aa82b3ca2f3cadd",
+      "bytes": 1037
+    },
+    {
+      "path": "docs/03_DATA_MODEL.md",
+      "md5": "702251cffbcb21cad2f9fbd8aa16c536",
+      "bytes": 2151
+    },
+    {
+      "path": "docs/04_TIERING_RULES.md",
+      "md5": "87e1498d2aa39fad692e979905c9ddd5",
+      "bytes": 2724
+    },
+    {
+      "path": "docs/05_VERIFICATION_SPEC.md",
+      "md5": "e1c8f69ed91a72a4414fac7216a42fb7",
+      "bytes": 2581
+    },
+    {
+      "path": "docs/06_BACKEND_API_CONTRACT.md",
+      "md5": "751c5075629165a259448bdfee6be691",
+      "bytes": 1561
+    },
+    {
+      "path": "docs/07_DEPLOYMENT.md",
+      "md5": "fe4aa83622d8b6241df27e95e4f5e92d",
+      "bytes": 600
+    },
+    {
+      "path": "docs/08_QA_CHECKLIST.md",
+      "md5": "7829afdf391333027ef9a16ad9e394ed",
+      "bytes": 669
+    },
+    {
+      "path": "docs/09_REFERENCES.md",
+      "md5": "6d1278a68b30819f5020ea0417d85848",
+      "bytes": 366
+    },
+    {
+      "path": "docs/10_INCLUSION_CHECKLIST.md",
+      "md5": "88e9d953308a75115b26944286f1e825",
+      "bytes": 1382
+    },
+    {
+      "path": "docs/11_WEEKLY_COMPANY_INGEST_SOP.md",
+      "md5": "0b9f9a99c0f42bf01a7327fe227ecedc",
+      "bytes": 7702
+    },
+    {
+      "path": "frontend/site/about.html",
+      "md5": "fb6ab5b542555a62dcc6f324134b10c9",
+      "bytes": 6549
+    },
+    {
+      "path": "frontend/site/assets/data/capabilities.v1.0.js",
+      "md5": "392c8c0ab874823bfc4ced1aa3b8ba3e",
+      "bytes": 3432
+    },
+    {
+      "path": "frontend/site/assets/data/capabilities.v1.0.json",
+      "md5": "edcf844736d6fd45da52d2e16657cbbe",
+      "bytes": 4818
+    },
+    {
+      "path": "frontend/site/assets/data/categories.v1.0.js",
+      "md5": "d65a52ff255121e9b321b5488d7d706c",
+      "bytes": 3445
+    },
+    {
+      "path": "frontend/site/assets/data/categories.v1.0.json",
+      "md5": "aedbda9fe738ec0bd987b42a86c755f6",
+      "bytes": 3417
+    },
+    {
+      "path": "frontend/site/assets/data/category_content.v1.0.js",
+      "md5": "4ace7cb5e5c0c35550267938282c24a1",
+      "bytes": 226
+    },
+    {
+      "path": "frontend/site/assets/data/category_content.v1.0.json",
+      "md5": "87dfd710bba7e868ca1b67c273dc9653",
+      "bytes": 150
+    },
+    {
+      "path": "frontend/site/assets/data/claims.v1.0.js",
+      "md5": "e26142ea108b5a03138079614ae81ba6",
+      "bytes": 218
+    },
+    {
+      "path": "frontend/site/assets/data/claims.v1.0.json",
+      "md5": "7956d7fd4c371cca3423c381f6b245b6",
+      "bytes": 152
+    },
+    {
+      "path": "frontend/site/assets/data/companies.v1.0.expanded.json",
+      "md5": "5d18bf0fe4cd2c8dd3fdbe53ba2cffaa",
+      "bytes": 197596
+    },
+    {
+      "path": "frontend/site/assets/data/companies.v1.0.js",
+      "md5": "083dfc35c25be730197ee9c5c3078494",
+      "bytes": 169060
+    },
+    {
+      "path": "frontend/site/assets/data/companies.v1.0.json",
+      "md5": "997e15cf3d3d60eaaad1780cc5f0d1c7",
+      "bytes": 202108
+    },
+    {
+      "path": "frontend/site/assets/data/placements.v1.0.js",
+      "md5": "b9739806e8219dfdf2cf408762b42601",
+      "bytes": 219
+    },
+    {
+      "path": "frontend/site/assets/data/placements.v1.0.json",
+      "md5": "ac6a5c12eb6b5b65217a50f8dc8c614d",
+      "bytes": 149
+    },
+    {
+      "path": "frontend/site/assets/data/tools.v1.0.js",
+      "md5": "ef3b6f4bc7245188a101733984569358",
+      "bytes": 111043
+    },
+    {
+      "path": "frontend/site/assets/data/tools.v1.0.json",
+      "md5": "c99544a45a7de144e2a1ec0d38171962",
+      "bytes": 111020
+    },
+    {
+      "path": "frontend/site/assets/data/use_case_content.v1.0.js",
+      "md5": "8d6c9f2c69bbc80552948c9b40cce347",
+      "bytes": 226
+    },
+    {
+      "path": "frontend/site/assets/data/use_case_content.v1.0.json",
+      "md5": "f0f4ed2bba0a363e601ae24735ddea5f",
+      "bytes": 150
+    },
+    {
+      "path": "frontend/site/assets/data/use_cases.v1.0.js",
+      "md5": "57fb05fb5f9e4666476a0dbe9d7a12bf",
+      "bytes": 7916
+    },
+    {
+      "path": "frontend/site/assets/data/use_cases.v1.0.json",
+      "md5": "d162dee0fd23b70eb477aed385f1aabf",
+      "bytes": 7889
+    },
+    {
+      "path": "frontend/site/assets/js/data.js",
+      "md5": "0c1c166ebb25bc26d02e811fede68688",
+      "bytes": 4295
+    },
+    {
+      "path": "frontend/site/assets/procurement-ai-favicon.svg",
+      "md5": "8dc70818d6309ab92d4afbf662a17587",
+      "bytes": 3133
+    },
+    {
+      "path": "frontend/site/assets/procurement-ai-logo.svg",
+      "md5": "f56b172f0d21c1ca8610e830e759ceaf",
+      "bytes": 3071
+    },
+    {
+      "path": "frontend/site/assets/style.css",
+      "md5": "7f6384987e132804a574acf491b5a60b",
+      "bytes": 22621
+    },
+    {
+      "path": "frontend/site/capability/anomaly-detection/index.html",
+      "md5": "d609a4e278c7d4b908ff5b619cabc4b8",
+      "bytes": 14325
+    },
+    {
+      "path": "frontend/site/capability/api-first-architecture/index.html",
+      "md5": "42c8ec6ca141b9ce19985f004429ef2c",
+      "bytes": 14335
+    },
+    {
+      "path": "frontend/site/capability/autonomous-agent/index.html",
+      "md5": "810ea0862a11864284f998c24d7f55c6",
+      "bytes": 14323
+    },
+    {
+      "path": "frontend/site/capability/clause-intelligence/index.html",
+      "md5": "d34806622d4f29446005acba7d1c2ec7",
+      "bytes": 14329
+    },
+    {
+      "path": "frontend/site/capability/conversational-interface/index.html",
+      "md5": "e42af6ddd5c530ccf5bc2989b2defe90",
+      "bytes": 14339
+    },
+    {
+      "path": "frontend/site/capability/document-ai/index.html",
+      "md5": "4c35864dbe252209670a51c8687a3f48",
+      "bytes": 14313
+    },
+    {
+      "path": "frontend/site/capability/embedded-ai/index.html",
+      "md5": "25e98bd384f5d59996f5975bb48dc3b4",
+      "bytes": 14313
+    },
+    {
+      "path": "frontend/site/capability/external-data-enrichment/index.html",
+      "md5": "fec1cd25feed0668907ed1d8c125d107",
+      "bytes": 14339
+    },
+    {
+      "path": "frontend/site/capability/knowledge-graph/index.html",
+      "md5": "43c5b0ff4e7cb2f7f95ec5d255657343",
+      "bytes": 14321
+    },
+    {
+      "path": "frontend/site/capability/predictive-analytics/index.html",
+      "md5": "1b85793ace850b4826a05144f50fdef9",
+      "bytes": 14331
+    },
+    {
+      "path": "frontend/site/capability/risk-modeling/index.html",
+      "md5": "76a288d3e7d68ac7f28101c6fefbff06",
+      "bytes": 14317
+    },
+    {
+      "path": "frontend/site/capability/spend-classification-ai/index.html",
+      "md5": "5b036c7146e82821a5612523a443a44d",
+      "bytes": 14337
+    },
+    {
+      "path": "frontend/site/capability/supplier-discovery-engine/index.html",
+      "md5": "53d2b2858675331907ef7e295db88cec",
+      "bytes": 14341
+    },
+    {
+      "path": "frontend/site/capability/workflow-orchestration/index.html",
+      "md5": "4f1c247d059254e0588a744b83dff0aa",
+      "bytes": 14335
+    },
+    {
+      "path": "frontend/site/claim.html",
+      "md5": "a0e2b1ecd50b6a59f24472a63d89d3b0",
+      "bytes": 12123
+    },
+    {
+      "path": "frontend/site/company/aavenir/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/abbyy/index.html",
+      "md5": "82dd4d34befcb07633a9499e3cee6ba7",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/agiloft/index.html",
+      "md5": "9b692da3fb60169a8c7fbded9f6f3d57",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/airbase/index.html",
+      "md5": "4983e1d8351a18b2941d51a290bed841",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/alibaba-com/index.html",
+      "md5": "d038ba40059c75a8fad87ff4b6442b90",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/amazon-business/index.html",
+      "md5": "f6b78197e8758250fe649cf3995d2a59",
+      "bytes": 11876
+    },
+    {
+      "path": "frontend/site/company/appzen/index.html",
+      "md5": "dd1d9b834049f2eb028f107651ede7be",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/arkestro/index.html",
+      "md5": "cb5d112768c8c9e116a95cdb5b19f706",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/autonomousaipro/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousflow/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousflow81/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousforge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousforgesuite/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousiq/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomoussensebridge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/autonomousstudio/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/avetta/index.html",
+      "md5": "61943815b2609b3b2490291a0e488a12",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/avidxchange/index.html",
+      "md5": "c72b5372d4b0dd28c0c64bb5d690e63f",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/basware/index.html",
+      "md5": "3b83550df9d782e7cc4848d4e6716100",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/beeline/index.html",
+      "md5": "69b375484c0ee8b52cc16bc6b0c5a5d0",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/beroe/index.html",
+      "md5": "706c714fd8ded07aae1fa0821fb2635e",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/biddingowl/index.html",
+      "md5": "5ee7ba747f994ac17ca89008ada06ee5",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/bill-com/index.html",
+      "md5": "b02e0d16a7aada4f1527e94fd7f7f009",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/blackline/index.html",
+      "md5": "5a47b9f23fa9b17200b7c823abff2d0d",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/brex/index.html",
+      "md5": "7718b1e65377ea0288be7cc33fb17bf9",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/celonis/index.html",
+      "md5": "184e3496669a2c938cca1c1f41cb3d1e",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/census/index.html",
+      "md5": "354b85c37198ac223bf48cf17c87a113",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/cobblestone-software/index.html",
+      "md5": "80d4a5a015535c5d8bfc2c05c443264c",
+      "bytes": 11881
+    },
+    {
+      "path": "frontend/site/company/conga/index.html",
+      "md5": "49382f12c9c2d8e93bd1371bece7d5ea",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/contractatlasprime/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractcloud/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractforge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contracthub/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contracthubsignal/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractiq/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractpodai/index.html",
+      "md5": "75ba8ec36cc689e34f0ccb6a62a52ef8",
+      "bytes": 11874
+    },
+    {
+      "path": "frontend/site/company/contractpulselabs/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractsafe/index.html",
+      "md5": "261c9344407473afe657088d04700feb",
+      "bytes": 11873
+    },
+    {
+      "path": "frontend/site/company/contractstudiosignal/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/contractworks/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/coupa/index.html",
+      "md5": "4bfb10c8ec4f528d9e1d0c244fb28084",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/datasnipper/index.html",
+      "md5": "d1674cf9df92cda84b7b42cb2ea9def1",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/dhl/index.html",
+      "md5": "78da7623ebd20683a6e034d06f06b88b",
+      "bytes": 11864
+    },
+    {
+      "path": "frontend/site/company/docusign/index.html",
+      "md5": "2959b38ae105b36e1c1e27820d5483ff",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/dow-jones/index.html",
+      "md5": "7e5d29a9304ad363e56e288576e42292",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/dun-and-bradstreet/index.html",
+      "md5": "936ef7c163a572c404f03f6ceeee1360",
+      "bytes": 11879
+    },
+    {
+      "path": "frontend/site/company/ecovadis/index.html",
+      "md5": "8a14d9fda82f8401470ea0f4b24a75a3",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/esker/index.html",
+      "md5": "d2930d4711806d05ead7761409c8e106",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/everstream-analytics/index.html",
+      "md5": "dbae0800b4d4f3c7d7f0922ba765c7fc",
+      "bytes": 11881
+    },
+    {
+      "path": "frontend/site/company/evisort/index.html",
+      "md5": "2eb7e86a5999326a61abc019191d7a39",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/fairmarkit/index.html",
+      "md5": "4dce163320c5888975203cd0b614a5e5",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/fivetran/index.html",
+      "md5": "85aa7391aff8e80d2cf46ea2bfe232da",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/gatekeeper/index.html",
+      "md5": "14f91cfa1d8e5da841d5cf737f19a251",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/gep/index.html",
+      "md5": "f1c40831fad05189c56c5f1b32e993ac",
+      "bytes": 11864
+    },
+    {
+      "path": "frontend/site/company/graphite-connect/index.html",
+      "md5": "6e4ec0b62e84f28587b8bd65d519b738",
+      "bytes": 11877
+    },
+    {
+      "path": "frontend/site/company/highradius/index.html",
+      "md5": "9f9134c8d6d25a84161a23a2a03ed221",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/hightouch/index.html",
+      "md5": "0c804cd85f3891de4188a65a6520a49a",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/hypatos/index.html",
+      "md5": "01de09d6afe623e663b4e019c9e2e636",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/icertis/index.html",
+      "md5": "8322431f8d15c51b0afb74cc4fd87aac",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakeatlas/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakeflow/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakeforgeengine/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakehub/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakestudio/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/intakestudiolabs/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/integritynext/index.html",
+      "md5": "5159220c3dfa1c97089c8ed82e7b25b1",
+      "bytes": 11874
+    },
+    {
+      "path": "frontend/site/company/interos/index.html",
+      "md5": "b7cf2935dc0173b47b2b4f4b05923d19",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoicecloud/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoiceflowpro/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoicehubsignal/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoiceiq/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoicelens/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoicenexus/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoiceops/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/invoicestudio/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/ironclad/index.html",
+      "md5": "c714a24db2a8e76fdce3cef0cf434a88",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/ivalua/index.html",
+      "md5": "8d828453d53d09fbacf807272964db7f",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/jaggaer/index.html",
+      "md5": "1368f116ccfb165699d435580681c7e6",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/juro/index.html",
+      "md5": "f6fe9f452da13d9c95915d19d5da8cf2",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/keelvar/index.html",
+      "md5": "c75bd261a9e854f7495be15d53fcdfb3",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/kira-systems/index.html",
+      "md5": "789213885309dfe99ad35fbf3e46be66",
+      "bytes": 11873
+    },
+    {
+      "path": "frontend/site/company/kissflow/index.html",
+      "md5": "d3fbb2abf497ac0613b8c3e6eb537120",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/kodiak-hub/index.html",
+      "md5": "67b1e1203e2e27974e6cc115bd3a0556",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/levadata/index.html",
+      "md5": "37aa5031aa893efb3f6279e4bc26019c",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/linksquares/index.html",
+      "md5": "0a3ff0af2c4b4dbe1313b0f4f53de75c",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/lseg/index.html",
+      "md5": "f5bfac2e52383265eee3496ad3f1588f",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/luminance/index.html",
+      "md5": "96156f7a1b410fb7d28f04b0a878e628",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/market-dojo/index.html",
+      "md5": "c777cc64ae85e75462557b2fc692545a",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/matchory/index.html",
+      "md5": "e362b7df222de30e68b61a020ee1890b",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/medius/index.html",
+      "md5": "033476aaae1fd1e3a0984248f39f265a",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/mineraltree/index.html",
+      "md5": "8d8d4e669b3c406ddd4a19e0c3f71768",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/mulesoft/index.html",
+      "md5": "2c415ce1d9fa38070f88106b1feef6f9",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/nanonets/index.html",
+      "md5": "046370099b7c19ebcb856bae7ca86a85",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/negotiationaistack/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationcloud/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationiq/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationnexus/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationnexus47/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationnexuspath/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationops/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationpilot/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/negotiationsensesuite/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/onit/index.html",
+      "md5": "3db4922f3dfc93ea7c05ccd75ff34929",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/opentext/index.html",
+      "md5": "23e2d80706c66fead843a8ab21fc9dae",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/oracle/index.html",
+      "md5": "70acfa8e18f42aeab2bff64b4a575c8d",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/orchcloud/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/orchguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/orchguardedge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/orchlensone/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/orchsensestack/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/order-co/index.html",
+      "md5": "b69c5d27178cec3566a12397ae12ddbc",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/pactum/index.html",
+      "md5": "5ea9b3aeb5cbff9170b0b78907554102",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/pagero/index.html",
+      "md5": "12cc74768666659280f4920c376a6002",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/payai/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/payatlas/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/paycloudedge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/payflow/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/payguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/payops360/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/paypulse/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/paysense/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/paystudio/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/payworkscontrol/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/pipefy/index.html",
+      "md5": "6a25fd9f1994571aaf2669470e4e2c52",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/planergy/index.html",
+      "md5": "1a5bfe78466ad54efeb3445a3b9decc1",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/precoro/index.html",
+      "md5": "f6ab1bb1076940cc555e6c81aff9a4f6",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/prewave/index.html",
+      "md5": "c5f70c7e62b656c1f3eace39a0e07699",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/proactis/index.html",
+      "md5": "4b9018aee14b42acbb88a47a024daaa1",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/procureforge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/procureforge75/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/procureforgecontrol/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/procurenexus/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/procureopsinsight/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/procurify/index.html",
+      "md5": "a7a57751c81a7b9f1ed47edac95a10aa",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/ramp/index.html",
+      "md5": "fe7add28610465a7af19345cee24960b",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/rapidratings/index.html",
+      "md5": "856ad2e2468194eebb953dbb50c1e06c",
+      "bytes": 11873
+    },
+    {
+      "path": "frontend/site/company/resilinc/index.html",
+      "md5": "4b6628481feffa72dc4f06c3d84d354e",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/riskflow/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/risklensmatrix/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/riskmethods/index.html",
+      "md5": "d545c80c55edb2e6256877d6fb1342d2",
+      "bytes": 11872
+    },
+    {
+      "path": "frontend/site/company/riskonnect/index.html",
+      "md5": "7940db20a8dde5a364b2d172c439209b",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/riskops/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/rossum/index.html",
+      "md5": "5f17f16b71fce3adb31bb9b5d2fa5746",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/runa/index.html",
+      "md5": "043d14d4d0516df1c298eb9928c62e89",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/sap-ariba/index.html",
+      "md5": "ebf0f0d7bf2583d45fc3a394adbf551f",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/sap-concur/index.html",
+      "md5": "d6019a3fe43f4abb43979f540364b136",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/sayari/index.html",
+      "md5": "61127c5e7f7f0f53e5d1d26cba86e0bb",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/scoutbee/index.html",
+      "md5": "e1a800744743b29e0e4afa8e79f7d999",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/sedex/index.html",
+      "md5": "04ae77e507e98e192ec72b9d3869fc2e",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/servicenow/index.html",
+      "md5": "6e235400d43f0bc4dec53edd305b1206",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/sievo/index.html",
+      "md5": "306e2a484b59dd930ee2f432a6c15fc9",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/sirion/index.html",
+      "md5": "f30150c7aad860de36c4e34446cd9de6",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/sourceday/index.html",
+      "md5": "016eb87a2d881db11677f9aa2b29843e",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/sourcingai/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/sourcingflowprime/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/sourcingguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/sourcingguard28/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/sourcinglens/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/sourcingops/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendai/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendatlas/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendesk/index.html",
+      "md5": "b87bd3a0b2b1d2850a3091e4e363ebf0",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/spendforge/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendhq/index.html",
+      "md5": "e51add02344c46a7f2a9e5141e09d02d",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendhub/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/spendworks/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/stampli/index.html",
+      "md5": "04732558ddc7f27b89f14596f6b2df86",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplieratlas/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplieratlaslabs/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierflow/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierguard/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplieriq/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierlenslabs/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierpilot/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierpilotagent/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierpulse/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/suppliersense/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/suppliersenseagent/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supplierworks/index.html",
+      "md5": "95adb7226acf177e59c3da8991071c11",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/supply-wisdom/index.html",
+      "md5": "93ccbcc4b21a383d394a067f16dfaff3",
+      "bytes": 11874
+    },
+    {
+      "path": "frontend/site/company/synertrade/index.html",
+      "md5": "2b90087299efe487aca0f514f514d979",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/tacto/index.html",
+      "md5": "ab6bcbe8f11ce2ed4d7813dd541db9e6",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/taulia/index.html",
+      "md5": "fcbd7c2a65c866a7cb734a7d5b8751f4",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/tealbook/index.html",
+      "md5": "cfc6725bf3e2b3e14abccdd657f1bdc3",
+      "bytes": 11869
+    },
+    {
+      "path": "frontend/site/company/thomasnet/index.html",
+      "md5": "033bc982c1e39568aaed28b4650c8267",
+      "bytes": 11870
+    },
+    {
+      "path": "frontend/site/company/tipalti/index.html",
+      "md5": "5eda99b4fe74bc3cc7e0d5dbcbd9f1b0",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/tonkean/index.html",
+      "md5": "0fd4e5ef05cded5891c8b7bc87a96ea8",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/tradeshift/index.html",
+      "md5": "4e3864bdec63946d2a8b6937f1eedc98",
+      "bytes": 11871
+    },
+    {
+      "path": "frontend/site/company/tray-io/index.html",
+      "md5": "d6115251b6f854291f8e60f477360224",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/tropic/index.html",
+      "md5": "c6cb80a4b60a3536873271e18b5120c9",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/unit4/index.html",
+      "md5": "6d0aa105de837edad9d62c458c7a5ccd",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/vendr/index.html",
+      "md5": "7bb8edcf8ea3ba4df538149b09e72039",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/company/vic-ai/index.html",
+      "md5": "8450d55235ee1f63a6d7d65c5ad4eda8",
+      "bytes": 11867
+    },
+    {
+      "path": "frontend/site/company/workato/index.html",
+      "md5": "b2d17cacfc05d7374ee8d39fac60f751",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/workday/index.html",
+      "md5": "6cea8c2080f17644c13ae0e302ca7e4d",
+      "bytes": 11868
+    },
+    {
+      "path": "frontend/site/company/yooz/index.html",
+      "md5": "4f2238b075721743eb4e12820194ecc4",
+      "bytes": 11865
+    },
+    {
+      "path": "frontend/site/company/zip/index.html",
+      "md5": "e5b6aa54543136f79684654263975791",
+      "bytes": 11864
+    },
+    {
+      "path": "frontend/site/company/zycus/index.html",
+      "md5": "20617c029831882a07d6679fa3776b01",
+      "bytes": 11866
+    },
+    {
+      "path": "frontend/site/faq.html",
+      "md5": "7227e1dc8d6518eef5d7024d7fa0f010",
+      "bytes": 4773
+    },
+    {
+      "path": "frontend/site/index.html",
+      "md5": "649b0046655d6b0fa45bbb52f952ec90",
+      "bytes": 5486
+    },
+    {
+      "path": "frontend/site/llms.txt",
+      "md5": "16dcd939b8a4add43626df30fa07ea57",
+      "bytes": 464
+    },
+    {
+      "path": "frontend/site/qa/index.html",
+      "md5": "de5db3a2c19a3913aed72efd60219905",
+      "bytes": 14263
+    },
+    {
+      "path": "frontend/site/robots.txt",
+      "md5": "a22e83f21c3e4e6cc03196b76c211ba7",
+      "bytes": 70
+    },
+    {
+      "path": "frontend/site/sitemap.xml",
+      "md5": "67f2414203861951a702a6980974e947",
+      "bytes": 32736
+    },
+    {
+      "path": "frontend/site/submit-company.html",
+      "md5": "e426b437706080594dd8de061a926117",
+      "bytes": 11762
+    },
+    {
+      "path": "frontend/site/tool/aavenir/index.html",
+      "md5": "79bc1d96d9c74d593e1f6ef6fe1586eb",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/abbyy-vantage/index.html",
+      "md5": "7d4dbd8958bce916bafd0b5bfd6c9653",
+      "bytes": 12846
+    },
+    {
+      "path": "frontend/site/tool/agiloft-clm/index.html",
+      "md5": "07f1b72734b70f309a40cd972073699f",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/airbase/index.html",
+      "md5": "712fc438a4fcd73769363754a634c0df",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/alibaba-com-supplier-marketplace/index.html",
+      "md5": "a95898c425106aaf9567202fdace770e",
+      "bytes": 12884
+    },
+    {
+      "path": "frontend/site/tool/amazon-business/index.html",
+      "md5": "99735e46c948ab62f4701d6c8768e310",
+      "bytes": 12850
+    },
+    {
+      "path": "frontend/site/tool/appzen/index.html",
+      "md5": "4fca31522885b7f3a9134daba269e3dd",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/arkestro/index.html",
+      "md5": "4ba181845788cd9e5af842c83d09f03a",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/avetta/index.html",
+      "md5": "855e1c622690b5894aaedaa15e9cce9c",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/avidxchange/index.html",
+      "md5": "2b69bfcdece692f1e4729a428daed0d1",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/basware/index.html",
+      "md5": "414e3ac4e4e00c93b6f35fc5ee12839b",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/beeline/index.html",
+      "md5": "ceb9e91b8c2895f8566c0f9a6aeae363",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/beroe/index.html",
+      "md5": "75e2300bd716063e77b2b009336e36e9",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/biddingowl/index.html",
+      "md5": "be605e5e384a98ef1bb411804b78ea5a",
+      "bytes": 12835
+    },
+    {
+      "path": "frontend/site/tool/bill-com/index.html",
+      "md5": "eacd44dd16f0027b8814425d820482a9",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/blackline/index.html",
+      "md5": "d9f0dd9a52dfc3ff767c743a3f84bd5a",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/brex/index.html",
+      "md5": "01265abe73bfc9070ad62f555e024a17",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/celonis/index.html",
+      "md5": "3759fd10c5d990ed585454b92faea4e3",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/census/index.html",
+      "md5": "afbd9ec6097ce5ebc621b481b23a8181",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/cobblestone-contract-insight/index.html",
+      "md5": "92b0522252ca11511f7e162e3c39e64e",
+      "bytes": 12876
+    },
+    {
+      "path": "frontend/site/tool/conga-clm/index.html",
+      "md5": "bc8b733b03266da061e494ae62ec8231",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/contractpodai/index.html",
+      "md5": "2302eabd91b35b928fa9f200d5a7a42f",
+      "bytes": 12846
+    },
+    {
+      "path": "frontend/site/tool/contractsafe/index.html",
+      "md5": "465d8ac95a2afcd02a3753d4bc3177ac",
+      "bytes": 12844
+    },
+    {
+      "path": "frontend/site/tool/coupa-supply-chain-design-and-planning/index.html",
+      "md5": "fba8ed1f5847324c8b52f9abe274b87c",
+      "bytes": 12894
+    },
+    {
+      "path": "frontend/site/tool/coupa/index.html",
+      "md5": "7f85d583cb191f0bf813f760e420e528",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/datasnipper/index.html",
+      "md5": "66839b72e224cc4e2060d8726b6b049e",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/docusign-clm/index.html",
+      "md5": "a818e4d10c124fd8765c84d998390ac8",
+      "bytes": 12844
+    },
+    {
+      "path": "frontend/site/tool/dow-jones-risk-and-compliance/index.html",
+      "md5": "055d297291019ddd871d5c4d245e30dc",
+      "bytes": 12876
+    },
+    {
+      "path": "frontend/site/tool/dun-and-bradstreet-supplier-risk/index.html",
+      "md5": "8c3a473f88949522572c2e0720136baa",
+      "bytes": 12882
+    },
+    {
+      "path": "frontend/site/tool/ecovadis/index.html",
+      "md5": "3d8fd44606b100d4c616b24ccf542724",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/esker/index.html",
+      "md5": "f7d389c5a83a0238b888811b083f072a",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/everstream-analytics/index.html",
+      "md5": "9a2ca279f930a3b03bc741b9e800fd87",
+      "bytes": 12860
+    },
+    {
+      "path": "frontend/site/tool/evisort/index.html",
+      "md5": "4a42848287c342797508f0c2d17eb9da",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/fairmarkit/index.html",
+      "md5": "c61fecdb71b5b2e775fb4aeed084279e",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/fivetran/index.html",
+      "md5": "b3c2a84237e0576d1adc2be6b910dab3",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/gatekeeper/index.html",
+      "md5": "a862d1f80844773c5e2b51301382363f",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/gep-smart/index.html",
+      "md5": "f21ad322f0a30a098b48dd76e036179a",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/gep/index.html",
+      "md5": "4fc9ce414260338e2bf2da779dfdcf20",
+      "bytes": 12826
+    },
+    {
+      "path": "frontend/site/tool/graphite-connect/index.html",
+      "md5": "599b0cc567400c4eecffc4a0140e6df1",
+      "bytes": 12852
+    },
+    {
+      "path": "frontend/site/tool/highradius/index.html",
+      "md5": "7d5ddd9f1b8b2b2a17b0a63108f3419e",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/hightouch/index.html",
+      "md5": "757f23a299e9431bfa2327cdde5d8df2",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/hypatos/index.html",
+      "md5": "061271cd0009b5aefb750c1ea8a87683",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/icertis-discoverai/index.html",
+      "md5": "985f18a3491493576b658a626538231d",
+      "bytes": 12856
+    },
+    {
+      "path": "frontend/site/tool/icertis/index.html",
+      "md5": "3c3d049e742f302dc585e87c25ed97a4",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/integritynext/index.html",
+      "md5": "a5cdfbe29f6b2c10691a17f1d49c2bf3",
+      "bytes": 12846
+    },
+    {
+      "path": "frontend/site/tool/interos/index.html",
+      "md5": "feb36a2b69cb302a343492bbd4529d80",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/ironclad/index.html",
+      "md5": "967c583543b4c6f275182f4c173bff71",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/ivalua-sourcing/index.html",
+      "md5": "298c86a19adc215d3fe038ce81f364ee",
+      "bytes": 12850
+    },
+    {
+      "path": "frontend/site/tool/ivalua/index.html",
+      "md5": "9c72d6235d34612bcf2a8fa4ae912cca",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/jaggaer-sourcing/index.html",
+      "md5": "c9fde851337e59dcf7ce493745b9e919",
+      "bytes": 12852
+    },
+    {
+      "path": "frontend/site/tool/jaggaer/index.html",
+      "md5": "691976d9cf06c726989aff5dfea2811f",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/juro/index.html",
+      "md5": "d4e03a6d199846d5ee413b272224aa3e",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/keelvar/index.html",
+      "md5": "d64dde092afc71f8378985ecf05bc403",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/kira-systems/index.html",
+      "md5": "53c585d2963f4cfee811effd20cd5454",
+      "bytes": 12844
+    },
+    {
+      "path": "frontend/site/tool/kissflow-procurement/index.html",
+      "md5": "d1000d28dea730325f523809d52f632c",
+      "bytes": 12860
+    },
+    {
+      "path": "frontend/site/tool/kodiak-hub/index.html",
+      "md5": "a1e43607f698a1b5b5b7cb93558f9366",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/levadata/index.html",
+      "md5": "524f0d13b74bc27c4993b58c9736c3a0",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/linksquares/index.html",
+      "md5": "3f27c8ad71c66cd9190b2c5d0ebd20f3",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/luminance/index.html",
+      "md5": "98b8c585882462bc5b9d6c5f95511221",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/market-dojo/index.html",
+      "md5": "74f0af95fe41f07a244dc7f11e1ec6aa",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/matchory/index.html",
+      "md5": "31f264adc05b1699449550a1f667e365",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/medius/index.html",
+      "md5": "4f793a6010edbd53bf1a1398462d89dd",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/mineraltree/index.html",
+      "md5": "d191cc6653735b20271db0214ac71b55",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/mulesoft/index.html",
+      "md5": "7ae8cddd87916aac6ced81c8c76146d9",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/nanonets/index.html",
+      "md5": "8885832c12c8ee1d410d007c70091a50",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/onit/index.html",
+      "md5": "c343581fa3c8a2247629ccfb7497b0de",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/opentext-business-network/index.html",
+      "md5": "9f585ecc98046fad76a44fd8c80b5f2d",
+      "bytes": 12870
+    },
+    {
+      "path": "frontend/site/tool/oracle-fusion-procurement-cloud/index.html",
+      "md5": "848fdc6cd5a0d1635436534814c7c619",
+      "bytes": 12882
+    },
+    {
+      "path": "frontend/site/tool/oracle-procurement/index.html",
+      "md5": "48632f22e7cf07b98c1ac3465a47060e",
+      "bytes": 12856
+    },
+    {
+      "path": "frontend/site/tool/order-co/index.html",
+      "md5": "33a8e5a24177aac8bf88b860add17a5b",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/pactum/index.html",
+      "md5": "a4bcb738d9fd989e807d3f835a3ae071",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/pagero-network/index.html",
+      "md5": "05221d235c0b7e12b6849b6312d020a5",
+      "bytes": 12848
+    },
+    {
+      "path": "frontend/site/tool/pipefy-procurement/index.html",
+      "md5": "dfef7480e7c25f2ef822324906684ac1",
+      "bytes": 12856
+    },
+    {
+      "path": "frontend/site/tool/planergy/index.html",
+      "md5": "b09c91f540f2b2e444c5b7104fa20541",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/precoro/index.html",
+      "md5": "7d43d06ac29da7945abe40bb98801f8a",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/prewave/index.html",
+      "md5": "fc5ffd6ceffef9e7ca039a1b3833670b",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/proactis/index.html",
+      "md5": "0dc050ddc7f80d21dba902ae85b32feb",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/procurify/index.html",
+      "md5": "d4b22f77fa837fa52046e824359a636b",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/ramp/index.html",
+      "md5": "f3b0e1812d9edbdc1971d199c99c1183",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/rapidratings/index.html",
+      "md5": "3e0721262c5266e94db1bc96d7a45cca",
+      "bytes": 12844
+    },
+    {
+      "path": "frontend/site/tool/refinitiv-world-check/index.html",
+      "md5": "75cb348a8d82859f663574cfecbe9962",
+      "bytes": 12862
+    },
+    {
+      "path": "frontend/site/tool/resilience360/index.html",
+      "md5": "82c70c0cf2af7eb2f6382d54ff10dd7a",
+      "bytes": 12846
+    },
+    {
+      "path": "frontend/site/tool/resilinc/index.html",
+      "md5": "f3d83da9ef91337f839178ee02b157f2",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/riskmethods/index.html",
+      "md5": "822d08926d0a73fcdefa63480849f20d",
+      "bytes": 12842
+    },
+    {
+      "path": "frontend/site/tool/riskonnect/index.html",
+      "md5": "74fb42e8c6f61c30a1f08e0c833079c9",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/rossum/index.html",
+      "md5": "f9e97982439b9a84952d264efc5ab73e",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/runa/index.html",
+      "md5": "950a28aebccf8e135a88eb251ccc4827",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/sap-ariba/index.html",
+      "md5": "506bbe185acd7b0c12f4ed12386744ce",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/sap-concur-invoice/index.html",
+      "md5": "c725f270a3896f1fe739c6fe0f304e9c",
+      "bytes": 12856
+    },
+    {
+      "path": "frontend/site/tool/sap-fieldglass/index.html",
+      "md5": "97055ce880cc1f1f8362463f73feb03f",
+      "bytes": 12848
+    },
+    {
+      "path": "frontend/site/tool/sap-s-4hana-procurement/index.html",
+      "md5": "0a0fb5b50c610c4b035004a1bc4dde97",
+      "bytes": 12866
+    },
+    {
+      "path": "frontend/site/tool/sayari/index.html",
+      "md5": "21399e0509ac1a13a1cfdc0b1db30df5",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/scoutbee/index.html",
+      "md5": "ec0792c94ac27cd6f5d3e3e1d5d67d3d",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/sedex/index.html",
+      "md5": "f4c2fce016855c35e0b3dd3fcbe9e6c6",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/servicenow-procurement-service-management/index.html",
+      "md5": "1dfb506572308304d14e49312d4e62ef",
+      "bytes": 12902
+    },
+    {
+      "path": "frontend/site/tool/sievo/index.html",
+      "md5": "10de5530970d53d8a6f280ef1c56ce2a",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/sirion/index.html",
+      "md5": "d5b3d5007c9249b4cf7a4bf80e08c3cc",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/sourceday/index.html",
+      "md5": "609840a4260ddf90422e67fe70f7c4f7",
+      "bytes": 12838
+    },
+    {
+      "path": "frontend/site/tool/spendesk/index.html",
+      "md5": "0e117938457e91e554104b3008a33cb2",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/spendhq/index.html",
+      "md5": "130b26316ff469b633898f22c6c9104f",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/stampli/index.html",
+      "md5": "4fb52cfe296470b38bcc71597a44dc48",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/supply-wisdom/index.html",
+      "md5": "f33f36b84aa4eaa76ea2a7fc0bbc2e9e",
+      "bytes": 12846
+    },
+    {
+      "path": "frontend/site/tool/synertrade-accelerate/index.html",
+      "md5": "d159474b5fdd08dc1c3cbe1aa36cf279",
+      "bytes": 12862
+    },
+    {
+      "path": "frontend/site/tool/tacto/index.html",
+      "md5": "c12e41f81f57d49466294d04874f775d",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/taulia/index.html",
+      "md5": "02f37eea92ff94fb1f2a754482100efc",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/tealbook/index.html",
+      "md5": "d787dd5b3252a37d19e428744d3bf768",
+      "bytes": 12836
+    },
+    {
+      "path": "frontend/site/tool/thomasnet-supplier-discovery/index.html",
+      "md5": "ec50a0035b1de4b0184d71ba2ff81c9b",
+      "bytes": 12876
+    },
+    {
+      "path": "frontend/site/tool/tipalti/index.html",
+      "md5": "13eab0d4e3268b5f3bfde2e994743146",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/tonkean/index.html",
+      "md5": "9bdc1e85872328c60362e0c71e79774d",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/tradeshift/index.html",
+      "md5": "3523579d5b9a85341bfe590b7c3faa91",
+      "bytes": 12840
+    },
+    {
+      "path": "frontend/site/tool/tray-io/index.html",
+      "md5": "bff9e1d762175c91cfdbfd1add6cc55f",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/tropic/index.html",
+      "md5": "da2feff3e23a61eb15b74efdddbae935",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/unit4/index.html",
+      "md5": "b436f76d4299fe056f609678a8c482e7",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/vendr/index.html",
+      "md5": "c81ac23f6e8cd41cdb190a1826f53c49",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tool/vic-ai/index.html",
+      "md5": "ad5e2ac32f90b0d2bc7b090d39f5d0bf",
+      "bytes": 12832
+    },
+    {
+      "path": "frontend/site/tool/workato/index.html",
+      "md5": "291d9adf3dd2ce2c3082a77992c9ef38",
+      "bytes": 12834
+    },
+    {
+      "path": "frontend/site/tool/workday-procurement/index.html",
+      "md5": "04e05b4e24cf035360af65ea7050e790",
+      "bytes": 12858
+    },
+    {
+      "path": "frontend/site/tool/yooz/index.html",
+      "md5": "d6554eaf9d9ba527fd514f0217598207",
+      "bytes": 12828
+    },
+    {
+      "path": "frontend/site/tool/zip/index.html",
+      "md5": "d6afdc433574e0270f5d70ab206fb504",
+      "bytes": 12821
+    },
+    {
+      "path": "frontend/site/tool/zycus/index.html",
+      "md5": "d446702612fa612d085b969bb0621eed",
+      "bytes": 12830
+    },
+    {
+      "path": "frontend/site/tools.html",
+      "md5": "305acb9d2d35c9a65638195011c610d9",
+      "bytes": 34918
+    },
+    {
+      "path": "frontend/site/use-case/ai-agents/index.html",
+      "md5": "9d5296c7c5e655f877eca2ed64f0e55a",
+      "bytes": 14305
+    },
+    {
+      "path": "frontend/site/use-case/ap-exception-management/index.html",
+      "md5": "95d4233792f5a51b88add02b2685a0ae",
+      "bytes": 14319
+    },
+    {
+      "path": "frontend/site/use-case/autonomous-sourcing/index.html",
+      "md5": "a4c4d58e12b8be8524dcaf5e9402245b",
+      "bytes": 14315
+    },
+    {
+      "path": "frontend/site/use-case/award-optimization/index.html",
+      "md5": "57582178eb12d48ce5dbc9ad31d52468",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/bid-evaluation/index.html",
+      "md5": "c45b0cbeaf1e82a75a98fa9697a33a5d",
+      "bytes": 14310
+    },
+    {
+      "path": "frontend/site/use-case/clause-extraction/index.html",
+      "md5": "e1d1cf87c2b8e693b6c11b07c62c95ff",
+      "bytes": 14313
+    },
+    {
+      "path": "frontend/site/use-case/contract-lifecycle-management/index.html",
+      "md5": "d700afda59695711d9277dfbba987663",
+      "bytes": 14325
+    },
+    {
+      "path": "frontend/site/use-case/contract-risk-analysis/index.html",
+      "md5": "5da01a0eb5d8fd9e7bb5cd74f16cd50a",
+      "bytes": 14318
+    },
+    {
+      "path": "frontend/site/use-case/cost-modeling/index.html",
+      "md5": "ff4684934c531622c099bc0fab864bd3",
+      "bytes": 14309
+    },
+    {
+      "path": "frontend/site/use-case/cross-system-orchestration/index.html",
+      "md5": "fa3d2aff4c51614f7527ef3d4af58af1",
+      "bytes": 14322
+    },
+    {
+      "path": "frontend/site/use-case/decision-support/index.html",
+      "md5": "b69a1da64c0d3bb8744c4a3881897824",
+      "bytes": 14312
+    },
+    {
+      "path": "frontend/site/use-case/demand-forecasting/index.html",
+      "md5": "6b00328846cd73e4e0d56238aa943518",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/esg-intelligence/index.html",
+      "md5": "6e202918b13b7110ee5c0a3f7975d47a",
+      "bytes": 14312
+    },
+    {
+      "path": "frontend/site/use-case/financial-risk-assessment/index.html",
+      "md5": "64d3e9407e552e7513f7ecf31e0483de",
+      "bytes": 14321
+    },
+    {
+      "path": "frontend/site/use-case/guided-buying/index.html",
+      "md5": "bfb6b8982d1ca90412a4ecedc5a984d6",
+      "bytes": 14309
+    },
+    {
+      "path": "frontend/site/use-case/intake-management/index.html",
+      "md5": "81a4a552d960c3cc321fb2c45e0a00ae",
+      "bytes": 14313
+    },
+    {
+      "path": "frontend/site/use-case/invoice-automation/index.html",
+      "md5": "cec556d311ade7489aac88c1a59a82be",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/market-intelligence/index.html",
+      "md5": "4dc4a68656f456583cb671da58935e8d",
+      "bytes": 14315
+    },
+    {
+      "path": "frontend/site/use-case/negotiation-intelligence/index.html",
+      "md5": "159dacfeef750f5fe430c7598d8ad8ef",
+      "bytes": 14320
+    },
+    {
+      "path": "frontend/site/use-case/obligation-tracking/index.html",
+      "md5": "550ddad45a1b73a2773bfc7d3ca7fc43",
+      "bytes": 14315
+    },
+    {
+      "path": "frontend/site/use-case/po-automation/index.html",
+      "md5": "52111351c69eb0009f75dda07a8f20ac",
+      "bytes": 14309
+    },
+    {
+      "path": "frontend/site/use-case/policy-enforcement/index.html",
+      "md5": "72aa206729bc16ea2856099b20f57f3a",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/rfx-automation/index.html",
+      "md5": "46726e224721ee4a529cdc38143f0479",
+      "bytes": 14310
+    },
+    {
+      "path": "frontend/site/use-case/scenario-modeling/index.html",
+      "md5": "2abdc81b054058ff7d83eb3c6171b968",
+      "bytes": 14313
+    },
+    {
+      "path": "frontend/site/use-case/should-cost-modeling/index.html",
+      "md5": "abc7f53eef0cccc274605d76d573ec79",
+      "bytes": 14316
+    },
+    {
+      "path": "frontend/site/use-case/spend-analytics/index.html",
+      "md5": "fb9318d62c5fd303df728c3d7a963c87",
+      "bytes": 14311
+    },
+    {
+      "path": "frontend/site/use-case/spend-classification/index.html",
+      "md5": "d9b9e864d4f8c7c3de9d37926c01849c",
+      "bytes": 14316
+    },
+    {
+      "path": "frontend/site/use-case/supplier-discovery/index.html",
+      "md5": "921583000723bb3c76023c863241e72e",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/supplier-performance-management/index.html",
+      "md5": "20e8a505ca9e25d92d59927546518226",
+      "bytes": 14327
+    },
+    {
+      "path": "frontend/site/use-case/supplier-risk-monitoring/index.html",
+      "md5": "0511016e075927d89e45a059728eadc0",
+      "bytes": 14320
+    },
+    {
+      "path": "frontend/site/use-case/three-way-matching/index.html",
+      "md5": "0ac057dac0449906a02ea2d05de46e51",
+      "bytes": 14314
+    },
+    {
+      "path": "frontend/site/use-case/workflow-automation/index.html",
+      "md5": "6b55a0e60f8b573eb891ccd580ae0622",
+      "bytes": 14315
+    },
+    {
+      "path": "frontend/site/weekly-updates.html",
+      "md5": "0e7f09fb84ede54a4f8afe0caffd59c0",
+      "bytes": 4858
+    },
+    {
+      "path": "schemas/claim_company_request.schema.json",
+      "md5": "9938568fa871dd8e5891100d94a1a489",
+      "bytes": 2288
+    },
+    {
+      "path": "schemas/company.schema.json",
+      "md5": "b180b921efb567025faf17c3c89ffdb9",
+      "bytes": 2332
+    },
+    {
+      "path": "schemas/submit_company_request.schema.json",
+      "md5": "d425cacea3594d890e09ab0df37e8bfa",
+      "bytes": 3006
+    }
+  ]
+}

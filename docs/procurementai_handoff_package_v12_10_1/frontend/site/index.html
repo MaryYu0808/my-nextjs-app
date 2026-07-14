@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI-enabled Procurement Companies Directory | ProcurementAI</title>
+  <meta name="description" content="A structured directory of AI-enabled procurement companies, mapped across workflows, use cases, and automation maturity.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body class="home">
+<div class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+<div class="nav-links">
+<a class="active" href="index.html">Home</a>
+
+
+
+<a class="" href="tools.html">Explore Companies</a>
+<a class="" href="weekly-updates.html">Weekly Updates</a>
+
+
+<a class="" href="about.html">About</a>
+<a class="" href="faq.html">FAQ</a>
+</div></div></div>
+
+<div class="container">
+  <div class="hero">
+    <h1 class="h1">ProcurementAI structures the AI procurement market.</h1>
+    <div class="sub">A structured directory of AI-enabled procurement companies.</div>
+    <div class="ctas">
+      <a class="btn primary" href="tools.html">Explore companies</a>
+      <a class="btn ghost" href="submit-company.html">Submit a company</a>
+</div>
+    <div class="kpis">
+      <div class="kpi"><b id="kpiTools">—</b> companies</div>
+      <div class="kpi"><b id="kpiCategories">—</b> workflow categories</div>
+      <div class="kpi"><b id="kpiUseCases">—</b> use cases</div>
+      <div class="kpi"><b id="kpiUpdated">—</b> data last verified</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div>
+	      <div class="section">
+	        <h2>Browse by workflow category</h2>
+        <p class="muted">Explore companies by workflow category across the procurement lifecycle.</p>
+                <div class="grid" id="categoryGrid" style="margin-top:12px;"></div>
+      </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;">
+      <div class="muted">© 2026 ProcurementAI</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="submit-company.html">Submit a company</a>
+      </div>
+    </div>
+    <div class="muted" style="margin-top:10px; line-height:1.4;">
+      ProcurementAI is an independent, structured directory of AI-enabled procurement companies.<br>
+      Company information is continuously updated, structured, and validated by AI agents using a standardized taxonomy framework.<br>
+      We do not rank vendors.
+    </div>
+  </div>
+</div>
+  <script src="assets/js/data.js"></script>
+
+<script>
+  (async function(){
+    try{
+      const tools = await loadJSON("assets/data/companies.v1.0.json");
+      const cats  = await loadJSON("assets/data/categories.v1.0.json");
+      const ucs   = await loadJSON("assets/data/use_cases.v1.0.json");
+      const updated = tools.map(t => t.updated_utc).sort().slice(-1)[0] || "";
+      document.getElementById("kpiTools").textContent = tools.length;
+      document.getElementById("kpiCategories").textContent = cats.length;
+      document.getElementById("kpiUseCases").textContent = ucs.length;
+      document.getElementById("kpiUpdated").textContent = updated ? updated.slice(0,10) : "—";
+
+      // Render category cards from the current workflow categories dataset
+      const desc = {
+        "Strategy & Spend Intelligence": "Spend visibility, classification, and cost optimization insights.",
+        "Sourcing & Supplier Discovery": "Supplier discovery, market intelligence, and sourcing workflow support.",
+        "Negotiation & Decision Intelligence": "Bid analysis, negotiation support, and guided decision-making.",
+        "Contract & Commercial Intelligence": "AI-powered contract review, clause extraction, and compliance checks.",
+        "Supplier Risk & ESG Intelligence": "Continuous monitoring of supplier risk signals, ESG, and disruptions.",
+        "Intake & Orchestration": "Automate procurement requests, triage, and workflow orchestration.",
+        "Procure-to-Pay Automation": "Invoice capture, coding, approvals, and exception handling automation.",
+        "Autonomous Procurement Systems": "Agentic and autonomous procurement execution across workflows."
+      };
+      const grid = document.getElementById("categoryGrid");
+      if(grid){
+        const html = (cats || []).map(c => {
+          const name = c.primary_category;
+          const href = `tools.html`;
+          const count = c.tool_count ?? (c.tool_slugs ? c.tool_slugs.length : 0);
+          return `
+            <div class="card" style="grid-column: span 4;">
+              <h3><a href="${href}">${esc(name)}</a></h3>
+              <p>${esc(desc[name] || "Explore companies in this part of the procurement lifecycle.")}</p>
+              <div class="divider"></div>
+              <div class="chips">
+	                <span class="chip"><b>${count}</b> companies</span>
+                <a class="chip" href="${href}"><b>Explore</b></a>
+              </div>
+            </div>
+          `;
+        }).join("\n");
+        grid.innerHTML = html;
+      }
+    }catch(e){ console.error(e); }
+  })();
+</script>
+
+</body>
+</html>

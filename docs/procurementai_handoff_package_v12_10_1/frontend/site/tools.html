@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Explore Companies | ProcurementAI</title>
+  <meta name="description" content="Browse the full index of AI-enabled procurement companies. Filter by workflow category, use case, automation maturity, and headquarters.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+<div class="nav-links">
+<a class="" href="index.html">Home</a>
+<a class="active" href="tools.html">Explore Companies</a>
+<a class="" href="weekly-updates.html">Weekly Updates</a>
+<a class="" href="about.html">About</a>
+<a class="" href="faq.html">FAQ</a>
+</div></div></div>
+
+<div class="container">
+
+  <div class="page-hero">
+    <h1>Explore AI-enabled procurement companies</h1>
+    <p class="sub">Browse companies mapped across workflows, use cases, and automation maturity.</p>
+  </div>
+
+  <div class="tools-layout">
+
+    <!-- Sidebar filters (v8-A) -->
+    <aside class="tools-sidebar">
+      <div class="card sidebar-card">
+        <div class="sidebar-head">
+          <div>
+            <div class="kicker">Filters</div>
+            <div class="muted" id="resultsMeta"></div>
+          </div>
+          <button class="btn small ghost" id="clearAllBtn" type="button">Clear</button>
+        </div>
+
+        <div class="filters-v8">
+          <!-- Search -->
+          <details class="filter-group" open>
+            <summary>
+              <span>Search</span>
+            </summary>
+            <div class="filter-body">
+              <div class="search-row"><input id="fSearch" type="search" placeholder="Search companies (name, tags)…" autocomplete="off"><button class="mini-clear" id="clearSearchBtn" type="button" aria-label="Clear search">Clear</button></div>
+            </div>
+          </details>
+
+          <!-- Workflow category -->
+          <details class="filter-group" open>
+            <summary>
+              <span>Workflow category</span>
+              <button class="mini-clear" id="clearCategoryBtn" type="button" aria-label="Clear Workflow category">Clear</button>
+              <span class="count" id="countCategory"></span>
+            </summary>
+            <div class="filter-body">
+              <select id="fCategory"><option value="">All</option></select>
+            </div>
+          </details>
+
+          <!-- Use case -->
+          <details class="filter-group">
+            <summary>
+              <span>Use case</span>
+              <button class="mini-clear" id="clearUseCaseBtn" type="button" aria-label="Clear Use case">Clear</button>
+              <span class="count" id="countUseCase"></span>
+            </summary>
+            <div class="filter-body">
+              <input id="ucSearch" class="mini-search" type="text" placeholder="Search use cases…" autocomplete="off">
+              <div class="selected-chips" id="ucChips"></div>
+              <div id="ucList" class="option-list" role="listbox" aria-label="Use cases"></div>
+            </div>
+          </details>
+
+          <!-- Automation -->
+          <details class="filter-group">
+            <summary>
+              <span>Automation maturity</span>
+              <button class="mini-clear" id="clearAutomationBtn" type="button" aria-label="Clear Automation maturity">Clear</button>
+              <span class="count" id="countAutomation"></span>
+            </summary>
+            <div class="filter-body">
+              <select id="fAutomation"><option value="">All</option></select>
+            </div>
+          </details>
+
+          <!-- Headquarters -->
+          <details class="filter-group">
+            <summary>
+              <span>Headquarters</span>
+              <button class="mini-clear" id="clearCountryBtn" type="button" aria-label="Clear Headquarters">Clear</button>
+              <span class="count" id="countCountry"></span>
+            </summary>
+            <div class="filter-body">
+              <select id="fCountry"><option value="">All</option></select>
+            </div>
+          </details>
+
+          <div class="sidebar-foot muted" id="lastUpdated"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="tools-main">
+      <div class="card results-card">
+        <div class="results-bar" id="resultsBar">
+          <div class="results-left">
+            <div class="results-title" id="resultsTitle">Showing companies…</div>
+            <div class="chips" id="filterChips"></div>
+            <div class="logic-hint" id="logicHint">Across groups = AND · Within a group = OR</div>
+          </div>
+          <div class="results-right">
+            <select id="fSort" class="sort-select" aria-label="Sort companies">
+              <option value="default" selected>Default</option>
+              <option value="recent">Recently updated</option>
+              <option value="alpha">Alphabetical</option>
+            </select>
+            <button class="btn small ghost" id="clearAllBtn2" type="button">Clear all</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool-grid" id="toolsGrid"></div>
+
+      <div class="load-more-wrap">
+        <button class="btn primary" id="loadMoreBtn" type="button" style="display:none">Load more</button>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script>
+    (async function(){
+      try{
+        const PAGE_SIZE = 24;
+
+        const tools = await loadJSON("assets/data/companies.v1.0.json");
+        const cats = await loadJSON("assets/data/categories.v1.0.json");
+        const useCases = await loadJSON("assets/data/use_cases.v1.0.json");
+
+        const els = {
+          fSearch: document.getElementById("fSearch"),
+          fCategory: document.getElementById("fCategory"),
+          fAutomation: document.getElementById("fAutomation"),
+          fCountry: document.getElementById("fCountry"),
+          fSort: document.getElementById("fSort"),
+          ucSearch: document.getElementById("ucSearch"),
+          ucList: document.getElementById("ucList"),
+          ucChips: document.getElementById("ucChips"),
+          countUseCase: document.getElementById("countUseCase"),
+          countAutomation: document.getElementById("countAutomation"),
+          countCountry: document.getElementById("countCountry"),
+          resultsMeta: document.getElementById("resultsMeta"),
+          resultsTitle: document.getElementById("resultsTitle"),
+          filterChips: document.getElementById("filterChips"),
+          toolsGrid: document.getElementById("toolsGrid"),
+          loadMoreBtn: document.getElementById("loadMoreBtn"),
+          clearAllBtn: document.getElementById("clearAllBtn"),
+          clearAllBtn2: document.getElementById("clearAllBtn2"),
+          lastUpdated: document.getElementById("lastUpdated"),
+          clearSearchBtn: document.getElementById("clearSearchBtn"),
+          clearCategoryBtn: document.getElementById("clearCategoryBtn"),
+          clearUseCaseBtn: document.getElementById("clearUseCaseBtn"),
+          clearAutomationBtn: document.getElementById("clearAutomationBtn"),
+          clearCountryBtn: document.getElementById("clearCountryBtn")
+        };
+
+        // ---- helpers ----
+        const slugOf = (s)=> (window.toSlug ? window.toSlug(s) : (String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")));
+        const byUpdatedDesc = (a,b)=> new Date(b.updated_utc||0) - new Date(a.updated_utc||0);
+        const byAlpha = (a,b)=> String(a.tool_name||"").localeCompare(String(b.tool_name||""), undefined, {sensitivity:"base"});
+
+        // Default ordering: procurement-first (without pay-to-play ranking)
+        // A) Core Procurement AI Platforms (legacy suites + suite/platform vendors)
+        // B) AI-Native Procurement Specialists
+        // C) Procurement-Specific Risk / Intelligence
+        const CORE_VENDORS = new Set([
+          "Coupa","SAP Ariba","Ariba","Ivalua","GEP","Zycus","Oracle","Jaggaer","Basware",
+          "Tradeshift","Workday","SAP","Procurify","Precoro","Proactis","Medius"
+        ]);
+        const RISK_VENDORS = new Set([
+          "EcoVadis","riskmethods","Riskmethods","Prewave","IntegrityNext","Sedex","Dun & Bradstreet","D&B",
+          "Supply Wisdom","Resilinc","Everstream","Craft"
+        ]);
+        function tierOf(t){
+          const vendor = (t.vendor_name || "").trim();
+          const name = (t.tool_name || "").toLowerCase();
+          const cat = (t.primary_category || "").toLowerCase();
+          if(CORE_VENDORS.has(vendor) || /\bsuite\b|\bcloud\b|\bs2p\b|\bp2p\b/.test(name)) return 0;
+          if(RISK_VENDORS.has(vendor) || cat.includes("risk") || cat.includes("esg")) return 2;
+          return 1;
+        }
+        function byDefaultTier(a,b){
+          const ta = tierOf(a), tb = tierOf(b);
+          if(ta !== tb) return ta - tb;
+          const du = byUpdatedDesc(a,b);
+          if(du !== 0) return du;
+          return byAlpha(a,b);
+        }
+
+        function setSummaryCount(el, n){
+          if(!el) return;
+          el.textContent = n ? String(n) : "";
+          el.style.opacity = n ? "1" : ".55";
+        }
+
+        function makeChip(label, onRemove){
+          const span = document.createElement("span");
+          span.className = "chip";
+          span.innerHTML = `<span class="chip-text">${esc(label)}</span>`;
+          const x = document.createElement("button");
+          x.type = "button";
+          x.className = "chip-x";
+          x.setAttribute("aria-label", `Remove ${label}`);
+          x.textContent = "×";
+          x.addEventListener("click", onRemove);
+          span.appendChild(x);
+          return span;
+        }
+
+        // ---- state ----
+        let selectedUCs = new Set();
+        let filtered = [];
+        let visibleCount = PAGE_SIZE;
+        let renderedCount = 0;
+        let facetCache = new Map();
+
+        // ---- URL sync ----
+        function readURL(){
+          const p = new URLSearchParams(location.search);
+          const q = p.get("q") || "";
+          const category = p.get("category") || "";
+          const automation = p.get("automation") || "";
+          const country = p.get("country") || "";
+          const ucsParam  = (p.get("ucs")  || "").split(",").map(s=>s.trim()).filter(Boolean);
+          const sort = p.get("sort") || "default";
+
+          els.fSearch.value = q;
+          if(category) els.fCategory.value = category;
+          if(automation) els.fAutomation.value = automation;
+          if(country) els.fCountry.value = country;
+          if(sort) els.fSort.value = sort;
+
+          // apply UCs after lists render
+          return {ucsParam};
+        }
+
+        function writeURL(){
+          const p = new URLSearchParams();
+          const q = (els.fSearch.value||"").trim();
+          if(q) p.set("q", q);
+
+          if(els.fCategory.value) p.set("category", els.fCategory.value);
+          if(els.fAutomation.value) p.set("automation", els.fAutomation.value);
+          if(els.fCountry.value) p.set("country", els.fCountry.value);
+          const ucsSlugs  = Array.from(selectedUCs).map(slugOf);
+          if(ucsSlugs.length) p.set("ucs", ucsSlugs.join(","));
+
+          if(els.fSort.value && els.fSort.value !== "default") p.set("sort", els.fSort.value);
+
+          const qs = p.toString();
+          const url = qs ? `${location.pathname}?${qs}` : location.pathname;
+          history.replaceState(null, "", url);
+        }
+
+        // ---- build filter options ----
+        function fillCategory(){
+          // categories.v1.0.json already includes tool_count
+          const opt0 = document.createElement("option");
+          opt0.value = "";
+          opt0.textContent = "All categories";
+          els.fCategory.innerHTML = "";
+          els.fCategory.appendChild(opt0);
+
+          (cats||[]).forEach(c=>{
+            const opt = document.createElement("option");
+            opt.value = c.primary_category;
+            opt.textContent = `${c.primary_category} (${c.tool_count||0})`;
+            els.fCategory.appendChild(opt);
+          });
+        }
+
+        function fillSegments(){
+          // compute counts from tools (segments are freeform for now)
+          const counts = {};
+          (tools||[]).forEach(t=>{
+            const s = t.headquarters || "General";
+            counts[s] = (counts[s]||0)+1;
+          });
+
+          const entries = Object.entries(counts).sort((a,b)=> b[1]-a[1] || a[0].localeCompare(b[0]));
+          els.fCountry.innerHTML = "";
+          const opt0 = document.createElement("option");
+          opt0.value = "";
+          opt0.textContent = "All countries";
+          els.fCountry.appendChild(opt0);
+          entries.forEach(([name,n])=>{
+            const opt = document.createElement("option");
+            opt.value = name;
+            opt.textContent = `${name} (${n})`;
+            els.fCountry.appendChild(opt);
+          });
+        }
+
+        function fillAutomation(){
+          // Strict 3-band enumeration (Freeze v7.12 rule)
+          const order = ["Assistive","Semi-automated","Autonomous"];
+          const counts = {"Assistive":0,"Semi-automated":0,"Autonomous":0};
+
+          (tools||[]).forEach(t=>{
+            const v = String(t.automation_level||"");
+            if(counts[v] !== undefined) counts[v] += 1;
+          });
+
+          els.fAutomation.innerHTML = "";
+          const opt0 = document.createElement("option");
+          opt0.value = "";
+          opt0.textContent = "All";
+          els.fAutomation.appendChild(opt0);
+
+          order.forEach(name=>{
+            const opt = document.createElement("option");
+            opt.value = name;
+            opt.textContent = `${name} (${counts[name]||0})`;
+            els.fAutomation.appendChild(opt);
+          });
+        }
+
+        function fillOptionList(listEl, items, valueKey, labelKey, countKey, prefix){
+          listEl.innerHTML = "";
+          items.forEach((it, i)=>{
+            const label = it[labelKey];
+            const slug = slugOf(label);
+            const id = `${prefix}-${slug}-${i}`;
+            const row = document.createElement("label");
+            row.className = "opt";
+            row.setAttribute("data-label", String(label).toLowerCase());
+            row.innerHTML = `
+              <input type="checkbox" id="${id}" data-value="${esc(label)}" data-slug="${esc(slug)}">
+              <span class="opt-label">${esc(label)}</span>
+              <span class="opt-count">${it[countKey] ?? ""}</span>
+            `;
+            listEl.appendChild(row);
+          });
+        }
+
+        function filterOptionList(listEl, q){
+          const query = String(q||"").trim().toLowerCase();
+          listEl.querySelectorAll(".opt").forEach(el=>{
+            const label = el.getAttribute("data-label") || "";
+            el.style.display = (!query || label.includes(query)) ? "" : "none";
+          });
+        }
+
+        function renderSelectedChips(){
+          // Sidebar chips
+          els.ucChips.innerHTML = "";
+          Array.from(selectedUCs).forEach(v=>{
+            els.ucChips.appendChild(makeChip(v, ()=>{
+              selectedUCs.delete(v);
+              syncCheckboxes();
+              applyFilters();
+            }));
+          });
+          setSummaryCount(els.countUseCase, selectedUCs.size);
+
+          // Single-select groups
+          setSummaryCount(els.countAutomation, els.fAutomation.value ? 1 : 0);
+          setSummaryCount(els.countCountry, els.fCountry.value ? 1 : 0);
+        }
+
+        function syncCheckboxes(){
+          els.ucList.querySelectorAll('input[type="checkbox"]').forEach(cb=>{
+            const v = cb.getAttribute("data-value");
+            cb.checked = selectedUCs.has(v);
+          });
+        }
+
+        function buildTopChips(){
+          els.filterChips.innerHTML = "";
+          const chips = [];
+
+          const q = (els.fSearch.value||"").trim();
+          if(q) chips.push({label:`Search: ${q}`, clear:()=>{els.fSearch.value="";}});
+
+          if(els.fCategory.value) chips.push({label:els.fCategory.value, clear:()=>{els.fCategory.value="";}});
+          Array.from(selectedUCs).forEach(v=> chips.push({label:v, clear:()=>{selectedUCs.delete(v);}}));
+
+          if(els.fAutomation.value) chips.push({label:els.fAutomation.value, clear:()=>{els.fAutomation.value="";}});
+          if(els.fCountry.value) chips.push({label:els.fCountry.value, clear:()=>{els.fCountry.value="";}});
+
+          chips.forEach(c=>{
+            els.filterChips.appendChild(makeChip(c.label, ()=>{
+              c.clear();
+              syncCheckboxes();
+              applyFilters();
+            }));
+          });
+        }
+
+        function updateClearButtons(){
+          const hasSearch = !!(els.fSearch.value||"").trim();
+          const hasCategory = !!els.fCategory.value;
+          const hasAutomation = !!els.fAutomation.value;
+          const hasSegment = !!els.fCountry.value;
+          const hasUCs = selectedUCs.size>0;
+
+          const setBtn = (btn, on)=>{ if(!btn) return; btn.style.display = on ? "inline-flex" : "none"; };
+
+          setBtn(els.clearSearchBtn, hasSearch);
+          setBtn(els.clearCategoryBtn, hasCategory);
+          setBtn(els.clearAutomationBtn, hasAutomation);
+          setBtn(els.clearCountryBtn, hasSegment);
+          setBtn(els.clearUseCaseBtn, hasUCs);
+        }
+
+        function clearAll(){
+          els.fSearch.value = "";
+          els.fCategory.value = "";
+          els.fAutomation.value = "";
+          els.fCountry.value = "";
+          els.fSort.value = "default";
+          selectedUCs.clear();
+          syncCheckboxes();
+          applyFilters();
+        }
+
+        function matchesSearch(t, q){
+          if(!q) return true;
+          const hay = `${t.tool_name||""} ${t.vendor_name||""} ${t.one_liner||""}`.toLowerCase();
+          return hay.includes(q);
+        }
+
+        // Faceted counts (dynamic)
+        function filterToolsForCounts(opts){
+          const q = (els.fSearch.value||"").trim().toLowerCase();
+          const category = els.fCategory.value;
+          const automation = els.fAutomation.value;
+          const country = els.fCountry.value;
+          const ignore = opts || {};
+
+          // Facet caching: avoids recomputing multiple passes on 1,000+ tools
+          const keyParts = [
+            q,
+            ignore.ignoreCategory ? "" : category,
+            ignore.ignoreAutomation ? "" : automation,
+            ignore.ignoreSegment ? "" : country,
+            ignore.ignoreUCs ? "" : Array.from(selectedUCs).map(slugOf).sort().join("|"),
+            ignore.ignoreCategory ? "ic1":"ic0",
+            ignore.ignoreAutomation ? "ia1":"ia0",
+            ignore.ignoreSegment ? "is1":"is0",
+            ignore.ignoreUCs ? "iu1":"iu0"
+          ];
+          const cacheKey = keyParts.join("::");
+          const cached = facetCache.get(cacheKey);
+          if(cached) return cached;
+
+          const out = (tools||[]).filter(t=>{
+            if(!matchesSearch(t, q)) return false;
+            if(!ignore.ignoreCategory && category && t.primary_category !== category) return false;
+            if(!ignore.ignoreAutomation && automation && t.automation_level !== automation) return false;
+            if(!ignore.ignoreSegment && country && (t.headquarters||"") !== country) return false;
+
+            if(!ignore.ignoreUCs && selectedUCs.size){
+              const ucs = t.use_cases || [];
+              let ok = false;
+              selectedUCs.forEach(sel=>{ if(ucs.includes(sel)) ok = true; });
+              if(!ok) return false;
+            }
+
+            return true;
+          });
+          facetCache.set(cacheKey, out);
+          return out;
+        }
+
+        function updateOptionListCounts(listEl, countsMap, selectedSet, searchQuery){
+          listEl.querySelectorAll('.opt').forEach(row=>{
+            const cb = row.querySelector('input[type="checkbox"]');
+            const countEl = row.querySelector('.opt-count');
+            const label = cb ? cb.getAttribute('data-value') : "";
+            const n = countsMap[label] || 0;
+            if(countEl) countEl.textContent = String(n);
+
+            const isSelected = selectedSet.has(label);
+            if(cb){
+              cb.disabled = (!isSelected && n === 0);
+            }
+            row.style.opacity = (!isSelected && n === 0) ? ".45" : "1";
+          });
+
+          // Reorder for scanability when not searching: selected first, then higher counts, then A→Z
+          const q = String(searchQuery||"").trim();
+          if(!q){
+            const rows = Array.from(listEl.querySelectorAll(".opt"));
+            rows.sort((a,b)=>{
+              const ca = a.querySelector('input[type="checkbox"]'); const cb = b.querySelector('input[type="checkbox"]');
+              const la = ca ? ca.getAttribute("data-value") : ""; const lb = cb ? cb.getAttribute("data-value") : "";
+              const sa = selectedSet.has(la) ? 1 : 0; const sb = selectedSet.has(lb) ? 1 : 0;
+              if(sb !== sa) return sb - sa;
+              const na = Number(a.querySelector(".opt-count")?.textContent||0);
+              const nb = Number(b.querySelector(".opt-count")?.textContent||0);
+              if(nb !== na) return nb - na;
+              return String(la).localeCompare(String(lb), undefined, {sensitivity:"base"});
+            });
+            // Minimal DOM churn: append in sorted order
+            rows.forEach(r=> listEl.appendChild(r));
+          }
+        }
+
+        function updateCategorySelect(counts){
+          const current = els.fCategory.value;
+          els.fCategory.innerHTML = "";
+          const opt0 = document.createElement('option');
+          opt0.value = "";
+          opt0.textContent = `All categories (${(filterToolsForCounts({ignoreCategory:true})||[]).length})`;
+          els.fCategory.appendChild(opt0);
+
+          (cats||[]).forEach(c=>{
+            const name = c.primary_category;
+            const n = counts[name] || 0;
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = `${name} (${n})`;
+            if(n === 0 && current !== name) opt.disabled = true;
+            els.fCategory.appendChild(opt);
+          });
+          els.fCategory.value = current;
+        }
+
+        function updateAutomationSelect(counts){
+          const current = els.fAutomation.value;
+          const order = ["Assistive","Semi-automated","Autonomous"];
+          els.fAutomation.innerHTML = "";
+          const opt0 = document.createElement('option');
+          opt0.value = "";
+          opt0.textContent = `All (${(filterToolsForCounts({ignoreAutomation:true})||[]).length})`;
+          els.fAutomation.appendChild(opt0);
+
+          order.forEach(name=>{
+            const n = counts[name] || 0;
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = `${name} (${n})`;
+            if(n === 0 && current !== name) opt.disabled = true;
+            els.fAutomation.appendChild(opt);
+          });
+          els.fAutomation.value = current;
+        }
+
+        function updateSegmentSelect(counts){
+          const current = els.fCountry.value;
+          const names = new Set(Object.keys(counts||{}));
+          if(current) names.add(current);
+          const entries = Array.from(names).map(n=>[n, counts[n] || 0])
+            .sort((a,b)=> b[1]-a[1] || a[0].localeCompare(b[0]));
+
+          els.fCountry.innerHTML = "";
+          const opt0 = document.createElement('option');
+          opt0.value = "";
+          opt0.textContent = `All countries (${(filterToolsForCounts({ignoreSegment:true})||[]).length})`;
+          els.fCountry.appendChild(opt0);
+          entries.forEach(([name,n])=>{
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = `${name} (${n})`;
+            if(n === 0 && current !== name) opt.disabled = true;
+            els.fCountry.appendChild(opt);
+          });
+          els.fCountry.value = current;
+        }
+
+        function updateFacets(){
+          // Category counts (apply all except category)
+          const baseCat = filterToolsForCounts({ignoreCategory:true});
+          const catCounts = {};
+          baseCat.forEach(t=>{ catCounts[t.primary_category] = (catCounts[t.primary_category]||0)+1; });
+          updateCategorySelect(catCounts);
+
+          // Use case counts (apply all except use cases)
+          const baseUC = filterToolsForCounts({ignoreUCs:true});
+          const ucCounts = {};
+          baseUC.forEach(t=>{
+            (t.use_cases||[]).forEach(u=>{ ucCounts[u] = (ucCounts[u]||0)+1; });
+          });
+          updateOptionListCounts(els.ucList, ucCounts, selectedUCs, els.ucSearch.value);
+
+          // Automation counts (apply all except automation)
+          const baseAuto = filterToolsForCounts({ignoreAutomation:true});
+          const autoCounts = {"Assistive":0,"Semi-automated":0,"Agentic":0,"Autonomous":0};
+          baseAuto.forEach(t=>{ if(autoCounts[t.automation_level] !== undefined) autoCounts[t.automation_level] += 1; });
+          updateAutomationSelect(autoCounts);
+
+          // Segment counts (apply all except country)
+          const baseSeg = filterToolsForCounts({ignoreSegment:true});
+          const segCounts = {};
+          baseSeg.forEach(t=>{ const s = t.headquarters || "General"; segCounts[s] = (segCounts[s]||0)+1; });
+          updateSegmentSelect(segCounts);
+        }
+
+        function applyFilters(){
+          const q = (els.fSearch.value||"").trim().toLowerCase();
+          const category = els.fCategory.value;
+          const automation = els.fAutomation.value;
+          const country = els.fCountry.value;
+          const sort = els.fSort.value || "default";
+
+          filtered = (tools||[]).filter(t=>{
+            if(!matchesSearch(t, q)) return false;
+            if(category && t.primary_category !== category) return false;
+            if(automation && t.automation_level !== automation) return false;
+            if(country && (t.headquarters||"") !== country) return false;
+
+            if(selectedUCs.size){
+              const ucs = t.use_cases || [];
+              let ok = false;
+              selectedUCs.forEach(sel=>{
+                if(ucs.includes(sel)) ok = true;
+              });
+              if(!ok) return false;
+            }
+
+            return true;
+          });
+
+          // Sorting
+          if(sort === "alpha") filtered.sort(byAlpha);
+          else if(sort === "recent") filtered.sort(byUpdatedDesc);
+          else filtered.sort(byDefaultTier);
+
+          visibleCount = PAGE_SIZE;
+
+          // Reset facet cache per filter application
+          facetCache = new Map();
+
+          // Dynamic faceted counts for 1,000+ scale
+          updateFacets();
+
+          renderSelectedChips();
+          buildTopChips();
+          updateClearButtons();
+          writeURL();
+
+          renderList(true);
+        }
+
+        function renderList(reset){
+          const total = filtered.length;
+          els.resultsTitle.textContent = `Showing ${total} compan${total===1?"y":"ies"}`;
+
+          // If reset, rebuild list from scratch; otherwise append incrementally
+          if(reset){
+            renderedCount = 0;
+            els.toolsGrid.innerHTML = "";
+          }
+
+          const targetCount = Math.min(total, visibleCount);
+
+          // Empty state
+          if(total === 0){
+            const q = (els.fSearch.value||"").trim();
+            const actions = [];
+            if(q) actions.push({id:"emptyClearSearch", label:"Clear search", fn:()=>{els.fSearch.value="";}});
+            if(els.fCategory.value) actions.push({id:"emptyClearCategory", label:"Clear category", fn:()=>{els.fCategory.value="";}});
+            if(selectedUCs.size) actions.push({id:"emptyClearUCs", label:"Clear use cases", fn:()=>{selectedUCs.clear();}});
+            if(els.fAutomation.value) actions.push({id:"emptyClearAutomation", label:"Clear automation", fn:()=>{els.fAutomation.value="";}});
+            if(els.fCountry.value) actions.push({id:"emptyClearSegment", label:"Clear country", fn:()=>{els.fCountry.value="";}});
+
+            const activeSummary = [];
+            if(q) activeSummary.push(`Search: ${esc(q)}`);
+            if(els.fCategory.value) activeSummary.push(esc(els.fCategory.value));
+            if(selectedUCs.size) activeSummary.push(`${selectedUCs.size} use case${selectedUCs.size===1?"":"s"}`);
+            if(els.fAutomation.value) activeSummary.push(esc(els.fAutomation.value));
+            if(els.fCountry.value) activeSummary.push(esc(els.fCountry.value));
+
+            els.toolsGrid.innerHTML = `
+              <div class="empty-state card">
+                <div class="empty-title">No companies match this filter combination.</div>
+                <div class="empty-body muted">
+                  ${activeSummary.length ? `Active filters: <span class="mono">${activeSummary.join(" • ")}</span>` : `Try broadening your search or removing a filter.`}
+                </div>
+                <div class="empty-actions">
+                  <button class="btn small ghost" type="button" id="emptyClearAll">Clear all</button>
+                  ${actions.map(a=>`<button class="btn small ghost" type="button" id="${a.id}">${a.label}</button>`).join("")}
+                </div>
+                <div class="empty-hint muted">Tip: start with a Workflow category, then add one or two Use cases.</div>
+              </div>
+            `;
+
+            const allBtn = document.getElementById("emptyClearAll");
+            if(allBtn) allBtn.addEventListener("click", clearAll);
+
+            actions.forEach(a=>{
+              const btn = document.getElementById(a.id);
+              if(btn) btn.addEventListener("click", ()=>{
+                a.fn();
+                syncCheckboxes();
+                applyFilters();
+              });
+            });
+
+            els.loadMoreBtn.style.display = "none";
+            return;
+          }
+
+          // Append only the delta
+          if(targetCount > renderedCount){
+            const frag = document.createDocumentFragment();
+            const slice = filtered.slice(renderedCount, targetCount);
+            slice.forEach(t=>{
+              const wrap = document.createElement("div");
+              wrap.innerHTML = renderToolCard(t);
+              frag.appendChild(wrap.firstElementChild);
+            });
+            els.toolsGrid.appendChild(frag);
+            renderedCount = targetCount;
+          }
+
+          if(total > visibleCount){
+            els.loadMoreBtn.style.display = "";
+            els.loadMoreBtn.textContent = `Load more (${Math.min(PAGE_SIZE, total-visibleCount)} of ${total-visibleCount} remaining)`;
+          }else{
+            els.loadMoreBtn.style.display = "none";
+          }
+        }
+
+        function loadMore(){
+          visibleCount = Math.min(filtered.length, visibleCount + PAGE_SIZE);
+          renderList(false);
+        }
+
+        function wireOptionList(listEl, selectedSet){
+          listEl.addEventListener("change", (e)=>{
+            const cb = e.target;
+            if(!cb || cb.type !== "checkbox") return;
+            const val = cb.getAttribute("data-value");
+            if(cb.checked) selectedSet.add(val);
+            else selectedSet.delete(val);
+            applyFilters();
+          });
+        }
+
+        // ---- init ----
+        fillCategory();
+        fillSegments();
+        fillAutomation();
+
+        fillOptionList(els.ucList, (useCases||[]), "use_case", "use_case", "tool_count", "uc");
+        wireOptionList(els.ucList, selectedUCs);
+        els.ucSearch.addEventListener("input", (e)=>filterOptionList(els.ucList, e.target.value));
+
+        els.fSearch.addEventListener("input", ()=>applyFilters());
+        els.fCategory.addEventListener("change", ()=>applyFilters());
+        els.fAutomation.addEventListener("change", ()=>applyFilters());
+        els.fCountry.addEventListener("change", ()=>applyFilters());
+        els.fSort.addEventListener("change", ()=>applyFilters());
+
+        els.loadMoreBtn.addEventListener("click", loadMore);
+        els.clearAllBtn.addEventListener("click", clearAll);
+        els.clearAllBtn2.addEventListener("click", clearAll);
+
+        // per-filter clear
+        const stop = (e)=>{ e.preventDefault(); e.stopPropagation(); };
+
+        if(els.clearSearchBtn){
+          els.clearSearchBtn.addEventListener("click", (e)=>{ stop(e); els.fSearch.value=""; applyFilters(); });
+        }
+        if(els.clearCategoryBtn){
+          els.clearCategoryBtn.addEventListener("click", (e)=>{ stop(e); els.fCategory.value=""; applyFilters(); });
+        }
+        if(els.clearAutomationBtn){
+          els.clearAutomationBtn.addEventListener("click", (e)=>{ stop(e); els.fAutomation.value=""; applyFilters(); });
+        }
+        if(els.clearCountryBtn){
+          els.clearCountryBtn.addEventListener("click", (e)=>{ stop(e); els.fCountry.value=""; applyFilters(); });
+        }
+        if(els.clearUseCaseBtn){
+          els.clearUseCaseBtn.addEventListener("click", (e)=>{ stop(e); selectedUCs.clear(); renderSelectedChips(); applyFilters(); });
+        }
+
+
+        // keyboard shortcuts
+        document.addEventListener("keydown", (e)=>{
+          if(e.key === "/" && !e.metaKey && !e.ctrlKey && !e.altKey){
+            e.preventDefault();
+            els.fSearch.focus();
+          }
+          if(e.key === "Escape"){
+            if(document.activeElement === els.fSearch && els.fSearch.value){
+              els.fSearch.value = "";
+              applyFilters();
+            }
+          }
+        });
+
+        // last updated line
+        const latest = (tools||[]).slice().sort(byUpdatedDesc)[0];
+        if(latest && els.lastUpdated){
+          els.lastUpdated.textContent = `Latest dataset update: ${(latest.updated_utc||"").slice(0,10)}`;
+        }
+
+        // Sidebar meta line (avoid persistent "Loading…")
+        if(els.resultsMeta){
+          els.resultsMeta.textContent = `${(tools||[]).length} companies indexed`;
+        }
+
+        // URL -> state
+        const {ucsParam} = readURL();
+
+        // apply use cases from URL
+        if(ucsParam.length){
+          const map = new Map((useCases||[]).map(u=>[slugOf(u.use_case), u.use_case]));
+          ucsParam.forEach(s=>{
+            const v = map.get(s);
+            if(v) selectedUCs.add(v);
+          });
+        }
+        syncCheckboxes();
+
+        applyFilters();
+
+      }catch(e){
+        console.error(e);
+        const meta = document.getElementById("resultsTitle");
+        if(meta) meta.textContent = "Failed to load data. If opened from disk, run a local server.";
+      }
+    })();
+  </script>
+
+</div>
+</body>
+</html>

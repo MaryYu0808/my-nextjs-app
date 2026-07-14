@@ -1,0 +1,42 @@
+﻿[
+    {
+        "slug":  "strategy-spend-intelligence",
+        "name":  "Strategy & Spend Intelligence",
+        "description":  "Spend visibility, classification, and cost optimization insights."
+    },
+    {
+        "slug":  "sourcing-supplier-discovery",
+        "name":  "Sourcing & Supplier Discovery",
+        "description":  "Supplier discovery, market intelligence, and sourcing workflow support."
+    },
+    {
+        "slug":  "negotiation-decision-intelligence",
+        "name":  "Negotiation & Decision Intelligence",
+        "description":  "Bid analysis, negotiation support, and guided decision-making."
+    },
+    {
+        "slug":  "contract-commercial-intelligence",
+        "name":  "Contract & Commercial Intelligence",
+        "description":  "AI-powered contract review, clause extraction, and compliance checks."
+    },
+    {
+        "slug":  "supplier-risk-esg-intelligence",
+        "name":  "Supplier Risk & ESG Intelligence",
+        "description":  "Continuous monitoring of supplier risk signals, ESG, and disruptions."
+    },
+    {
+        "slug":  "intake-orchestration",
+        "name":  "Intake & Orchestration",
+        "description":  "Automate procurement requests, triage, and workflow orchestration."
+    },
+    {
+        "slug":  "procure-to-pay-automation",
+        "name":  "Procure-to-Pay Automation",
+        "description":  "Invoice capture, coding, approvals, and exception handling automation."
+    },
+    {
+        "slug":  "autonomous-procurement-systems",
+        "name":  "Autonomous Procurement Systems",
+        "description":  "Agentic and autonomous procurement execution across workflows."
+    }
+]

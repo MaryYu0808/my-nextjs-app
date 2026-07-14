@@ -1,0 +1,420 @@
+[
+  {
+    "use_case": "Spend Classification",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Spend Analytics",
+    "tool_count": 18,
+    "tool_slugs": [
+      "abbyy-vantage",
+      "beroe",
+      "brex",
+      "celonis",
+      "census",
+      "coupa",
+      "fivetran",
+      "gep",
+      "hightouch",
+      "ivalua",
+      "nanonets",
+      "opentext-business-network",
+      "oracle-procurement",
+      "ramp",
+      "sievo",
+      "spendesk",
+      "spendhq",
+      "zycus"
+    ]
+  },
+  {
+    "use_case": "Cost Modeling",
+    "tool_count": 1,
+    "tool_slugs": [
+      "beroe"
+    ]
+  },
+  {
+    "use_case": "Demand Forecasting",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Market Intelligence",
+    "tool_count": 1,
+    "tool_slugs": [
+      "beroe"
+    ]
+  },
+  {
+    "use_case": "Supplier Discovery",
+    "tool_count": 16,
+    "tool_slugs": [
+      "alibaba-com-supplier-marketplace",
+      "datasnipper",
+      "fairmarkit",
+      "ivalua-sourcing",
+      "jaggaer-sourcing",
+      "levadata",
+      "market-dojo",
+      "matchory",
+      "scoutbee",
+      "synertrade-accelerate",
+      "tacto",
+      "taulia",
+      "tealbook",
+      "thomasnet-supplier-discovery",
+      "tropic",
+      "vendr"
+    ]
+  },
+  {
+    "use_case": "RFx Automation",
+    "tool_count": 8,
+    "tool_slugs": [
+      "arkestro",
+      "biddingowl",
+      "datasnipper",
+      "fairmarkit",
+      "jaggaer",
+      "keelvar",
+      "market-dojo",
+      "taulia"
+    ]
+  },
+  {
+    "use_case": "Bid Evaluation",
+    "tool_count": 2,
+    "tool_slugs": [
+      "biddingowl",
+      "levadata"
+    ]
+  },
+  {
+    "use_case": "Scenario Modeling",
+    "tool_count": 1,
+    "tool_slugs": [
+      "levadata"
+    ]
+  },
+  {
+    "use_case": "Negotiation Intelligence",
+    "tool_count": 1,
+    "tool_slugs": [
+      "pactum"
+    ]
+  },
+  {
+    "use_case": "Award Optimization",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Should-cost Modeling",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Decision Support",
+    "tool_count": 1,
+    "tool_slugs": [
+      "pactum"
+    ]
+  },
+  {
+    "use_case": "Contract Lifecycle Management",
+    "tool_count": 15,
+    "tool_slugs": [
+      "aavenir",
+      "agiloft-clm",
+      "cobblestone-contract-insight",
+      "conga-clm",
+      "contractpodai",
+      "contractsafe",
+      "docusign-clm",
+      "evisort",
+      "gatekeeper",
+      "icertis",
+      "juro",
+      "kira-systems",
+      "linksquares",
+      "luminance",
+      "onit"
+    ]
+  },
+  {
+    "use_case": "Clause Extraction",
+    "tool_count": 16,
+    "tool_slugs": [
+      "aavenir",
+      "agiloft-clm",
+      "cobblestone-contract-insight",
+      "conga-clm",
+      "contractpodai",
+      "contractsafe",
+      "docusign-clm",
+      "evisort",
+      "gatekeeper",
+      "icertis",
+      "ironclad",
+      "juro",
+      "kira-systems",
+      "linksquares",
+      "luminance",
+      "sirion"
+    ]
+  },
+  {
+    "use_case": "Obligation Tracking",
+    "tool_count": 2,
+    "tool_slugs": [
+      "icertis",
+      "sirion"
+    ]
+  },
+  {
+    "use_case": "Contract Risk Analysis",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Supplier Risk Monitoring",
+    "tool_count": 18,
+    "tool_slugs": [
+      "avetta",
+      "dow-jones-risk-and-compliance",
+      "dun-and-bradstreet-supplier-risk",
+      "ecovadis",
+      "everstream-analytics",
+      "integritynext",
+      "interos",
+      "kodiak-hub",
+      "prewave",
+      "rapidratings",
+      "refinitiv-world-check",
+      "resilience360",
+      "resilinc",
+      "riskmethods",
+      "riskonnect",
+      "sayari",
+      "sedex",
+      "supply-wisdom"
+    ]
+  },
+  {
+    "use_case": "Financial Risk Assessment",
+    "tool_count": 1,
+    "tool_slugs": [
+      "rapidratings"
+    ]
+  },
+  {
+    "use_case": "ESG Intelligence",
+    "tool_count": 1,
+    "tool_slugs": [
+      "avetta"
+    ]
+  },
+  {
+    "use_case": "Supplier Performance Management",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Guided Buying",
+    "tool_count": 30,
+    "tool_slugs": [
+      "alibaba-com-supplier-marketplace",
+      "amazon-business",
+      "coupa-supply-chain-design-and-planning",
+      "gep",
+      "gep-smart",
+      "icertis-discoverai",
+      "ivalua-sourcing",
+      "jaggaer-sourcing",
+      "kissflow-procurement",
+      "mulesoft",
+      "oracle-fusion-procurement-cloud",
+      "order-co",
+      "pipefy-procurement",
+      "proactis",
+      "runa",
+      "sap-ariba",
+      "scoutbee",
+      "servicenow-procurement-service-management",
+      "sourceday",
+      "synertrade-accelerate",
+      "tacto",
+      "thomasnet-supplier-discovery",
+      "tonkean",
+      "tray-io",
+      "tropic",
+      "vendr",
+      "workato",
+      "workday-procurement",
+      "zip",
+      "zycus"
+    ]
+  },
+  {
+    "use_case": "Intake Management",
+    "tool_count": 21,
+    "tool_slugs": [
+      "abbyy-vantage",
+      "alibaba-com-supplier-marketplace",
+      "census",
+      "fivetran",
+      "graphite-connect",
+      "hightouch",
+      "ivalua",
+      "ivalua-sourcing",
+      "jaggaer",
+      "jaggaer-sourcing",
+      "nanonets",
+      "opentext-business-network",
+      "sap-ariba",
+      "scoutbee",
+      "synertrade-accelerate",
+      "tacto",
+      "thomasnet-supplier-discovery",
+      "tipalti",
+      "tradeshift",
+      "tropic",
+      "vendr"
+    ]
+  },
+  {
+    "use_case": "Workflow Automation",
+    "tool_count": 37,
+    "tool_slugs": [
+      "aavenir",
+      "airbase",
+      "beeline",
+      "brex",
+      "celonis",
+      "coupa",
+      "coupa-supply-chain-design-and-planning",
+      "docusign-clm",
+      "gep",
+      "gep-smart",
+      "icertis-discoverai",
+      "ironclad",
+      "ivalua",
+      "jaggaer",
+      "kissflow-procurement",
+      "mulesoft",
+      "onit",
+      "oracle-fusion-procurement-cloud",
+      "pipefy-procurement",
+      "planergy",
+      "precoro",
+      "proactis",
+      "procurify",
+      "ramp",
+      "runa",
+      "sap-ariba",
+      "sap-fieldglass",
+      "servicenow-procurement-service-management",
+      "sourceday",
+      "spendesk",
+      "tonkean",
+      "tray-io",
+      "unit4",
+      "workato",
+      "workday-procurement",
+      "zip",
+      "zycus"
+    ]
+  },
+  {
+    "use_case": "Policy Enforcement",
+    "tool_count": 27,
+    "tool_slugs": [
+      "abbyy-vantage",
+      "agiloft-clm",
+      "airbase",
+      "amazon-business",
+      "avetta",
+      "beeline",
+      "brex",
+      "celonis",
+      "census",
+      "cobblestone-contract-insight",
+      "conga-clm",
+      "contractsafe",
+      "coupa",
+      "evisort",
+      "fivetran",
+      "hightouch",
+      "juro",
+      "kira-systems",
+      "linksquares",
+      "luminance",
+      "medius",
+      "nanonets",
+      "opentext-business-network",
+      "order-co",
+      "ramp",
+      "sap-fieldglass",
+      "spendesk"
+    ]
+  },
+  {
+    "use_case": "PO Automation",
+    "tool_count": 2,
+    "tool_slugs": [
+      "appzen",
+      "vic-ai"
+    ]
+  },
+  {
+    "use_case": "Invoice Automation",
+    "tool_count": 2,
+    "tool_slugs": [
+      "appzen",
+      "vic-ai"
+    ]
+  },
+  {
+    "use_case": "Three-way Matching",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "AP Exception Management",
+    "tool_count": 15,
+    "tool_slugs": [
+      "avidxchange",
+      "basware",
+      "bill-com",
+      "blackline",
+      "esker",
+      "highradius",
+      "hypatos",
+      "medius",
+      "mineraltree",
+      "pagero-network",
+      "rossum",
+      "sap-concur-invoice",
+      "sap-s-4hana-procurement",
+      "stampli",
+      "yooz"
+    ]
+  },
+  {
+    "use_case": "Cross-system Orchestration",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "Autonomous Sourcing",
+    "tool_count": 0,
+    "tool_slugs": []
+  },
+  {
+    "use_case": "AI Agents",
+    "tool_count": 0,
+    "tool_slugs": []
+  }
+]

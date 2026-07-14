@@ -1,0 +1,19 @@
+# ProcurementAI (Prototype)
+
+Prototype of a structured directory of AI-enabled procurement companies.
+
+## Key pages
+- Home: index.html
+- Explore companies: tools.html
+- Use cases: /use-case/*/index.html
+- Company pages: /company/*/index.html
+- Weekly updates: weekly-updates.html
+
+## Utility pages
+- About: about.html
+- FAQ: faq.html
+- Submit a company: submit-company.html
+- Claim a company profile: claim.html
+
+## Data freshness
+- Data last verified: 2026-02-14

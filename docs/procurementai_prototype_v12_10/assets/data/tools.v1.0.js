@@ -1,0 +1,3365 @@
+window.__PAI_TOOLS = [
+  {
+    "tool_id": "tool_zip_001",
+    "tool_name": "Zip",
+    "tool_slug": "zip",
+    "vendor_name": "Zip",
+    "website_url": "https://ziphq.com",
+    "logo_url": "https://ziphq.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Conversational Interface",
+      "Embedded AI",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Guided Buying",
+      "Workflow Automation"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "AI procurement intake and orchestration for guided buying, approvals, and downstream workflows.",
+    "sources": [
+      "https://ziphq.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI procurement intake and orchestration for guided buying, approvals, and downstream workflows.",
+    "headquarters": "USA",
+    "founded_year": 2020
+  },
+  {
+    "tool_id": "tool_zycus_002",
+    "tool_name": "Zycus",
+    "tool_slug": "zycus",
+    "vendor_name": "Zycus",
+    "website_url": "https://www.zycus.com",
+    "logo_url": "https://www.zycus.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "Spend Classification AI",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Spend Analytics",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Source-to-pay suite with embedded AI across intake, sourcing, analytics, and compliance workflows.",
+    "sources": [
+      "https://www.zycus.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Source-to-pay suite with embedded AI across intake, sourcing, analytics, and compliance workflows.",
+    "headquarters": "USA",
+    "founded_year": 2001
+  },
+  {
+    "tool_id": "tool_sirion_003",
+    "tool_name": "Sirion",
+    "tool_slug": "sirion",
+    "vendor_name": "Sirion",
+    "website_url": "https://www.sirion.ai",
+    "logo_url": "https://www.sirion.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Conversational Interface",
+      "Knowledge Graph",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Obligation Tracking"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "AI-native contract intelligence for search, extraction, and lifecycle workflows at enterprise scale.",
+    "sources": [
+      "https://www.sirion.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI-native contract intelligence for search, extraction, and lifecycle workflows at enterprise scale.",
+    "headquarters": "USA",
+    "founded_year": 2012
+  },
+  {
+    "tool_id": "tool_ivalua_004",
+    "tool_name": "Ivalua",
+    "tool_slug": "ivalua",
+    "vendor_name": "Ivalua",
+    "website_url": "https://www.ivalua.com",
+    "logo_url": "https://www.ivalua.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Spend Analytics",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Enterprise source-to-pay platform with embedded AI to streamline procurement workflows and insights.",
+    "sources": [
+      "https://www.ivalua.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Enterprise source-to-pay platform with embedded AI to streamline procurement workflows and insights.",
+    "headquarters": "France",
+    "founded_year": 2000
+  },
+  {
+    "tool_id": "tool_gep_005",
+    "tool_name": "GEP",
+    "tool_slug": "gep",
+    "vendor_name": "GEP",
+    "website_url": "https://www.gep.com",
+    "logo_url": "https://www.gep.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "Spend Classification AI",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Spend Analytics",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Source-to-pay suite with AI-driven procurement workflows, analytics, and guided buying capabilities.",
+    "sources": [
+      "https://www.gep.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Source-to-pay suite with AI-driven procurement workflows, analytics, and guided buying capabilities.",
+    "headquarters": "USA",
+    "founded_year": 1999
+  },
+  {
+    "tool_id": "tool_coupa_006",
+    "tool_name": "Coupa",
+    "tool_slug": "coupa",
+    "vendor_name": "Coupa",
+    "website_url": "https://www.coupa.com",
+    "logo_url": "https://www.coupa.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "Spend Classification AI",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Spend Analytics",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Total spend management platform with embedded AI to optimize procurement and spend controls.",
+    "sources": [
+      "https://www.coupa.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Total spend management platform with embedded AI to optimize procurement and spend controls.",
+    "headquarters": "USA",
+    "founded_year": 2006
+  },
+  {
+    "tool_id": "tool_sap_ariba_007",
+    "tool_name": "SAP Ariba",
+    "tool_slug": "sap-ariba",
+    "vendor_name": "SAP Ariba",
+    "website_url": "https://www.sap.com/products/spend-management.html",
+    "logo_url": "https://www.sap.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Intake Management",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Source-to-pay applications with embedded intelligence across procurement, invoicing, and supplier workflows.",
+    "sources": [
+      "https://www.sap.com/products/spend-management.html"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Source-to-pay applications with embedded intelligence across procurement, invoicing, and supplier workflows.",
+    "headquarters": "Germany",
+    "founded_year": 1996
+  },
+  {
+    "tool_id": "tool_jaggaer_008",
+    "tool_name": "JAGGAER",
+    "tool_slug": "jaggaer",
+    "vendor_name": "JAGGAER",
+    "website_url": "https://www.jaggaer.com",
+    "logo_url": "https://www.jaggaer.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Document AI",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Intake Management",
+      "RFx Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement suite with embedded intelligence across sourcing, contracts, supplier, and spend workflows.",
+    "sources": [
+      "https://www.jaggaer.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement suite with embedded intelligence across sourcing, contracts, supplier, and spend workflows.",
+    "headquarters": "USA",
+    "founded_year": 1995
+  },
+  {
+    "tool_id": "tool_basware_009",
+    "tool_name": "Basware",
+    "tool_slug": "basware",
+    "vendor_name": "Basware",
+    "website_url": "https://www.basware.com",
+    "logo_url": "https://www.basware.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "AP and invoice automation with document AI and anomaly detection for higher control and efficiency.",
+    "sources": [
+      "https://www.basware.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP and invoice automation with document AI and anomaly detection for higher control and efficiency.",
+    "headquarters": "Finland",
+    "founded_year": 1985
+  },
+  {
+    "tool_id": "tool_tradeshift_010",
+    "tool_name": "Tradeshift",
+    "tool_slug": "tradeshift",
+    "vendor_name": "Tradeshift",
+    "website_url": "https://tradeshift.com",
+    "logo_url": "https://tradeshift.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Embedded AI"
+    ],
+    "use_cases": [
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement network and invoice workflows with automation and API-first integrations.",
+    "sources": [
+      "https://tradeshift.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement network and invoice workflows with automation and API-first integrations.",
+    "headquarters": "USA",
+    "founded_year": 2009
+  },
+  {
+    "tool_id": "tool_keelvar_011",
+    "tool_name": "Keelvar",
+    "tool_slug": "keelvar",
+    "vendor_name": "Keelvar",
+    "website_url": "https://www.keelvar.com",
+    "logo_url": "https://www.keelvar.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Autonomous Procurement Systems",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "Autonomous Agent",
+      "Supplier Discovery Engine"
+    ],
+    "use_cases": [
+      "RFx Automation"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "AI-assisted sourcing automation for RFx execution and event optimization at scale.",
+    "sources": [
+      "https://www.keelvar.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI-assisted sourcing automation for RFx execution and event optimization at scale.",
+    "headquarters": "Ireland",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_pactum_012",
+    "tool_name": "Pactum",
+    "tool_slug": "pactum",
+    "vendor_name": "Pactum",
+    "website_url": "https://www.pactum.com",
+    "logo_url": "https://www.pactum.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Negotiation & Decision Intelligence",
+    "capability_tags": [
+      "Autonomous Agent",
+      "Conversational Interface",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Negotiation Intelligence",
+      "Decision Support"
+    ],
+    "automation_level": "Autonomous",
+    "one_liner": "Autonomous negotiation agents to scale supplier negotiations and improve outcomes in tail spend.",
+    "sources": [
+      "https://www.pactum.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Autonomous negotiation agents to scale supplier negotiations and improve outcomes in tail spend.",
+    "headquarters": "USA",
+    "founded_year": 2019
+  },
+  {
+    "tool_id": "tool_fairmarkit_013",
+    "tool_name": "Fairmarkit",
+    "tool_slug": "fairmarkit",
+    "vendor_name": "Fairmarkit",
+    "website_url": "https://www.fairmarkit.com",
+    "logo_url": "https://www.fairmarkit.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "External Data Enrichment"
+    ],
+    "use_cases": [
+      "RFx Automation",
+      "Supplier Discovery"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Automated sourcing for tail spend with supplier recommendations and streamlined RFx workflows.",
+    "sources": [
+      "https://www.fairmarkit.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Automated sourcing for tail spend with supplier recommendations and streamlined RFx workflows.",
+    "headquarters": "USA",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_icertis_014",
+    "tool_name": "Icertis",
+    "tool_slug": "icertis",
+    "vendor_name": "Icertis",
+    "website_url": "https://www.icertis.com",
+    "logo_url": "https://www.icertis.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Knowledge Graph",
+      "Workflow Orchestration",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Obligation Tracking",
+      "Contract Lifecycle Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Enterprise contract intelligence platform for lifecycle automation, clause analytics, and obligation management.",
+    "sources": [
+      "https://www.icertis.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Enterprise contract intelligence platform for lifecycle automation, clause analytics, and obligation management.",
+    "headquarters": "USA",
+    "founded_year": 2009
+  },
+  {
+    "tool_id": "tool_ironclad_015",
+    "tool_name": "Ironclad",
+    "tool_slug": "ironclad",
+    "vendor_name": "Ironclad",
+    "website_url": "https://ironcladapp.com",
+    "logo_url": "https://ironcladapp.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "Conversational Interface",
+      "Clause Intelligence"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contracting workflow platform with AI-assisted drafting, review, and approvals.",
+    "sources": [
+      "https://ironcladapp.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contracting workflow platform with AI-assisted drafting, review, and approvals.",
+    "headquarters": "USA",
+    "founded_year": 2014
+  },
+  {
+    "tool_id": "tool_tipalti_016",
+    "tool_name": "Tipalti",
+    "tool_slug": "tipalti",
+    "vendor_name": "Tipalti",
+    "website_url": "https://tipalti.com",
+    "logo_url": "https://tipalti.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Document AI",
+      "Anomaly Detection",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Intake Management"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Payables automation for supplier onboarding, invoice handling, and controlled payments.",
+    "sources": [
+      "https://tipalti.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Payables automation for supplier onboarding, invoice handling, and controlled payments.",
+    "headquarters": "USA",
+    "founded_year": 2010
+  },
+  {
+    "tool_id": "tool_airbase_017",
+    "tool_name": "Airbase",
+    "tool_slug": "airbase",
+    "vendor_name": "Airbase",
+    "website_url": "https://www.airbase.com",
+    "logo_url": "https://www.airbase.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Embedded AI",
+      "API-first Architecture",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend and approvals orchestration for purchases, bills, and reimbursements with automated controls.",
+    "sources": [
+      "https://www.airbase.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend and approvals orchestration for purchases, bills, and reimbursements with automated controls.",
+    "headquarters": "USA",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_procurify_018",
+    "tool_name": "Procurify",
+    "tool_slug": "procurify",
+    "vendor_name": "Procurify",
+    "website_url": "https://www.procurify.com",
+    "logo_url": "https://www.procurify.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Embedded AI"
+    ],
+    "use_cases": [
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement workflow platform for intake, approvals, and PO processes with configurable controls.",
+    "sources": [
+      "https://www.procurify.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement workflow platform for intake, approvals, and PO processes with configurable controls.",
+    "headquarters": "Canada",
+    "founded_year": 2013
+  },
+  {
+    "tool_id": "tool_sievo_019",
+    "tool_name": "Sievo",
+    "tool_slug": "sievo",
+    "vendor_name": "Sievo",
+    "website_url": "https://www.sievo.com",
+    "logo_url": "https://www.sievo.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Strategy & Spend Intelligence",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "Knowledge Graph",
+      "External Data Enrichment"
+    ],
+    "use_cases": [
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement analytics for spend visibility, classification, and actionable category insights.",
+    "sources": [
+      "https://www.sievo.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement analytics for spend visibility, classification, and actionable category insights.",
+    "headquarters": "Finland",
+    "founded_year": 2003
+  },
+  {
+    "tool_id": "tool_spendhq_020",
+    "tool_name": "SpendHQ",
+    "tool_slug": "spendhq",
+    "vendor_name": "SpendHQ",
+    "website_url": "https://www.spendhq.com",
+    "logo_url": "https://www.spendhq.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Strategy & Spend Intelligence",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "External Data Enrichment"
+    ],
+    "use_cases": [
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend analytics and procurement performance management to drive visibility and savings execution.",
+    "sources": [
+      "https://www.spendhq.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend analytics and procurement performance management to drive visibility and savings execution.",
+    "headquarters": "USA",
+    "founded_year": 2009
+  },
+  {
+    "tool_id": "tool_tealbook_021",
+    "tool_name": "TealBook",
+    "tool_slug": "tealbook",
+    "vendor_name": "TealBook",
+    "website_url": "https://tealbook.com",
+    "logo_url": "https://tealbook.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Knowledge Graph",
+      "External Data Enrichment",
+      "Supplier Discovery Engine",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Supplier Discovery"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Supplier data intelligence to enrich profiles and improve supplier discovery and master data quality.",
+    "sources": [
+      "https://tealbook.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Supplier data intelligence to enrich profiles and improve supplier discovery and master data quality.",
+    "headquarters": "Canada",
+    "founded_year": 2014
+  },
+  {
+    "tool_id": "tool_kodiak_hub_022",
+    "tool_name": "Kodiak Hub",
+    "tool_slug": "kodiak-hub",
+    "vendor_name": "Kodiak Hub",
+    "website_url": "https://www.kodiakhub.com",
+    "logo_url": "https://www.kodiakhub.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Predictive Analytics",
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Supplier risk and performance management with analytics and enrichment across supplier data signals.",
+    "sources": [
+      "https://www.kodiakhub.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Supplier risk and performance management with analytics and enrichment across supplier data signals.",
+    "headquarters": "Sweden",
+    "founded_year": 2011
+  },
+  {
+    "tool_id": "tool_graphite_connect_023",
+    "tool_name": "Graphite Connect",
+    "tool_slug": "graphite-connect",
+    "vendor_name": "Graphite Connect",
+    "website_url": "https://graphiteconnect.com",
+    "logo_url": "https://graphiteconnect.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Supplier onboarding and data workflows with API-first integrations and data enrichment controls.",
+    "sources": [
+      "https://graphiteconnect.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Supplier onboarding and data workflows with API-first integrations and data enrichment controls.",
+    "headquarters": "USA",
+    "founded_year": 2018
+  },
+  {
+    "tool_id": "tool_market_dojo_024",
+    "tool_name": "Market Dojo",
+    "tool_slug": "market-dojo",
+    "vendor_name": "Market Dojo",
+    "website_url": "https://www.marketdojo.com",
+    "logo_url": "https://www.marketdojo.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Supplier Discovery Engine",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "RFx Automation",
+      "Supplier Discovery"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Sourcing workflows for RFx and event management with configurable processes and supplier engagement.",
+    "sources": [
+      "https://www.marketdojo.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Sourcing workflows for RFx and event management with configurable processes and supplier engagement.",
+    "headquarters": "UK",
+    "founded_year": 2010
+  },
+  {
+    "tool_id": "tool_prewave_025",
+    "tool_name": "Prewave",
+    "tool_slug": "prewave",
+    "vendor_name": "Prewave",
+    "website_url": "https://www.prewave.com",
+    "logo_url": "https://www.prewave.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Predictive Analytics",
+      "Knowledge Graph",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "External risk intelligence and early-warning monitoring across supplier and supply chain risk signals.",
+    "sources": [
+      "https://www.prewave.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "External risk intelligence and early-warning monitoring across supplier and supply chain risk signals.",
+    "headquarters": "Austria",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_resilinc_026",
+    "tool_name": "Resilinc",
+    "tool_slug": "resilinc",
+    "vendor_name": "Resilinc",
+    "website_url": "https://resilinc.com",
+    "logo_url": "https://resilinc.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "Knowledge Graph",
+      "External Data Enrichment",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Supply chain risk monitoring and mapping to support resilience planning and disruption response.",
+    "sources": [
+      "https://resilinc.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Supply chain risk monitoring and mapping to support resilience planning and disruption response.",
+    "headquarters": "USA",
+    "founded_year": 2010
+  },
+  {
+    "tool_id": "tool_riskmethods_027",
+    "tool_name": "riskmethods",
+    "tool_slug": "riskmethods",
+    "vendor_name": "riskmethods",
+    "website_url": "https://www.riskmethods.net",
+    "logo_url": "https://www.riskmethods.net/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Predictive Analytics",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Risk monitoring and early-warning signals for supplier and supply chain disruption management.",
+    "sources": [
+      "https://www.riskmethods.net"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Risk monitoring and early-warning signals for supplier and supply chain disruption management.",
+    "headquarters": "Germany",
+    "founded_year": 2012
+  },
+  {
+    "tool_id": "tool_appzen_028",
+    "tool_name": "AppZen",
+    "tool_slug": "appzen",
+    "vendor_name": "AppZen",
+    "website_url": "https://www.appzen.com",
+    "logo_url": "https://www.appzen.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Anomaly Detection",
+      "Predictive Analytics",
+      "Document AI",
+      "External Data Enrichment"
+    ],
+    "use_cases": [
+      "Invoice Automation",
+      "PO Automation"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "AI audit and controls for invoices and expenses using anomaly detection and document intelligence.",
+    "sources": [
+      "https://www.appzen.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI audit and controls for invoices and expenses using anomaly detection and document intelligence.",
+    "headquarters": "USA",
+    "founded_year": 2012
+  },
+  {
+    "tool_id": "tool_rossum_029",
+    "tool_name": "Rossum",
+    "tool_slug": "rossum",
+    "vendor_name": "Rossum",
+    "website_url": "https://rossum.ai",
+    "logo_url": "https://rossum.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "API-first Architecture",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Document AI for intelligent extraction and automation of invoices and business documents.",
+    "sources": [
+      "https://rossum.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Document AI for intelligent extraction and automation of invoices and business documents.",
+    "headquarters": "Czech Republic",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_hypatos_030",
+    "tool_name": "Hypatos",
+    "tool_slug": "hypatos",
+    "vendor_name": "Hypatos",
+    "website_url": "https://hypatos.ai",
+    "logo_url": "https://hypatos.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Document AI for touchless invoice processing and AP workflow automation.",
+    "sources": [
+      "https://hypatos.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Document AI for touchless invoice processing and AP workflow automation.",
+    "headquarters": "Germany",
+    "founded_year": 2018
+  },
+  {
+    "tool_id": "tool_aavenir_031",
+    "tool_name": "Aavenir",
+    "tool_slug": "aavenir",
+    "vendor_name": "Aavenir",
+    "website_url": "https://aavenir.com",
+    "logo_url": "https://aavenir.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AI-assisted CLM platform for drafting, review, approvals, and lifecycle workflows.",
+    "sources": [
+      "https://aavenir.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI-assisted CLM platform for drafting, review, approvals, and lifecycle workflows.",
+    "headquarters": "USA",
+    "founded_year": 2018
+  },
+  {
+    "tool_id": "tool_contractpodai_032",
+    "tool_name": "ContractPodAi",
+    "tool_slug": "contractpodai",
+    "vendor_name": "ContractPodAi",
+    "website_url": "https://contractpodai.com",
+    "logo_url": "https://contractpodai.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Conversational Interface",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AI-assisted CLM with clause intelligence, contract search, and workflow automation.",
+    "sources": [
+      "https://contractpodai.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AI-assisted CLM with clause intelligence, contract search, and workflow automation.",
+    "headquarters": "USA",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_docusign_clm_033",
+    "tool_name": "DocuSign CLM",
+    "tool_slug": "docusign-clm",
+    "vendor_name": "DocuSign",
+    "website_url": "https://www.docusign.com",
+    "logo_url": "https://www.docusign.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "Clause Intelligence",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Contract Lifecycle Management",
+      "Clause Extraction",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract lifecycle workflows with document intelligence, approvals, and integrations.",
+    "sources": [
+      "https://www.docusign.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract lifecycle workflows with document intelligence, approvals, and integrations.",
+    "headquarters": "USA",
+    "founded_year": 2003
+  },
+  {
+    "tool_id": "tool_onit_034",
+    "tool_name": "Onit",
+    "tool_slug": "onit",
+    "vendor_name": "Onit",
+    "website_url": "https://www.onit.com",
+    "logo_url": "https://www.onit.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Document AI",
+      "Clause Intelligence"
+    ],
+    "use_cases": [
+      "Contract Lifecycle Management",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Workflow automation for legal and contracting processes with document intelligence and approvals.",
+    "sources": [
+      "https://www.onit.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow automation for legal and contracting processes with document intelligence and approvals.",
+    "headquarters": "USA",
+    "founded_year": 2006
+  },
+  {
+    "tool_id": "tool_proactis_035",
+    "tool_name": "Proactis",
+    "tool_slug": "proactis",
+    "vendor_name": "Proactis",
+    "website_url": "https://www.proactis.com",
+    "logo_url": "https://www.proactis.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Source-to-pay suite to manage procurement-to-pay workflows with embedded intelligence and controls.",
+    "sources": [
+      "https://www.proactis.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Source-to-pay suite to manage procurement-to-pay workflows with embedded intelligence and controls.",
+    "headquarters": "UK",
+    "founded_year": 1993
+  },
+  {
+    "tool_id": "tool_unit4_036",
+    "tool_name": "Unit4",
+    "tool_slug": "unit4",
+    "vendor_name": "Unit4",
+    "website_url": "https://www.unit4.com",
+    "logo_url": "https://www.unit4.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "ERP platform with procurement capabilities and embedded automation for approvals and purchasing workflows.",
+    "sources": [
+      "https://www.unit4.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "ERP platform with procurement capabilities and embedded automation for approvals and purchasing workflows.",
+    "headquarters": "Netherlands",
+    "founded_year": 1980
+  },
+  {
+    "tool_id": "tool_oracle_procurement_037",
+    "tool_name": "Oracle Procurement",
+    "tool_slug": "oracle-procurement",
+    "vendor_name": "Oracle",
+    "website_url": "https://www.oracle.com",
+    "logo_url": "https://www.oracle.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "Predictive Analytics",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "ERP-native procurement with embedded intelligence for purchase-to-pay and spend insights.",
+    "sources": [
+      "https://www.oracle.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "ERP-native procurement with embedded intelligence for purchase-to-pay and spend insights.",
+    "headquarters": "USA",
+    "founded_year": 1977
+  },
+  {
+    "tool_id": "tool_workday_procurement_038",
+    "tool_name": "Workday Procurement",
+    "tool_slug": "workday-procurement",
+    "vendor_name": "Workday",
+    "website_url": "https://www.workday.com",
+    "logo_url": "https://www.workday.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Guided Buying",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement capabilities embedded in enterprise platform to manage buying, approvals, and supplier workflows.",
+    "sources": [
+      "https://www.workday.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement capabilities embedded in enterprise platform to manage buying, approvals, and supplier workflows.",
+    "headquarters": "USA",
+    "founded_year": 2005
+  },
+  {
+    "tool_id": "tool_amazon_business_039",
+    "tool_name": "Amazon Business",
+    "tool_slug": "amazon-business",
+    "vendor_name": "Amazon Business",
+    "website_url": "https://business.amazon.com",
+    "logo_url": "https://business.amazon.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Embedded AI"
+    ],
+    "use_cases": [
+      "Guided Buying",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Business purchasing marketplace with procurement controls, guided buying, and integrations.",
+    "sources": [
+      "https://business.amazon.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Business purchasing marketplace with procurement controls, guided buying, and integrations.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_taulia_040",
+    "tool_name": "Taulia",
+    "tool_slug": "taulia",
+    "vendor_name": "Taulia",
+    "website_url": "https://taulia.com",
+    "logo_url": "https://taulia.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "Workflow Orchestration",
+      "External Data Enrichment"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "RFx Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Working capital and payments enablement layer for supplier financing and payment optimization.",
+    "sources": [
+      "https://taulia.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Working capital and payments enablement layer for supplier financing and payment optimization.",
+    "headquarters": "USA",
+    "founded_year": 2009
+  },
+  {
+    "tool_id": "tool_medius_041",
+    "tool_name": "Medius",
+    "tool_slug": "medius",
+    "vendor_name": "Medius",
+    "website_url": "https://www.medius.com",
+    "logo_url": "https://www.medius.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "Anomaly Detection",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "AP Exception Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Invoice automation with document intelligence and controlled workflows to reduce AP effort and risk.",
+    "sources": [
+      "https://www.medius.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Invoice automation with document intelligence and controlled workflows to reduce AP effort and risk.",
+    "headquarters": "Sweden",
+    "founded_year": 2001
+  },
+  {
+    "tool_id": "tool_esker_042",
+    "tool_name": "Esker",
+    "tool_slug": "esker",
+    "vendor_name": "Esker",
+    "website_url": "https://www.esker.com",
+    "logo_url": "https://www.esker.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation with document AI to streamline invoice capture, routing, and exception handling.",
+    "sources": [
+      "https://www.esker.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation with document AI to streamline invoice capture, routing, and exception handling.",
+    "headquarters": "France",
+    "founded_year": 1985
+  },
+  {
+    "tool_id": "tool_vic_ai_043",
+    "tool_name": "Vic.ai",
+    "tool_slug": "vic-ai",
+    "vendor_name": "Vic.ai",
+    "website_url": "https://www.vic.ai",
+    "logo_url": "https://www.vic.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Autonomous Agent",
+      "Document AI",
+      "Anomaly Detection",
+      "Predictive Analytics"
+    ],
+    "use_cases": [
+      "Invoice Automation",
+      "PO Automation"
+    ],
+    "automation_level": "Autonomous",
+    "one_liner": "Autonomous AP processing using AI agents for coding, approval routing, and exception handling.",
+    "sources": [
+      "https://www.vic.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Autonomous AP processing using AI agents for coding, approval routing, and exception handling.",
+    "headquarters": "USA",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_datasnipper_044",
+    "tool_name": "DataSnipper",
+    "tool_slug": "datasnipper",
+    "vendor_name": "DataSnipper",
+    "website_url": "https://datasnipper.com",
+    "logo_url": "https://datasnipper.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "RFx Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Document and audit automation to speed evidence capture, verification, and review workflows.",
+    "sources": [
+      "https://datasnipper.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Document and audit automation to speed evidence capture, verification, and review workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_planergy_045",
+    "tool_name": "Planergy",
+    "tool_slug": "planergy",
+    "vendor_name": "Planergy",
+    "website_url": "https://planergy.com",
+    "logo_url": "https://planergy.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Embedded AI"
+    ],
+    "use_cases": [
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Purchasing and approvals workflow to manage requisitions, POs, and budget controls for smaller teams.",
+    "sources": [
+      "https://planergy.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Purchasing and approvals workflow to manage requisitions, POs, and budget controls for smaller teams.",
+    "headquarters": "USA",
+    "founded_year": 2013
+  },
+  {
+    "tool_id": "tool_precoro_046",
+    "tool_name": "Precoro",
+    "tool_slug": "precoro",
+    "vendor_name": "Precoro",
+    "website_url": "https://precoro.com",
+    "logo_url": "https://precoro.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Procurement workflow tool for requisitions, approvals, and PO management in lean teams.",
+    "sources": [
+      "https://precoro.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Procurement workflow tool for requisitions, approvals, and PO management in lean teams.",
+    "headquarters": "Canada",
+    "founded_year": 2013
+  },
+  {
+    "tool_id": "tool_gatekeeper_047",
+    "tool_name": "Gatekeeper",
+    "tool_slug": "gatekeeper",
+    "vendor_name": "Gatekeeper",
+    "website_url": "https://gatekeeperhq.com",
+    "logo_url": "https://gatekeeperhq.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "Document AI",
+      "Clause Intelligence"
+    ],
+    "use_cases": [
+      "Contract Lifecycle Management",
+      "Clause Extraction"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Vendor and contract lifecycle workflows with document intelligence and renewal tracking.",
+    "sources": [
+      "https://gatekeeperhq.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Vendor and contract lifecycle workflows with document intelligence and renewal tracking.",
+    "headquarters": "UK",
+    "founded_year": 2014
+  },
+  {
+    "tool_id": "tool_order_co_048",
+    "tool_name": "Order.co",
+    "tool_slug": "order-co",
+    "vendor_name": "Order.co",
+    "website_url": "https://order.co",
+    "logo_url": "https://order.co/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Embedded AI"
+    ],
+    "use_cases": [
+      "Guided Buying",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Business purchasing workflow to centralize buying, enforce policy, and streamline ordering across vendors.",
+    "sources": [
+      "https://order.co"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Business purchasing workflow to centralize buying, enforce policy, and streamline ordering across vendors.",
+    "headquarters": "USA",
+    "founded_year": 2016
+  },
+  {
+    "tool_id": "tool_arkestro_049",
+    "tool_name": "Arkestro",
+    "tool_slug": "arkestro",
+    "vendor_name": "Arkestro",
+    "website_url": "https://arkestro.com",
+    "logo_url": "https://arkestro.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Negotiation & Decision Intelligence",
+    "capability_tags": [
+      "Predictive Analytics",
+      "Workflow Orchestration",
+      "Autonomous Agent",
+      "Spend Classification AI"
+    ],
+    "use_cases": [
+      "RFx Automation"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Predictive sourcing platform to automate RFx execution and drive savings decisions with AI guidance.",
+    "sources": [
+      "https://arkestro.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Predictive sourcing platform to automate RFx execution and drive savings decisions with AI guidance.",
+    "headquarters": "USA",
+    "founded_year": 2017
+  },
+  {
+    "tool_id": "tool_matchory_050",
+    "tool_name": "Matchory",
+    "tool_slug": "matchory",
+    "vendor_name": "Matchory",
+    "website_url": "https://matchory.com",
+    "logo_url": "https://matchory.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "External Data Enrichment",
+      "API-first Architecture",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Discovery"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Supplier discovery and enrichment to identify, shortlist, and validate global suppliers faster.",
+    "sources": [
+      "https://matchory.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Supplier discovery and enrichment to identify, shortlist, and validate global suppliers faster.",
+    "headquarters": "Germany",
+    "founded_year": 2018
+  },
+  {
+    "tool_id": "tool_servicenow-procurement-service-management_051",
+    "tool_name": "ServiceNow Procurement Service Management",
+    "tool_slug": "servicenow-procurement-service-management",
+    "vendor_name": "ServiceNow",
+    "website_url": "https://www.servicenow.com",
+    "logo_url": "https://www.servicenow.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://www.servicenow.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_sap-s-4hana-procurement_053",
+    "tool_name": "SAP S/4HANA Procurement",
+    "tool_slug": "sap-s-4hana-procurement",
+    "vendor_name": "SAP",
+    "website_url": "https://www.sap.com",
+    "logo_url": "https://www.sap.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.sap.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_oracle-fusion-procurement-cloud_054",
+    "tool_name": "Oracle Fusion Procurement Cloud",
+    "tool_slug": "oracle-fusion-procurement-cloud",
+    "vendor_name": "Oracle",
+    "website_url": "https://www.oracle.com",
+    "logo_url": "https://www.oracle.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://www.oracle.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_conga-clm_055",
+    "tool_name": "Conga CLM",
+    "tool_slug": "conga-clm",
+    "vendor_name": "Conga",
+    "website_url": "https://conga.com",
+    "logo_url": "https://conga.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://conga.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_agiloft-clm_056",
+    "tool_name": "Agiloft CLM",
+    "tool_slug": "agiloft-clm",
+    "vendor_name": "Agiloft",
+    "website_url": "https://www.agiloft.com",
+    "logo_url": "https://www.agiloft.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://www.agiloft.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_evisort_057",
+    "tool_name": "Evisort",
+    "tool_slug": "evisort",
+    "vendor_name": "Evisort",
+    "website_url": "https://evisort.com",
+    "logo_url": "https://evisort.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://evisort.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_luminance_058",
+    "tool_name": "Luminance",
+    "tool_slug": "luminance",
+    "vendor_name": "Luminance",
+    "website_url": "https://www.luminance.com",
+    "logo_url": "https://www.luminance.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://www.luminance.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_kira-systems_059",
+    "tool_name": "Kira Systems",
+    "tool_slug": "kira-systems",
+    "vendor_name": "Kira Systems",
+    "website_url": "https://kirasystems.com",
+    "logo_url": "https://kirasystems.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://kirasystems.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_linksquares_060",
+    "tool_name": "LinkSquares",
+    "tool_slug": "linksquares",
+    "vendor_name": "LinkSquares",
+    "website_url": "https://linksquares.com",
+    "logo_url": "https://linksquares.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://linksquares.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_juro_061",
+    "tool_name": "Juro",
+    "tool_slug": "juro",
+    "vendor_name": "Juro",
+    "website_url": "https://juro.com",
+    "logo_url": "https://juro.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://juro.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_cobblestone-contract-insight_062",
+    "tool_name": "CobbleStone Contract Insight",
+    "tool_slug": "cobblestone-contract-insight",
+    "vendor_name": "CobbleStone Software",
+    "website_url": "https://cobblestonesoftware.com",
+    "logo_url": "https://cobblestonesoftware.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://cobblestonesoftware.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_contractsafe_063",
+    "tool_name": "ContractSafe",
+    "tool_slug": "contractsafe",
+    "vendor_name": "ContractSafe",
+    "website_url": "https://www.contractsafe.com",
+    "logo_url": "https://www.contractsafe.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Contract & Commercial Intelligence",
+    "capability_tags": [
+      "Clause Intelligence",
+      "Document AI",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Clause Extraction",
+      "Contract Lifecycle Management",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "sources": [
+      "https://www.contractsafe.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Contract intelligence to review, extract, and manage agreements at scale.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_icertis-discoverai_064",
+    "tool_name": "Icertis DiscoverAI",
+    "tool_slug": "icertis-discoverai",
+    "vendor_name": "Icertis",
+    "website_url": "https://www.icertis.com",
+    "logo_url": "https://www.icertis.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://www.icertis.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_stampli_065",
+    "tool_name": "Stampli",
+    "tool_slug": "stampli",
+    "vendor_name": "Stampli",
+    "website_url": "https://stampli.com",
+    "logo_url": "https://stampli.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://stampli.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_mineraltree_066",
+    "tool_name": "MineralTree",
+    "tool_slug": "mineraltree",
+    "vendor_name": "MineralTree",
+    "website_url": "https://www.mineraltree.com",
+    "logo_url": "https://www.mineraltree.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.mineraltree.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_yooz_067",
+    "tool_name": "Yooz",
+    "tool_slug": "yooz",
+    "vendor_name": "Yooz",
+    "website_url": "https://www.getyooz.com",
+    "logo_url": "https://www.getyooz.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.getyooz.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_avidxchange_068",
+    "tool_name": "AvidXchange",
+    "tool_slug": "avidxchange",
+    "vendor_name": "AvidXchange",
+    "website_url": "https://www.avidxchange.com",
+    "logo_url": "https://www.avidxchange.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.avidxchange.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_abbyy-vantage_069",
+    "tool_name": "ABBYY Vantage",
+    "tool_slug": "abbyy-vantage",
+    "vendor_name": "ABBYY",
+    "website_url": "https://www.abbyy.com",
+    "logo_url": "https://www.abbyy.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://www.abbyy.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_nanonets_070",
+    "tool_name": "Nanonets",
+    "tool_slug": "nanonets",
+    "vendor_name": "Nanonets",
+    "website_url": "https://nanonets.com",
+    "logo_url": "https://nanonets.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://nanonets.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_opentext-business-network_071",
+    "tool_name": "OpenText Business Network",
+    "tool_slug": "opentext-business-network",
+    "vendor_name": "OpenText",
+    "website_url": "https://www.opentext.com",
+    "logo_url": "https://www.opentext.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://www.opentext.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_pagero-network_072",
+    "tool_name": "Pagero Network",
+    "tool_slug": "pagero-network",
+    "vendor_name": "Pagero",
+    "website_url": "https://www.pagero.com",
+    "logo_url": "https://www.pagero.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.pagero.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_coupa-supply-chain-design-and-planning_073",
+    "tool_name": "Coupa Supply Chain Design & Planning",
+    "tool_slug": "coupa-supply-chain-design-and-planning",
+    "vendor_name": "Coupa",
+    "website_url": "https://www.coupa.com",
+    "logo_url": "https://www.coupa.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://www.coupa.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_synertrade-accelerate_074",
+    "tool_name": "SynerTrade Accelerate",
+    "tool_slug": "synertrade-accelerate",
+    "vendor_name": "SynerTrade",
+    "website_url": "https://www.synertrade.com",
+    "logo_url": "https://www.synertrade.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.synertrade.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_gep-smart_075",
+    "tool_name": "GEP SMART",
+    "tool_slug": "gep-smart",
+    "vendor_name": "GEP",
+    "website_url": "https://www.gep.com",
+    "logo_url": "https://www.gep.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://www.gep.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_ivalua-sourcing_076",
+    "tool_name": "Ivalua Sourcing",
+    "tool_slug": "ivalua-sourcing",
+    "vendor_name": "Ivalua",
+    "website_url": "https://www.ivalua.com",
+    "logo_url": "https://www.ivalua.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.ivalua.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_jaggaer-sourcing_077",
+    "tool_name": "JAGGAER Sourcing",
+    "tool_slug": "jaggaer-sourcing",
+    "vendor_name": "JAGGAER",
+    "website_url": "https://www.jaggaer.com",
+    "logo_url": "https://www.jaggaer.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.jaggaer.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_scoutbee_078",
+    "tool_name": "Scoutbee",
+    "tool_slug": "scoutbee",
+    "vendor_name": "Scoutbee",
+    "website_url": "https://www.scoutbee.com",
+    "logo_url": "https://www.scoutbee.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.scoutbee.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_tropic_079",
+    "tool_name": "Tropic",
+    "tool_slug": "tropic",
+    "vendor_name": "Tropic",
+    "website_url": "https://www.tropicapp.io",
+    "logo_url": "https://www.tropicapp.io/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.tropicapp.io"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_vendr_080",
+    "tool_name": "Vendr",
+    "tool_slug": "vendr",
+    "vendor_name": "Vendr",
+    "website_url": "https://www.vendr.com",
+    "logo_url": "https://www.vendr.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.vendr.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_tacto_081",
+    "tool_name": "Tacto",
+    "tool_slug": "tacto",
+    "vendor_name": "Tacto",
+    "website_url": "https://tacto.ai",
+    "logo_url": "https://tacto.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://tacto.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_sourceday_083",
+    "tool_name": "SourceDay",
+    "tool_slug": "sourceday",
+    "vendor_name": "SourceDay",
+    "website_url": "https://sourceday.com",
+    "logo_url": "https://sourceday.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://sourceday.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_runa_084",
+    "tool_name": "Runa",
+    "tool_slug": "runa",
+    "vendor_name": "Runa",
+    "website_url": "https://runa.io",
+    "logo_url": "https://runa.io/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Embedded AI",
+      "Workflow Orchestration",
+      "API-first Architecture"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "sources": [
+      "https://runa.io"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Suite-native procurement capabilities with embedded AI and workflows.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_interos_085",
+    "tool_name": "Interos",
+    "tool_slug": "interos",
+    "vendor_name": "Interos",
+    "website_url": "https://www.interos.ai",
+    "logo_url": "https://www.interos.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.interos.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_everstream-analytics_086",
+    "tool_name": "Everstream Analytics",
+    "tool_slug": "everstream-analytics",
+    "vendor_name": "Everstream Analytics",
+    "website_url": "https://www.everstream.ai",
+    "logo_url": "https://www.everstream.ai/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.everstream.ai"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_supply-wisdom_087",
+    "tool_name": "Supply Wisdom",
+    "tool_slug": "supply-wisdom",
+    "vendor_name": "Supply Wisdom",
+    "website_url": "https://www.supplywisdom.com",
+    "logo_url": "https://www.supplywisdom.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.supplywisdom.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_ecovadis_088",
+    "tool_name": "EcoVadis",
+    "tool_slug": "ecovadis",
+    "vendor_name": "EcoVadis",
+    "website_url": "https://ecovadis.com",
+    "logo_url": "https://ecovadis.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://ecovadis.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_sedex_089",
+    "tool_name": "Sedex",
+    "tool_slug": "sedex",
+    "vendor_name": "Sedex",
+    "website_url": "https://www.sedex.com",
+    "logo_url": "https://www.sedex.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.sedex.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_integritynext_090",
+    "tool_name": "IntegrityNext",
+    "tool_slug": "integritynext",
+    "vendor_name": "IntegrityNext",
+    "website_url": "https://www.integritynext.com",
+    "logo_url": "https://www.integritynext.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.integritynext.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_dun-and-bradstreet-supplier-risk_091",
+    "tool_name": "Dun & Bradstreet Supplier Risk",
+    "tool_slug": "dun-and-bradstreet-supplier-risk",
+    "vendor_name": "Dun & Bradstreet",
+    "website_url": "https://www.dnb.com",
+    "logo_url": "https://www.dnb.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.dnb.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_dow-jones-risk-and-compliance_092",
+    "tool_name": "Dow Jones Risk & Compliance",
+    "tool_slug": "dow-jones-risk-and-compliance",
+    "vendor_name": "Dow Jones",
+    "website_url": "https://www.dowjones.com",
+    "logo_url": "https://www.dowjones.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.dowjones.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_refinitiv-world-check_093",
+    "tool_name": "Refinitiv World-Check",
+    "tool_slug": "refinitiv-world-check",
+    "vendor_name": "LSEG",
+    "website_url": "https://www.lseg.com",
+    "logo_url": "https://www.lseg.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.lseg.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_sayari_094",
+    "tool_name": "Sayari",
+    "tool_slug": "sayari",
+    "vendor_name": "Sayari",
+    "website_url": "https://sayari.com",
+    "logo_url": "https://sayari.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://sayari.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_resilience360_095",
+    "tool_name": "Resilience360",
+    "tool_slug": "resilience360",
+    "vendor_name": "DHL",
+    "website_url": "https://www.dhl.com",
+    "logo_url": "https://www.dhl.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Risk Modeling",
+      "External Data Enrichment",
+      "Knowledge Graph"
+    ],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Continuous supplier risk signals and monitoring for proactive control.",
+    "sources": [
+      "https://www.dhl.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Continuous supplier risk signals and monitoring for proactive control.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_celonis_096",
+    "tool_name": "Celonis",
+    "tool_slug": "celonis",
+    "vendor_name": "Celonis",
+    "website_url": "https://www.celonis.com",
+    "logo_url": "https://www.celonis.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Spend Analytics",
+      "Policy Enforcement",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend visibility and insights to identify savings and improve compliance.",
+    "sources": [
+      "https://www.celonis.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend visibility and insights to identify savings and improve compliance.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_spendesk_097",
+    "tool_name": "Spendesk",
+    "tool_slug": "spendesk",
+    "vendor_name": "Spendesk",
+    "website_url": "https://www.spendesk.com",
+    "logo_url": "https://www.spendesk.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Spend Analytics",
+      "Policy Enforcement",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend visibility and insights to identify savings and improve compliance.",
+    "sources": [
+      "https://www.spendesk.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend visibility and insights to identify savings and improve compliance.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_brex_098",
+    "tool_name": "Brex",
+    "tool_slug": "brex",
+    "vendor_name": "Brex",
+    "website_url": "https://www.brex.com",
+    "logo_url": "https://www.brex.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Spend Analytics",
+      "Policy Enforcement",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend visibility and insights to identify savings and improve compliance.",
+    "sources": [
+      "https://www.brex.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend visibility and insights to identify savings and improve compliance.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_ramp_099",
+    "tool_name": "Ramp",
+    "tool_slug": "ramp",
+    "vendor_name": "Ramp",
+    "website_url": "https://ramp.com",
+    "logo_url": "https://ramp.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Spend Classification AI",
+      "Predictive Analytics",
+      "Anomaly Detection"
+    ],
+    "use_cases": [
+      "Spend Analytics",
+      "Policy Enforcement",
+      "Workflow Automation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Spend visibility and insights to identify savings and improve compliance.",
+    "sources": [
+      "https://ramp.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Spend visibility and insights to identify savings and improve compliance.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_workato_100",
+    "tool_name": "Workato",
+    "tool_slug": "workato",
+    "vendor_name": "Workato",
+    "website_url": "https://www.workato.com",
+    "logo_url": "https://www.workato.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://www.workato.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_tonkean_101",
+    "tool_name": "Tonkean",
+    "tool_slug": "tonkean",
+    "vendor_name": "Tonkean",
+    "website_url": "https://www.tonkean.com",
+    "logo_url": "https://www.tonkean.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://www.tonkean.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_tray-io_102",
+    "tool_name": "Tray.io",
+    "tool_slug": "tray-io",
+    "vendor_name": "Tray.io",
+    "website_url": "https://tray.io",
+    "logo_url": "https://tray.io/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://tray.io"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_mulesoft_103",
+    "tool_name": "MuleSoft",
+    "tool_slug": "mulesoft",
+    "vendor_name": "MuleSoft",
+    "website_url": "https://www.mulesoft.com",
+    "logo_url": "https://www.mulesoft.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://www.mulesoft.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_fivetran_108",
+    "tool_name": "Fivetran",
+    "tool_slug": "fivetran",
+    "vendor_name": "Fivetran",
+    "website_url": "https://fivetran.com",
+    "logo_url": "https://fivetran.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://fivetran.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_hightouch_109",
+    "tool_name": "Hightouch",
+    "tool_slug": "hightouch",
+    "vendor_name": "Hightouch",
+    "website_url": "https://hightouch.com",
+    "logo_url": "https://hightouch.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://hightouch.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_census_110",
+    "tool_name": "Census",
+    "tool_slug": "census",
+    "vendor_name": "Census",
+    "website_url": "https://www.getcensus.com",
+    "logo_url": "https://www.getcensus.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "API-first Architecture",
+      "External Data Enrichment",
+      "Document AI"
+    ],
+    "use_cases": [
+      "Policy Enforcement",
+      "Intake Management",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "sources": [
+      "https://www.getcensus.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Infrastructure layer to connect data, documents, and governance for agents.",
+    "headquarters": "USA",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_bill-com_112",
+    "tool_name": "Bill.com",
+    "tool_slug": "bill-com",
+    "vendor_name": "Bill.com",
+    "website_url": "https://www.bill.com",
+    "logo_url": "https://www.bill.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.bill.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2006
+  },
+  {
+    "tool_id": "tool_sap-concur-invoice_113",
+    "tool_name": "SAP Concur Invoice",
+    "tool_slug": "sap-concur-invoice",
+    "vendor_name": "SAP Concur",
+    "website_url": "https://www.concur.com",
+    "logo_url": "https://www.concur.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.concur.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 1993
+  },
+  {
+    "tool_id": "tool_highradius_114",
+    "tool_name": "HighRadius",
+    "tool_slug": "highradius",
+    "vendor_name": "HighRadius",
+    "website_url": "https://www.highradius.com",
+    "logo_url": "https://www.highradius.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.highradius.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2006
+  },
+  {
+    "tool_id": "tool_blackline_115",
+    "tool_name": "BlackLine",
+    "tool_slug": "blackline",
+    "vendor_name": "BlackLine",
+    "website_url": "https://www.blackline.com",
+    "logo_url": "https://www.blackline.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [
+      "Document AI",
+      "Anomaly Detection",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "AP Exception Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "AP automation to capture, route, and control invoices and payments.",
+    "sources": [
+      "https://www.blackline.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "AP automation to capture, route, and control invoices and payments.",
+    "headquarters": "USA",
+    "founded_year": 2001
+  },
+  {
+    "tool_id": "tool_pipefy-procurement_116",
+    "tool_name": "Pipefy Procurement",
+    "tool_slug": "pipefy-procurement",
+    "vendor_name": "Pipefy",
+    "website_url": "https://www.pipefy.com",
+    "logo_url": "https://www.pipefy.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://www.pipefy.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "Brazil",
+    "founded_year": 2015
+  },
+  {
+    "tool_id": "tool_kissflow-procurement_117",
+    "tool_name": "Kissflow Procurement",
+    "tool_slug": "kissflow-procurement",
+    "vendor_name": "Kissflow",
+    "website_url": "https://kissflow.com",
+    "logo_url": "https://kissflow.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Intake & Orchestration",
+    "capability_tags": [
+      "Workflow Orchestration",
+      "API-first Architecture",
+      "Conversational Interface"
+    ],
+    "use_cases": [
+      "Workflow Automation",
+      "Guided Buying"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "sources": [
+      "https://kissflow.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Workflow orchestration to route intake, approvals, and downstream execution.",
+    "headquarters": "USA",
+    "founded_year": 2012
+  },
+  {
+    "tool_id": "tool_thomasnet-supplier-discovery_119",
+    "tool_name": "Thomasnet Supplier Discovery",
+    "tool_slug": "thomasnet-supplier-discovery",
+    "vendor_name": "Thomasnet",
+    "website_url": "https://www.thomasnet.com",
+    "logo_url": "https://www.thomasnet.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.thomasnet.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "USA",
+    "founded_year": 1898
+  },
+  {
+    "tool_id": "tool_alibaba-com-supplier-marketplace_120",
+    "tool_name": "Alibaba.com Supplier Marketplace",
+    "tool_slug": "alibaba-com-supplier-marketplace",
+    "vendor_name": "Alibaba.com",
+    "website_url": "https://www.alibaba.com",
+    "logo_url": "https://www.alibaba.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [
+      "Supplier Discovery Engine",
+      "Predictive Analytics",
+      "Workflow Orchestration"
+    ],
+    "use_cases": [
+      "Supplier Discovery",
+      "Guided Buying",
+      "Intake Management"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "sources": [
+      "https://www.alibaba.com"
+    ],
+    "updated_utc": "2026-02-14T00:00:00Z",
+    "short_description": "Data-driven supplier discovery and sourcing workflows for better buying.",
+    "headquarters": "China",
+    "founded_year": 1999
+  },
+  {
+    "tool_id": "tool-0001",
+    "tool_name": "Beroe",
+    "tool_slug": "beroe",
+    "vendor_name": "Beroe",
+    "website_url": "https://www.beroeinc.com/",
+    "logo_url": "https://www.beroeinc.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Strategy & Spend Intelligence",
+    "capability_tags": [],
+    "use_cases": [
+      "Market Intelligence",
+      "Cost Modeling",
+      "Spend Analytics"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.beroeinc.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0002",
+    "tool_name": "RapidRatings",
+    "tool_slug": "rapidratings",
+    "vendor_name": "RapidRatings",
+    "website_url": "https://www.rapidratings.com/",
+    "logo_url": "https://www.rapidratings.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [],
+    "use_cases": [
+      "Financial Risk Assessment",
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.rapidratings.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0003",
+    "tool_name": "SAP Fieldglass",
+    "tool_slug": "sap-fieldglass",
+    "vendor_name": "SAP",
+    "website_url": "https://www.sap.com/products/fieldglass.html",
+    "logo_url": "https://www.sap.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [],
+    "use_cases": [
+      "Workflow Automation",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.sap.com/products/fieldglass.html"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0004",
+    "tool_name": "Beeline",
+    "tool_slug": "beeline",
+    "vendor_name": "Beeline",
+    "website_url": "https://www.beeline.com/",
+    "logo_url": "https://www.beeline.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Procure-to-Pay Automation",
+    "capability_tags": [],
+    "use_cases": [
+      "Workflow Automation",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.beeline.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0005",
+    "tool_name": "Avetta",
+    "tool_slug": "avetta",
+    "vendor_name": "Avetta",
+    "website_url": "https://www.avetta.com/",
+    "logo_url": "https://www.avetta.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [],
+    "use_cases": [
+      "Supplier Risk Monitoring",
+      "ESG Intelligence",
+      "Policy Enforcement"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.avetta.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0006",
+    "tool_name": "Riskonnect",
+    "tool_slug": "riskonnect",
+    "vendor_name": "Riskonnect",
+    "website_url": "https://riskonnect.com/",
+    "logo_url": "https://riskonnect.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "capability_tags": [],
+    "use_cases": [
+      "Supplier Risk Monitoring"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://riskonnect.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0007",
+    "tool_name": "LevaData",
+    "tool_slug": "levadata",
+    "vendor_name": "LevaData",
+    "website_url": "https://www.levadata.com/",
+    "logo_url": "https://www.levadata.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [],
+    "use_cases": [
+      "Supplier Discovery",
+      "Scenario Modeling",
+      "Bid Evaluation"
+    ],
+    "automation_level": "Semi-automated",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2015,
+    "sources": [
+      "https://www.levadata.com/"
+    ],
+    "updated_utc": "2026-02-25T16:51:46Z"
+  },
+  {
+    "tool_id": "tool-0008",
+    "tool_name": "BiddingOwl",
+    "tool_slug": "biddingowl",
+    "vendor_name": "BiddingOwl",
+    "website_url": "https://www.biddingowl.com/",
+    "logo_url": "https://www.biddingowl.com/favicon.ico",
+    "taxonomy_version": "v11.1",
+    "primary_category": "Sourcing & Supplier Discovery",
+    "capability_tags": [],
+    "use_cases": [
+      "RFx Automation",
+      "Bid Evaluation"
+    ],
+    "automation_level": "Assistive",
+    "one_liner": "",
+    "short_description": "",
+    "headquarters": "USA",
+    "founded_year": 2014,
+    "sources": [
+      "https://www.biddingowl.com/"
+    ],
+    "updated_utc": "2026-02-25T16:57:38Z"
+  }
+];

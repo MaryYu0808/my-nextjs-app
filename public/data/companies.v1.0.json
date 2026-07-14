@@ -1,0 +1,554 @@
+﻿[
+    {
+        "tool_id":  "company_abbyy",
+        "tool_name":  "ABBYY",
+        "tool_slug":  "abbyy",
+        "vendor_name":  "ABBYY",
+        "website_url":  "https://www.abbyy.com",
+        "logo_url":  "https://www.abbyy.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Policy Enforcement",
+                          "Intake Management",
+                          "Spend Analytics"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "sources":  [
+                        "https://www.abbyy.com"
+                    ],
+        "updated_utc":  "2026-03-16T00:00:00Z",
+        "short_description":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "ABBYY Vantage"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "abbyy-vantage"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_biddingowl",
+        "tool_name":  "BiddingOwl",
+        "tool_slug":  "biddingowl",
+        "vendor_name":  "BiddingOwl",
+        "website_url":  "https://www.biddingowl.com/",
+        "logo_url":  "https://www.biddingowl.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "RFx Automation",
+                          "Bid Evaluation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "",
+        "sources":  [
+                        "https://www.biddingowl.com/"
+                    ],
+        "updated_utc":  "2026-03-17T16:57:38Z",
+        "short_description":  "",
+        "headquarters":  "USA",
+        "founded_year":  2014,
+        "key_modules":  [
+                            "BiddingOwl"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "biddingowl"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_brex",
+        "tool_name":  "Brex",
+        "tool_slug":  "brex",
+        "vendor_name":  "Brex",
+        "website_url":  "https://www.brex.com",
+        "logo_url":  "https://www.brex.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Spend Analytics",
+                          "Policy Enforcement",
+                          "Workflow Automation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Spend visibility and insights to identify savings and improve compliance.",
+        "sources":  [
+                        "https://www.brex.com"
+                    ],
+        "updated_utc":  "2026-03-17T00:00:00Z",
+        "short_description":  "Spend visibility and insights to identify savings and improve compliance.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Brex"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "brex"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_celonis",
+        "tool_name":  "Celonis",
+        "tool_slug":  "celonis",
+        "vendor_name":  "Celonis",
+        "website_url":  "https://www.celonis.com",
+        "logo_url":  "https://www.celonis.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Spend Analytics",
+                          "Policy Enforcement",
+                          "Workflow Automation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Spend visibility and insights to identify savings and improve compliance.",
+        "sources":  [
+                        "https://www.celonis.com"
+                    ],
+        "updated_utc":  "2026-03-17T00:00:00Z",
+        "short_description":  "Spend visibility and insights to identify savings and improve compliance.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Celonis"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "celonis"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_census",
+        "tool_name":  "Census",
+        "tool_slug":  "census",
+        "vendor_name":  "Census",
+        "website_url":  "https://www.getcensus.com",
+        "logo_url":  "https://www.getcensus.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Policy Enforcement",
+                          "Intake Management",
+                          "Spend Analytics"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "sources":  [
+                        "https://www.getcensus.com"
+                    ],
+        "updated_utc":  "2026-03-17T00:00:00Z",
+        "short_description":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Census"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "census"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_datasnipper",
+        "tool_name":  "DataSnipper",
+        "tool_slug":  "datasnipper",
+        "vendor_name":  "DataSnipper",
+        "website_url":  "https://datasnipper.com",
+        "logo_url":  "https://datasnipper.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Supplier Discovery",
+                          "RFx Automation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Document and audit automation to speed evidence capture, verification, and review workflows.",
+        "sources":  [
+                        "https://datasnipper.com"
+                    ],
+        "updated_utc":  "2026-03-18T00:00:00Z",
+        "short_description":  "Document and audit automation to speed evidence capture, verification, and review workflows.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "DataSnipper"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "datasnipper"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_hightouch",
+        "tool_name":  "Hightouch",
+        "tool_slug":  "hightouch",
+        "vendor_name":  "Hightouch",
+        "website_url":  "https://hightouch.com",
+        "logo_url":  "https://hightouch.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Policy Enforcement",
+                          "Intake Management",
+                          "Spend Analytics"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "sources":  [
+                        "https://hightouch.com"
+                    ],
+        "updated_utc":  "2026-03-18T00:00:00Z",
+        "short_description":  "Infrastructure layer to connect data, documents, and governance for agents.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Hightouch"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "hightouch"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_linksquares",
+        "tool_name":  "LinkSquares",
+        "tool_slug":  "linksquares",
+        "vendor_name":  "LinkSquares",
+        "website_url":  "https://linksquares.com",
+        "logo_url":  "https://linksquares.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Clause Extraction",
+                          "Contract Lifecycle Management",
+                          "Policy Enforcement"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Contract intelligence to review, extract, and manage agreements at scale.",
+        "sources":  [
+                        "https://linksquares.com"
+                    ],
+        "updated_utc":  "2026-03-18T00:00:00Z",
+        "short_description":  "Contract intelligence to review, extract, and manage agreements at scale.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "LinkSquares"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "linksquares"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_lseg",
+        "tool_name":  "LSEG",
+        "tool_slug":  "lseg",
+        "vendor_name":  "LSEG",
+        "website_url":  "https://www.lseg.com",
+        "logo_url":  "https://www.lseg.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Supplier Risk Monitoring"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Continuous supplier risk signals and monitoring for proactive control.",
+        "sources":  [
+                        "https://www.lseg.com"
+                    ],
+        "updated_utc":  "2026-03-18T00:00:00Z",
+        "short_description":  "Continuous supplier risk signals and monitoring for proactive control.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Refinitiv World-Check"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "refinitiv-world-check"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_market-dojo",
+        "tool_name":  "Market Dojo",
+        "tool_slug":  "market-dojo",
+        "vendor_name":  "Market Dojo",
+        "website_url":  "https://www.marketdojo.com",
+        "logo_url":  "https://www.marketdojo.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "RFx Automation",
+                          "Supplier Discovery"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Sourcing workflows for RFx and event management with configurable processes and supplier engagement.",
+        "sources":  [
+                        "https://www.marketdojo.com"
+                    ],
+        "updated_utc":  "2026-03-19T00:00:00Z",
+        "short_description":  "Sourcing workflows for RFx and event management with configurable processes and supplier engagement.",
+        "headquarters":  "UK",
+        "founded_year":  2010,
+        "key_modules":  [
+                            "Market Dojo"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "market-dojo"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_pagero",
+        "tool_name":  "Pagero",
+        "tool_slug":  "pagero",
+        "vendor_name":  "Pagero",
+        "website_url":  "https://www.pagero.com",
+        "logo_url":  "https://www.pagero.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "AP Exception Management"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "AP automation to capture, route, and control invoices and payments.",
+        "sources":  [
+                        "https://www.pagero.com"
+                    ],
+        "updated_utc":  "2026-03-19T00:00:00Z",
+        "short_description":  "AP automation to capture, route, and control invoices and payments.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Pagero Network"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "pagero-network"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_ramp",
+        "tool_name":  "Ramp",
+        "tool_slug":  "ramp",
+        "vendor_name":  "Ramp",
+        "website_url":  "https://ramp.com",
+        "logo_url":  "https://ramp.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Spend Analytics",
+                          "Policy Enforcement",
+                          "Workflow Automation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Spend visibility and insights to identify savings and improve compliance.",
+        "sources":  [
+                        "https://ramp.com"
+                    ],
+        "updated_utc":  "2026-03-19T00:00:00Z",
+        "short_description":  "Spend visibility and insights to identify savings and improve compliance.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Ramp"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "ramp"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_sourceday",
+        "tool_name":  "SourceDay",
+        "tool_slug":  "sourceday",
+        "vendor_name":  "SourceDay",
+        "website_url":  "https://sourceday.com",
+        "logo_url":  "https://sourceday.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Workflow Automation",
+                          "Guided Buying"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Suite-native procurement capabilities with embedded AI and workflows.",
+        "sources":  [
+                        "https://sourceday.com"
+                    ],
+        "updated_utc":  "2026-03-19T00:00:00Z",
+        "short_description":  "Suite-native procurement capabilities with embedded AI and workflows.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "SourceDay"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "sourceday"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_spendesk",
+        "tool_name":  "Spendesk",
+        "tool_slug":  "spendesk",
+        "vendor_name":  "Spendesk",
+        "website_url":  "https://www.spendesk.com",
+        "logo_url":  "https://www.spendesk.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Spend Analytics",
+                          "Policy Enforcement",
+                          "Workflow Automation"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Spend visibility and insights to identify savings and improve compliance.",
+        "sources":  [
+                        "https://www.spendesk.com"
+                    ],
+        "updated_utc":  "2026-03-19T00:00:00Z",
+        "short_description":  "Spend visibility and insights to identify savings and improve compliance.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "Spendesk"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "spendesk"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_synertrade",
+        "tool_name":  "SynerTrade",
+        "tool_slug":  "synertrade",
+        "vendor_name":  "SynerTrade",
+        "website_url":  "https://www.synertrade.com",
+        "logo_url":  "https://www.synertrade.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Supplier Discovery",
+                          "Guided Buying",
+                          "Intake Management"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "Data-driven supplier discovery and sourcing workflows for better buying.",
+        "sources":  [
+                        "https://www.synertrade.com"
+                    ],
+        "updated_utc":  "2026-03-20T00:00:00Z",
+        "short_description":  "Data-driven supplier discovery and sourcing workflows for better buying.",
+        "headquarters":  "USA",
+        "founded_year":  2015,
+        "key_modules":  [
+                            "SynerTrade Accelerate"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "synertrade-accelerate"
+                                ],
+        "tier":  "tier_1"
+    },
+    {
+        "tool_id":  "company_invoicecloud",
+        "tool_name":  "InvoiceCloud",
+        "tool_slug":  "invoicecloud",
+        "vendor_name":  "InvoiceCloud",
+        "website_url":  "https://invoicecloud.com",
+        "logo_url":  "https://invoicecloud.com/favicon.ico",
+        "taxonomy_version":  "v11.10",
+        "primary_category":  "Sourcing \u0026 Supplier Discovery",
+        "capability_tags":  [
+
+                            ],
+        "use_cases":  [
+                          "Supplier Performance Management",
+                          "Clause Extraction",
+                          "Financial Risk Assessment"
+                      ],
+        "automation_level":  "Assistive",
+        "one_liner":  "AI-first procurement workflow tool focused on supplier performance management and orchestration.",
+        "sources":  [
+                        "https://invoicecloud.com"
+                    ],
+        "updated_utc":  "2026-03-20T07:30:15Z",
+        "short_description":  "AI-first procurement workflow tool focused on supplier performance management and orchestration.",
+        "headquarters":  "UK",
+        "founded_year":  2011,
+        "key_modules":  [
+                            "InvoiceCloud"
+                        ],
+        "tool_count":  1,
+        "original_tool_slugs":  [
+                                    "invoicecloud"
+                                ],
+        "tier":  "tier_1"
+    }
+]

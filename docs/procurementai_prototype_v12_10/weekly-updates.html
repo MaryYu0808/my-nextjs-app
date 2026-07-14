@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Weekly Updates | ProcurementAI</title>
+  <meta name="description" content="Weekly updates for ProcurementAI — new companies and structured revisions to existing listings.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+<div class="nav-links">
+<a class="" href="index.html">Home</a>
+
+
+
+<a class="" href="tools.html">Explore Companies</a>
+<a class="active" href="weekly-updates.html">Weekly Updates</a>
+
+
+<a class="" href="about.html">About</a>
+<a class="" href="faq.html">FAQ</a>
+</div></div></div>
+
+<div class="container">
+
+  <div class="page-hero">
+    <h1>Weekly Updates</h1>
+    <p class="sub">Weekly updates include newly indexed companies and structured revisions to existing listings. Updates are generated through a structured workflow combining discovery, validation, and review.</p>
+  </div>
+
+  <div class="card">
+    <div class="muted">This page summarizes newly indexed companies and structured listing updates from the weekly refresh workflow.</div>
+  </div>
+
+  <div class="updates" id="updates">Loading…</div>
+
+  <script src="assets/js/data.js"></script>
+  <script>
+    (async function(){
+      try{
+	        const companies = await loadJSON("assets/data/companies.v1.0.json");
+	        const sorted = (companies||[]).slice().sort((a,b)=> (a.tool_id||"").localeCompare(b.tool_id||""));
+
+        const today = new Date();
+        function fmt(d){ return d.toISOString().slice(0,10); }
+        function weekStart(n){ const d=new Date(today); d.setDate(d.getDate() - (7*n)); return d; }
+
+        const weeks = [
+          {title:`Week of ${fmt(weekStart(0))}`, added: sorted.slice(0,12), updated: sorted.slice(12,16)},
+          {title:`Week of ${fmt(weekStart(1))}`, added: sorted.slice(16,28), updated: sorted.slice(28,32)},
+          {title:`Week of ${fmt(weekStart(2))}`, added: sorted.slice(32,42), updated: sorted.slice(42,46)},
+          {title:`Week of ${fmt(weekStart(3))}`, added: sorted.slice(46,50), updated: []}
+        ];
+
+	        function companyLine(t){
+	          const logo = t.logo_url ? `<img src="${esc(t.logo_url)}" onerror="this.style.display='none'"/>` : "";
+	          return `
+	            <a class="u-item" href="company/${toSlug(t.tool_slug)}/index.html">
+	              <span class="u-logo">${logo}</span>
+	              <span class="u-name">${esc(t.vendor_name || t.tool_name || "")}</span>
+	              <span class="u-meta">${esc(t.primary_category || "")}</span>
+	            </a>
+	          `;
+	        }
+
+        const el = document.getElementById("updates");
+        el.innerHTML = weeks.map(w => `
+          <div class="week card">
+            <div class="week-top">
+              <h2>${esc(w.title)}</h2>
+              <div class="week-badges">
+                <span class="badge">${w.added.length} added</span>
+                <span class="badge">${w.updated.length} updated</span>
+              </div>
+            </div>
+            <div class="week-cols">
+              <div>
+	                <h3>New companies</h3>
+	                <div class="u-list">${w.added.map(companyLine).join("") || "<p class='muted'>—</p>"}</div>
+              </div>
+              <div>
+                <h3>Updates</h3>
+	                <div class="u-list">${w.updated.map(companyLine).join("") || "<p class='muted'>—</p>"}</div>
+              </div>
+            </div>
+          </div>
+        `).join("");
+      }catch(e){
+        console.error(e);
+        document.getElementById("updates").innerHTML = "<p class='muted'>Failed to load updates.</p>";
+      }
+    })();
+  </script>
+
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;">
+      <div class="muted">© 2026 ProcurementAI</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="submit-company.html">Submit a company</a>
+      </div>
+    </div>
+    <div class="muted" style="margin-top:10px; line-height:1.4;">
+      ProcurementAI is an independent, structured directory of AI-enabled procurement companies.<br>
+      Company information is continuously updated, structured, and validated by AI agents using a standardized taxonomy framework.<br>
+      We do not rank vendors.
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+  <script src="assets/js/data.js"></script>
+</body>
+</html>

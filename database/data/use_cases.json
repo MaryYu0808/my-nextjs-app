@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "slug": "spend-classification",
+    "name": "Spend Classification",
+    "description": "Automatically categorize and classify procurement spend data by supplier, category, and cost center.",
+    "sort_order": 1,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "slug": "spend-analytics",
+    "name": "Spend Analytics",
+    "description": "Analyze procurement spend patterns to identify savings opportunities and improve cost control.",
+    "sort_order": 2,
+    "data": {
+      "tool_count": 18,
+      "tool_slugs": [
+        "abbyy-vantage", "beroe", "brex", "celonis", "census", "coupa", "fivetran",
+        "gep", "hightouch", "ivalua", "nanonets", "opentext-business-network",
+        "oracle-procurement", "ramp", "sievo", "spendesk", "spendhq", "zycus"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "slug": "cost-modeling",
+    "name": "Cost Modeling",
+    "description": "Build and simulate cost models to forecast procurement expenses and evaluate pricing scenarios.",
+    "sort_order": 3,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["beroe"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "slug": "demand-forecasting",
+    "name": "Demand Forecasting",
+    "description": "Predict future procurement demand using AI-driven forecasting to optimize inventory and sourcing plans.",
+    "sort_order": 4,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "slug": "market-intelligence",
+    "name": "Market Intelligence",
+    "description": "Gather and analyze supplier market data, pricing trends, and commodity insights to support sourcing decisions.",
+    "sort_order": 5,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["beroe"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "slug": "supplier-discovery",
+    "name": "Supplier Discovery",
+    "description": "Identify, qualify, and shortlist new suppliers using AI-powered search and matching capabilities.",
+    "sort_order": 6,
+    "data": {
+      "tool_count": 16,
+      "tool_slugs": [
+        "alibaba-com-supplier-marketplace", "datasnipper", "fairmarkit", "ivalua-sourcing",
+        "jaggaer-sourcing", "levadata", "market-dojo", "matchory", "scoutbee",
+        "synertrade-accelerate", "tacto", "taulia", "tealbook",
+        "thomasnet-supplier-discovery", "tropic", "vendr"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "slug": "rfx-automation",
+    "name": "RFx Automation",
+    "description": "Automate the creation, distribution, and scoring of RFPs, RFQs, and RFIs to accelerate sourcing cycles.",
+    "sort_order": 7,
+    "data": {
+      "tool_count": 8,
+      "tool_slugs": [
+        "arkestro", "biddingowl", "datasnipper", "fairmarkit",
+        "jaggaer", "keelvar", "market-dojo", "taulia"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "slug": "bid-evaluation",
+    "name": "Bid Evaluation",
+    "description": "Systematically evaluate and compare supplier bids using AI-assisted scoring and analysis.",
+    "sort_order": 8,
+    "data": {
+      "tool_count": 2,
+      "tool_slugs": ["biddingowl", "levadata"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "slug": "scenario-modeling",
+    "name": "Scenario Modeling",
+    "description": "Model and compare multiple sourcing or spend scenarios to support strategic procurement decisions.",
+    "sort_order": 9,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["levadata"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "slug": "negotiation-intelligence",
+    "name": "Negotiation Intelligence",
+    "description": "Leverage AI insights and data-driven recommendations to improve negotiation outcomes with suppliers.",
+    "sort_order": 10,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["pactum"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "slug": "award-optimization",
+    "name": "Award Optimization",
+    "description": "Optimize supplier award decisions across multiple sourcing events using constraint-based optimization engines.",
+    "sort_order": 11,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "slug": "should-cost-modeling",
+    "name": "Should-cost Modeling",
+    "description": "Estimate the true cost of a product or service to benchmark supplier pricing and identify negotiation levers.",
+    "sort_order": 12,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "slug": "decision-support",
+    "name": "Decision Support",
+    "description": "Provide AI-generated recommendations and decision guidance across procurement workflows.",
+    "sort_order": 13,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["pactum"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "slug": "contract-lifecycle-management",
+    "name": "Contract Lifecycle Management",
+    "description": "Manage the full contract lifecycle from authoring and negotiation to execution, renewal, and expiry.",
+    "sort_order": 14,
+    "data": {
+      "tool_count": 15,
+      "tool_slugs": [
+        "aavenir", "agiloft-clm", "cobblestone-contract-insight", "conga-clm",
+        "contractpodai", "contractsafe", "docusign-clm", "evisort", "gatekeeper",
+        "icertis", "juro", "kira-systems", "linksquares", "luminance", "onit"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "slug": "clause-extraction",
+    "name": "Clause Extraction",
+    "description": "Automatically extract key clauses, terms, and obligations from contracts using AI and NLP.",
+    "sort_order": 15,
+    "data": {
+      "tool_count": 16,
+      "tool_slugs": [
+        "aavenir", "agiloft-clm", "cobblestone-contract-insight", "conga-clm",
+        "contractpodai", "contractsafe", "docusign-clm", "evisort", "gatekeeper",
+        "icertis", "ironclad", "juro", "kira-systems", "linksquares", "luminance", "sirion"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 16,
+    "slug": "obligation-tracking",
+    "name": "Obligation Tracking",
+    "description": "Track and monitor contractual obligations, milestones, and SLAs to ensure compliance.",
+    "sort_order": 16,
+    "data": {
+      "tool_count": 2,
+      "tool_slugs": ["icertis", "sirion"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 17,
+    "slug": "contract-risk-analysis",
+    "name": "Contract Risk Analysis",
+    "description": "Identify and assess risk exposure within contracts using AI-driven clause and language analysis.",
+    "sort_order": 17,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 18,
+    "slug": "supplier-risk-monitoring",
+    "name": "Supplier Risk Monitoring",
+    "description": "Continuously monitor suppliers for financial, operational, geopolitical, and ESG risk signals.",
+    "sort_order": 18,
+    "data": {
+      "tool_count": 18,
+      "tool_slugs": [
+        "avetta", "dow-jones-risk-and-compliance", "dun-and-bradstreet-supplier-risk",
+        "ecovadis", "everstream-analytics", "integritynext", "interos", "kodiak-hub",
+        "prewave", "rapidratings", "refinitiv-world-check", "resilience360", "resilinc",
+        "riskmethods", "riskonnect", "sayari", "sedex", "supply-wisdom"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 19,
+    "slug": "financial-risk-assessment",
+    "name": "Financial Risk Assessment",
+    "description": "Assess the financial health and creditworthiness of suppliers to mitigate supply chain disruptions.",
+    "sort_order": 19,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["rapidratings"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 20,
+    "slug": "esg-intelligence",
+    "name": "ESG Intelligence",
+    "description": "Monitor and score supplier ESG performance including environmental, social, and governance metrics.",
+    "sort_order": 20,
+    "data": {
+      "tool_count": 1,
+      "tool_slugs": ["avetta"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 21,
+    "slug": "supplier-performance-management",
+    "name": "Supplier Performance Management",
+    "description": "Track, score, and improve supplier performance across quality, delivery, and compliance dimensions.",
+    "sort_order": 21,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 22,
+    "slug": "guided-buying",
+    "name": "Guided Buying",
+    "description": "Guide employees to approved suppliers and catalogs through intelligent intake and buying experiences.",
+    "sort_order": 22,
+    "data": {
+      "tool_count": 30,
+      "tool_slugs": [
+        "alibaba-com-supplier-marketplace", "amazon-business", "coupa-supply-chain-design-and-planning",
+        "gep", "gep-smart", "icertis-discoverai", "ivalua-sourcing", "jaggaer-sourcing",
+        "kissflow-procurement", "mulesoft", "oracle-fusion-procurement-cloud", "order-co",
+        "pipefy-procurement", "proactis", "runa", "sap-ariba",
+        "scoutbee", "servicenow-procurement-service-management", "sourceday",
+        "synertrade-accelerate", "tacto", "thomasnet-supplier-discovery", "tonkean",
+        "tray-io", "tropic", "vendr", "workato", "workday-procurement", "zip", "zycus"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 23,
+    "slug": "intake-management",
+    "name": "Intake Management",
+    "description": "Streamline procurement request intake, triage, and routing to reduce cycle times and improve compliance.",
+    "sort_order": 23,
+    "data": {
+      "tool_count": 21,
+      "tool_slugs": [
+        "abbyy-vantage", "alibaba-com-supplier-marketplace", "census", "fivetran",
+        "graphite-connect", "hightouch", "ivalua", "ivalua-sourcing", "jaggaer",
+        "jaggaer-sourcing", "nanonets", "opentext-business-network", "sap-ariba",
+        "scoutbee", "synertrade-accelerate", "tacto", "thomasnet-supplier-discovery",
+        "tipalti", "tradeshift", "tropic", "vendr"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 24,
+    "slug": "workflow-automation",
+    "name": "Workflow Automation",
+    "description": "Automate multi-step procurement workflows including approvals, notifications, and system handoffs.",
+    "sort_order": 24,
+    "data": {
+      "tool_count": 37,
+      "tool_slugs": [
+        "aavenir", "airbase", "beeline", "brex", "celonis", "coupa",
+        "coupa-supply-chain-design-and-planning", "docusign-clm", "gep", "gep-smart",
+        "icertis-discoverai", "ironclad", "ivalua", "jaggaer", "kissflow-procurement",
+        "mulesoft", "onit", "oracle-fusion-procurement-cloud", "pipefy-procurement",
+        "planergy", "precoro", "proactis", "procurify", "ramp", "runa", "sap-ariba",
+        "sap-fieldglass", "servicenow-procurement-service-management", "sourceday",
+        "spendesk", "tonkean", "tray-io", "unit4", "workato", "workday-procurement",
+        "zip", "zycus"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 25,
+    "slug": "policy-enforcement",
+    "name": "Policy Enforcement",
+    "description": "Enforce procurement policies, spending limits, and compliance rules automatically at the point of purchase.",
+    "sort_order": 25,
+    "data": {
+      "tool_count": 27,
+      "tool_slugs": [
+        "abbyy-vantage", "agiloft-clm", "airbase", "amazon-business", "avetta",
+        "beeline", "brex", "celonis", "census", "cobblestone-contract-insight",
+        "conga-clm", "contractsafe", "coupa", "evisort", "fivetran", "hightouch",
+        "juro", "kira-systems", "linksquares", "luminance", "medius", "nanonets",
+        "opentext-business-network", "order-co", "ramp", "sap-fieldglass", "spendesk"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 26,
+    "slug": "po-automation",
+    "name": "PO Automation",
+    "description": "Automate purchase order creation, approval routing, and delivery confirmation processes.",
+    "sort_order": 26,
+    "data": {
+      "tool_count": 2,
+      "tool_slugs": ["appzen", "vic-ai"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 27,
+    "slug": "invoice-automation",
+    "name": "Invoice Automation",
+    "description": "Automate invoice capture, coding, validation, and approval to accelerate AP processing.",
+    "sort_order": 27,
+    "data": {
+      "tool_count": 2,
+      "tool_slugs": ["appzen", "vic-ai"]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 28,
+    "slug": "three-way-matching",
+    "name": "Three-way Matching",
+    "description": "Automatically match purchase orders, receipts, and invoices to verify accuracy before payment.",
+    "sort_order": 28,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 29,
+    "slug": "ap-exception-management",
+    "name": "AP Exception Management",
+    "description": "Detect, route, and resolve accounts payable exceptions and invoice discrepancies using AI.",
+    "sort_order": 29,
+    "data": {
+      "tool_count": 15,
+      "tool_slugs": [
+        "avidxchange", "basware", "bill-com", "blackline", "esker", "highradius",
+        "hypatos", "medius", "mineraltree", "pagero-network", "rossum",
+        "sap-concur-invoice", "sap-s-4hana-procurement", "stampli", "yooz"
+      ]
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 30,
+    "slug": "cross-system-orchestration",
+    "name": "Cross-system Orchestration",
+    "description": "Coordinate procurement actions across multiple enterprise systems using AI agents and integration layers.",
+    "sort_order": 30,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 31,
+    "slug": "autonomous-sourcing",
+    "name": "Autonomous Sourcing",
+    "description": "Execute sourcing events end-to-end autonomously, from supplier identification through award, with minimal human input.",
+    "sort_order": 31,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  },
+  {
+    "id": 32,
+    "slug": "ai-agents",
+    "name": "AI Agents",
+    "description": "Deploy autonomous AI agents that execute procurement tasks, make decisions, and interact with systems on behalf of users.",
+    "sort_order": 32,
+    "data": {
+      "tool_count": 0,
+      "tool_slugs": []
+    },
+    "created_at": "2026-03-20T00:00:00Z",
+    "updated_at": "2026-03-20T00:00:00Z"
+  }
+]

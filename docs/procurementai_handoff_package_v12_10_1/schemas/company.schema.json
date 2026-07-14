@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Company",
+  "type": "object",
+  "required": [
+    "company_id",
+    "name",
+    "slug",
+    "website",
+    "headquarters_country",
+    "primary_workflow_category",
+    "use_cases",
+    "automation_maturity",
+    "short_description",
+    "data_last_verified_at",
+    "tier"
+  ],
+  "properties": {
+    "company_id": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "logo_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "headquarters_country": {
+      "type": "string"
+    },
+    "founded_year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1800,
+      "maximum": 2100
+    },
+    "primary_workflow_category": {
+      "type": "string"
+    },
+    "use_cases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 5
+    },
+    "automation_maturity": {
+      "type": "string",
+      "enum": [
+        "Assistive",
+        "Semi-automated",
+        "Autonomous",
+        "Agentic"
+      ]
+    },
+    "short_description": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "key_modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "maxItems": 20
+    },
+    "data_last_verified_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "taxonomy_version": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "tier_1",
+        "tier_2",
+        "tier_3"
+      ]
+    },
+    "internal": {
+      "type": "object",
+      "properties": {
+        "tool_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "original_tool_slugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

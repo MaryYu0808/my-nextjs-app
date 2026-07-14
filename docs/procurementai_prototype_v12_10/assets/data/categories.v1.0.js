@@ -1,0 +1,170 @@
+window.__PAI_CATEGORIES = [
+  {
+    "primary_category": "Strategy & Spend Intelligence",
+    "tool_count": 3,
+    "tool_slugs": [
+      "beroe",
+      "sievo",
+      "spendhq"
+    ]
+  },
+  {
+    "primary_category": "Sourcing & Supplier Discovery",
+    "tool_count": 55,
+    "tool_slugs": [
+      "abbyy-vantage",
+      "alibaba-com-supplier-marketplace",
+      "avidxchange",
+      "biddingowl",
+      "brex",
+      "celonis",
+      "census",
+      "coupa-supply-chain-design-and-planning",
+      "datasnipper",
+      "ecovadis",
+      "everstream-analytics",
+      "evisort",
+      "fairmarkit",
+      "fivetran",
+      "gep-smart",
+      "graphite-connect",
+      "hightouch",
+      "icertis-discoverai",
+      "integritynext",
+      "ivalua-sourcing",
+      "jaggaer-sourcing",
+      "juro",
+      "kira-systems",
+      "levadata",
+      "linksquares",
+      "luminance",
+      "market-dojo",
+      "matchory",
+      "mineraltree",
+      "mulesoft",
+      "nanonets",
+      "opentext-business-network",
+      "pagero-network",
+      "ramp",
+      "refinitiv-world-check",
+      "resilience360",
+      "runa",
+      "sayari",
+      "scoutbee",
+      "sedex",
+      "sourceday",
+      "spendesk",
+      "stampli",
+      "supply-wisdom",
+      "synertrade-accelerate",
+      "tacto",
+      "taulia",
+      "tealbook",
+      "thomasnet-supplier-discovery",
+      "tonkean",
+      "tray-io",
+      "tropic",
+      "vendr",
+      "workato",
+      "yooz"
+    ]
+  },
+  {
+    "primary_category": "Negotiation & Decision Intelligence",
+    "tool_count": 2,
+    "tool_slugs": [
+      "arkestro",
+      "pactum"
+    ]
+  },
+  {
+    "primary_category": "Contract & Commercial Intelligence",
+    "tool_count": 12,
+    "tool_slugs": [
+      "aavenir",
+      "agiloft-clm",
+      "cobblestone-contract-insight",
+      "conga-clm",
+      "contractpodai",
+      "contractsafe",
+      "docusign-clm",
+      "gatekeeper",
+      "icertis",
+      "ironclad",
+      "onit",
+      "sirion"
+    ]
+  },
+  {
+    "primary_category": "Supplier Risk & ESG Intelligence",
+    "tool_count": 10,
+    "tool_slugs": [
+      "avetta",
+      "dow-jones-risk-and-compliance",
+      "dun-and-bradstreet-supplier-risk",
+      "interos",
+      "kodiak-hub",
+      "prewave",
+      "rapidratings",
+      "resilinc",
+      "riskmethods",
+      "riskonnect"
+    ]
+  },
+  {
+    "primary_category": "Intake & Orchestration",
+    "tool_count": 10,
+    "tool_slugs": [
+      "airbase",
+      "amazon-business",
+      "kissflow-procurement",
+      "order-co",
+      "pipefy-procurement",
+      "planergy",
+      "precoro",
+      "procurify",
+      "servicenow-procurement-service-management",
+      "zip"
+    ]
+  },
+  {
+    "primary_category": "Procure-to-Pay Automation",
+    "tool_count": 27,
+    "tool_slugs": [
+      "appzen",
+      "basware",
+      "beeline",
+      "bill-com",
+      "blackline",
+      "coupa",
+      "esker",
+      "gep",
+      "highradius",
+      "hypatos",
+      "ivalua",
+      "jaggaer",
+      "medius",
+      "oracle-fusion-procurement-cloud",
+      "oracle-procurement",
+      "proactis",
+      "rossum",
+      "sap-ariba",
+      "sap-concur-invoice",
+      "sap-fieldglass",
+      "sap-s-4hana-procurement",
+      "tipalti",
+      "tradeshift",
+      "unit4",
+      "vic-ai",
+      "workday-procurement",
+      "zycus"
+    ]
+  },
+  {
+    "primary_category": "Autonomous Procurement Systems",
+    "tool_count": 1,
+    "tool_slugs": [
+      "keelvar"
+    ]
+  }
+];

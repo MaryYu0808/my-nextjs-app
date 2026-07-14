@@ -1,0 +1,44 @@
+# =============================================
+# 1. 显式允许：所有主流 AI 爬虫
+#    让你的内容被充分用于 AI 训练、搜索和索引
+# =============================================
+
+# OpenAI (训练 + 搜索)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic Claude (训练 + 搜索)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity AI (搜索)
+User-agent: PerplexityBot
+Allow: /
+
+# Google (搜索 + Gemini 训练)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl (开源模型训练)
+User-agent: CCBot
+Allow: /
+
+# =============================================
+# 2. 允许其他所有爬虫
+# =============================================
+User-agent: *
+Allow: /
+
+# =============================================
+# Sitemap
+# =============================================
+Sitemap: https://www.procurementai.ai/sitemap.xml

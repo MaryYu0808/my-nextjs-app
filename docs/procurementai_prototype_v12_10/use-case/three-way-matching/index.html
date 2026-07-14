@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <base href="../../">
+<title>Use Case | ProcurementAI</title>
+  <meta name="description" content="Explore companies listing (prototype v3).">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+<div class="nav-links">
+<a class="" href="index.html">Home</a>
+<a class="" href="tools.html">Explore Companies</a>
+<a class="" href="weekly-updates.html">Weekly Updates</a>
+<a class="" href="about.html">About</a>
+<a class="" href="faq.html">FAQ</a>
+</div></div></div>
+
+<div class="container">
+
+  <div class="breadcrumbs"><a href="index.html">Home</a> › <a href="tools.html">Explore Companies</a> › <span id="crumb">Loading…</span></div>
+
+  <div class="hero-row">
+    <div class="left">
+      <h1 id="title">Loading…</h1>
+      <p class="sub" id="subtitle">Please wait.</p>
+      <div class="pills" id="pills"></div>
+    </div>
+    <div class="right">
+      <div class="card">
+        <h2>Quick filters</h2>
+        <div class="filters" style="grid-template-columns:repeat(2, minmax(0,1fr))">
+          <div class="filter">
+            <label>Automation</label>
+            <select id="fAutomation"><option value="">All</option></select>
+          </div>
+          <div class="filter">
+            <label>Country</label>
+            <select id="fCountry"><option value="">All</option></select>
+          </div>
+          <div class="filter search" style="grid-column:1 / -1">
+            <label>Search</label>
+            <input id="fSearch" type="search" placeholder="Search companies…">
+          </div>
+        </div>
+        <div class="muted" id="resultsMeta">—</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="grid-2" id="contextBlocks">
+    <div class="card">
+      <h2 id="ctxTitle1">Overview</h2>
+      <p id="ctxText1" class="muted">—</p>
+      <ul class="bullets" id="ctxBullets1"></ul>
+    </div>
+    <div class="card">
+      <h2 id="ctxTitle2">What to look for</h2>
+      <ul class="bullets" id="ctxBullets2"></ul>
+      <div class="section-note" id="ctxNote">—</div>
+    </div>
+  </div>
+
+  <div class="tool-list" id="toolsGrid"></div>
+
+  <div id="relatedBlocks"></div>
+
+  <script src="assets/js/data.js"></script>
+<script>
+  (async function(){
+    /* PAI_LOAD_GUARD */
+    try{
+      const name = "Three-way Matching";
+      const kind = "use-case";
+      const tools = await loadJSON("assets/data/companies.v1.0.json");
+
+      // Build base list
+      let baseList = [];
+      if(kind === "category") {
+        baseList = tools.filter(t => t.primary_category === name);
+      } else if(kind === "capability") {
+        baseList = tools.filter(t => (t.capability_tags||[]).includes(name));
+      } else if(kind === "use-case") {
+        baseList = tools.filter(t => (t.use_cases||[]).includes(name));
+      } else {
+        baseList = tools.slice();
+      }
+
+      // Header
+      const crumb = document.getElementById("crumb");
+      if(crumb) crumb.textContent = name;
+      const title = document.getElementById("title");
+      if(title) title.textContent = name;
+
+      const subtitle = document.getElementById("subtitle");
+      if(subtitle){
+        if(kind === "category") subtitle.textContent = `Showing  companies primarily categorized under ${name}.`;
+        else if(kind === "capability") subtitle.textContent = `${baseList.length} companies match this capability.`;
+        else if(kind === "use-case") subtitle.textContent = `${baseList.length} companies support this workflow.`;
+        else subtitle.textContent = `${baseList.length} companies found.`;
+      }
+
+      document.title = `${name} – ProcurementAI`;
+
+      // Helpers
+      const $ = (id) => document.getElementById(id);
+      const qA = $("fAutomation");
+      const qS = $("fCountry");
+      const qQ = $("fSearch");
+      const meta = $("resultsMeta");
+      const grid = $("toolsGrid");
+      const pills = $("pills");
+
+      function topCounts(getArr, limit=6){
+        const m = new Map();
+        baseList.forEach(t => (getArr(t)||[]).forEach(x => m.set(x,(m.get(x)||0)+1)));
+        return Array.from(m.entries()).sort((a,b)=>b[1]-a[1]).slice(0,limit);
+      }
+
+      function setOptions(sel, values){
+        if(!sel) return;
+        const cur = sel.value || "";
+        const opts = ['<option value="">All</option>'].concat(values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`));
+        sel.innerHTML = opts.join("");
+        if(values.includes(cur)) sel.value = cur;
+      }
+
+      function applyFilters(){
+        const automation = qA ? qA.value : "";
+        const segment = qS ? qS.value : "";
+        const query = (qQ ? qQ.value : "").trim().toLowerCase();
+
+        let list = baseList.slice();
+        if(automation) list = list.filter(t => (t.automation_level||"") === automation);
+        if(segment) list = list.filter(t => (t.headquarters||"") === segment);
+        if(query){
+          list = list.filter(t => {
+            const hay = [
+              t.tool_name, t.vendor_name, t.one_liner,
+              (t.primary_category||""),
+              (t.capability_tags||[]).join(" "),
+              (t.use_cases||[]).join(" ")
+            ].join(" ").toLowerCase();
+            return hay.includes(query);
+          });
+        }
+        return list;
+      }
+
+      function render(){
+        const list = applyFilters();
+        if(meta){
+          const label = kind === "category" ? "Category page" : (kind === "capability" ? "Capability page" : (kind === "use-case" ? "Use case page" : "Directory"));
+          meta.textContent = `${list.length} companies shown • ${label}`;
+        }
+        if(grid){
+          grid.innerHTML = list.map(renderCompanyCard).join("") || `<div class="card"><p class="muted">No companies match the current filters. Try clearing Search or switching Automation/Country.</p></div>`;
+        }
+      }
+
+      // Pills (v10.4 - fixed rendering)
+      if(pills){
+        let pillPairs = [];
+        if(kind === "category") pillPairs = topCounts(t => t.capability_tags, 6);
+        else pillPairs = topCounts(t => [t.primary_category], 6);
+
+        pills.innerHTML = pillPairs.map(([label,n]) => {
+          const href = (kind === "category")
+            ? ("capability/" + toSlug(label) + "/index.html")
+            : ("category/" + toSlug(label) + "/index.html");
+          return `<a class="badge" href="${href}">${esc(label)} (${n})</a>`;
+        }).join("");
+      }
+
+      // Related blocks (v10.4)
+      const relatedWrap = document.getElementById("relatedBlocks");
+      if(relatedWrap){
+        const topUse = topCounts(t => t.use_cases, 8);
+        const useLinks = topUse.map(([u,n]) => `<a class="badge" href="use-case/${toSlug(u)}/index.html">${esc(u)} (${n})</a>`).join("") || `<span class="muted">—</span>`;
+
+        const allCats = Array.from(new Set(tools.map(t => t.primary_category).filter(Boolean)));
+        const thisCaps = new Set(topCounts(t => t.capability_tags, 999).map(([c])=>c));
+        function catScore(cat){
+          if(cat === name) return -1;
+          const catCompanys = tools.filter(t=>t.primary_category===cat);
+          const caps = new Set();
+          catCompanys.forEach(t => (t.capability_tags||[]).forEach(c=>caps.add(c)));
+          let inter=0;
+          caps.forEach(c=>{ if(thisCaps.has(c)) inter++; });
+          return inter;
+        }
+
+        let relatedCats = [];
+        if(kind === "category"){
+          relatedCats = allCats.map(c=>[c,catScore(c)]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]).slice(0,6);
+        } else {
+          relatedCats = topCounts(t => [t.primary_category], 6);
+        }
+
+        const catLinks = relatedCats.map(([c,n]) => {
+          const suffix = (kind === "category") ? ` • ${n} shared capabilities` : ` (${n})`;
+          return `<a class="badge" href="tools.html">${esc(c)}${suffix}</a>`;
+        }).join("") || `<span class="muted">—</span>`;
+
+        relatedWrap.innerHTML = `
+          <div class="mini-grid">
+            <div class="card">
+              <h2>Related categories</h2>
+              <div class="badges">${catLinks}</div>
+              <div class="section-note">Explore adjacent categories with overlapping capability patterns.</div>
+            </div>
+            <div class="card">
+              <h2>Related use cases</h2>
+              <div class="badges">${useLinks}</div>
+              <div class="section-note">Common workflows referenced by companies on this page.</div>
+            </div>
+          </div>
+        `;
+      }
+
+      // Quick filter options
+      const automations = Array.from(new Set(baseList.map(t => t.automation_level).filter(Boolean))).sort();
+      const segments = Array.from(new Set(baseList.map(t => t.headquarters).filter(Boolean))).sort();
+      setOptions(qA, automations);
+      setOptions(qS, segments);
+
+      if(qA) qA.addEventListener("change", render);
+      if(qS) qS.addEventListener("change", render);
+      if(qQ) qQ.addEventListener("input", render);
+
+      render();
+
+      // v10.3 Context blocks populate if present
+      const ctxText1 = document.getElementById("ctxText1");
+      const ctxBul1 = document.getElementById("ctxBullets1");
+      const ctxBul2 = document.getElementById("ctxBullets2");
+      const ctxNote = document.getElementById("ctxNote");
+      function setBullets(el, items){ if(el) el.innerHTML = items.map(x => `<li>${esc(x)}</li>`).join(""); }
+
+      if(ctxText1){
+        if(kind === "category"){
+          ctxText1.textContent = `Companys in ${name} typically help teams standardize intake, route requests, automate handoffs, and connect downstream procurement workflows. Use the filters to narrow by automation level and segment.`;
+          const topUse2 = topCounts(t => t.use_cases, 6).map(([u,n]) => `${u} (${n})`);
+          setBullets(ctxBul1, topUse2.length ? topUse2 : ["Browse the companies below to see how vendors position within this category."]);
+          setBullets(ctxBul2, [
+            "Clear workflow ownership and configurable intake/approval paths",
+            "Integration depth (ERP, AP, S2P suites, ITSM, Slack/Teams)",
+            "Auditability: logs, approvals, policy rules, and controls",
+            "Data model flexibility: forms, fields, and downstream mapping",
+            "Time-to-value and admin effort for ongoing maintenance"
+          ]);
+          if(ctxNote) ctxNote.textContent = "Tip: click a capability pill above to explore companies by capability.";
+        } else if(kind === "use-case"){
+          ctxText1.textContent = `AI-enabled companies for ${name} focus on reducing cycle time, improving compliance, and standardizing how decisions are made. Start with a primary category, then add capability filters to find the right fit.`;
+          const topCats2 = topCounts(t => [t.primary_category], 6).map(([c,n]) => `${c} (${n})`);
+          setBullets(ctxBul1, topCats2.length ? topCats2 : ["Browse supporting companies below."]);
+          setBullets(ctxBul2, [
+            "Configurable rules and approvals (policy, spend thresholds, exception handling)",
+            "Clear audit trail with role-based permissions",
+            "Integrations with request, contract, and AP workflows",
+            "Ease of rollout across regions and business units",
+            "Analytics on bottlenecks, exceptions, and cycle time"
+          ]);
+          if(ctxNote) ctxNote.textContent = "Tip: use Search to find companies mentioning this workflow in their positioning.";
+        } else if(kind === "capability"){
+          ctxText1.textContent = `${name} is a common capability across modern procurement platforms. It typically supports faster decisions, better data quality, and more automated workflows when paired with clear governance.`;
+          const topCats2 = topCounts(t => [t.primary_category], 6).map(([c,n]) => `${c} (${n})`);
+          setBullets(ctxBul1, topCats2.length ? topCats2 : ["Explore companies below that include this capability."]);
+          setBullets(ctxBul2, [
+            "Configuration depth and governance controls (roles, permissions, audit logs)",
+            "Integration points and supported data formats",
+            "Model transparency: how outputs are generated and validated",
+            "Exception handling and human-in-the-loop workflows",
+            "Operational monitoring and maintenance effort"
+          ]);
+          if(ctxNote) ctxNote.textContent = "Tip: combine this capability with a category filter on Explore Companies for broader coverage.";
+        }
+      }
+
+    }catch(e){
+      console.error(e);
+      const title = document.getElementById("title");
+      if(title && title.textContent==="Loading…") title.textContent = "Data not loaded";
+      const sub = document.getElementById("subtitle");
+      if(sub && sub.textContent==="Please wait.") sub.textContent = "The dataset couldn't be loaded in this environment.";
+      const grid = document.getElementById("toolsGrid");
+      if(grid) grid.innerHTML = "<div class='card'><p class='muted'>Data didn't load. Please open from the packaged folder root, or re-download the updated build.</p></div>";
+    }
+  })();
+</script>
+
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;">
+      <div class="muted">© 2026 ProcurementAI</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="submit-company.html">Submit a company</a>
+      </div>
+    </div>
+    <div class="muted" style="margin-top:10px; line-height:1.4;">
+      ProcurementAI is an independent, structured directory of AI-enabled procurement companies.<br>
+      Company information is continuously updated, structured, and validated by AI agents using a standardized taxonomy framework.<br>
+      We do not rank vendors.
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

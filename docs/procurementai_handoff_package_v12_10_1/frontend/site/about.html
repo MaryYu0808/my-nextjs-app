@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About | ProcurementAI</title>
+  <meta name="description" content="Learn how ProcurementAI organizes AI-enabled procurement companies and maintains an independent, structured directory.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="nav"><div class="nav-inner">
+  <a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+  <div class="nav-links">
+    <a class="" href="index.html">Home</a>
+    <a class="" href="tools.html">Explore Companies</a>
+    <a class="" href="weekly-updates.html">Weekly Updates</a>
+    <a class="active" href="about.html">About</a>
+    <a class="" href="faq.html">FAQ</a>
+  </div>
+</div></div>
+
+<div class="container">
+
+  <div class="hero">
+    <h1 class="h1">About ProcurementAI</h1>
+    <div class="sub">The structured, independent directory of AI-enabled procurement companies.</div>
+    <div class="chips">
+      <a class="chip" href="#methodology"><b>Methodology</b></a>
+      <a class="chip" href="#independence"><b>Independence</b></a>
+      <a class="chip" href="#updates"><b>Updates</b></a>
+      <a class="chip" href="#vendors"><b>Vendors</b></a>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="card">
+      <h3>What this site is</h3>
+      <p class="muted">ProcurementAI is a structured, independent directory of AI-enabled procurement companies.</p>
+      <p class="muted">We map companies across procurement workflows, use cases, and automation maturity using a standardized taxonomy.</p>
+      <p class="muted">Our mission is to help structure and clarify the AI procurement market as it evolves.</p>
+      <div class="kpis">
+        <div class="kpi"><b id="kpiTools">—</b> companies</div>
+        <div class="kpi"><b id="kpiCategories">—</b> workflow categories</div>
+        <div class="kpi"><b id="kpiCaps">—</b> use cases</div>
+        <div class="kpi"><b id="kpiUpdated">—</b> data last verified</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>What this site is not</h3>
+	      <ul class="muted" style="margin:0;padding-left:18px;line-height:1.7">
+	        <li>Not a paid ranking site. Companies are not ranked based on payment.</li>
+        <li>Not an endorsement of any single vendor.</li>
+        <li>Not a substitute for your own due diligence and security review.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section" id="methodology">
+    <h2>Methodology</h2>
+    <div class="card">
+      <div class="fact"><div class="k">1) Source-first drafting</div><div class="v">Listings are curated through structured research based on public vendor sources whenever possible.</div></div>
+	      <div class="fact"><div class="k">2) Structured classification</div><div class="v">Companies are mapped to workflow categories, tagged by use cases, and labeled by automation maturity.</div></div>
+	      <div class="fact"><div class="k">3) Weekly refresh cadence</div><div class="v">Weekly updates include newly indexed companies and structured revisions to existing listings.</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="two-col">
+      <div class="card" id="updates">
+        <h3>Continuous updates</h3>
+	        <p class="muted">The directory is updated weekly. Updates may include newly indexed companies as well as structured revisions to existing listings. Our objective is to maintain a continuously evolving index that reflects changes in the AI procurement ecosystem.</p>
+        <div class="cta-row" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+          <a class="btn secondary" href="weekly-updates.html">See weekly updates</a>
+        </div>
+      </div>
+      <div class="card" id="independence">
+        <h3>Independence</h3>
+        <ul class="muted" style="margin:0;padding-left:18px;line-height:1.7">
+	          <li>ProcurementAI does not rank companies based on payment.</li>
+          <li>If sponsored placements are introduced, they will be clearly labeled.</li>
+          <li>Claiming a listing allows vendors to manage and update information, and does not imply endorsement or ranking.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="vendors">
+    <h2>For vendors</h2>
+    <div class="card">
+	      <p class="muted" style="margin-top:0">Vendors may submit new companies or claim existing listings to keep information accurate. Claiming does not imply endorsement or ranking.</p>
+      <div class="ctas" style="margin-top:10px">
+        <a class="btn primary" href="submit-company.html">Submit a company</a>
+        <a class="btn" href="faq.html">Read FAQ</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script>
+    (async function(){
+      try{
+	        const companies = await loadJSON("assets/data/companies.v1.0.json");
+	        const cats = await loadJSON("assets/data/categories.v1.0.json");
+	        const useCases = await loadJSON("assets/data/use_cases.v1.0.json");
+	        const updated = (companies||[]).map(t => t.updated_utc).sort().slice(-1)[0] || "—";
+
+	        document.getElementById("kpiTools").textContent = (companies||[]).length;
+        document.getElementById("kpiCategories").textContent = cats.length;
+	        document.getElementById("kpiCaps").textContent = useCases.length;
+        document.getElementById("kpiUpdated").textContent = (updated || "—").slice(0,10);
+      }catch(e){ console.error(e); }
+    })();
+  </script>
+
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;">
+      <div class="muted">© 2026 ProcurementAI</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="submit-company.html">Submit a company</a>
+      </div>
+    </div>
+    <div class="muted" style="margin-top:10px; line-height:1.4;">
+      ProcurementAI is an independent, structured directory of AI-enabled procurement companies.<br>
+      Company information is continuously updated, structured, and validated by AI agents using a standardized taxonomy framework.<br>
+      We do not rank vendors.
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

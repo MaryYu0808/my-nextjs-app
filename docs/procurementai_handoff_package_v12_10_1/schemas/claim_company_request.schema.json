@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimCompanyRequest",
+  "type": "object",
+  "required": [
+    "target",
+    "proposed_changes",
+    "what_changed",
+    "sources",
+    "submitter",
+    "attestations"
+  ],
+  "properties": {
+    "target": {
+      "type": "object",
+      "required": [
+        "company_slug"
+      ],
+      "properties": {
+        "company_slug": {
+          "type": "string"
+        },
+        "company_id": {
+          "type": [
+            "string",
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "proposed_changes": {
+      "type": "object",
+      "description": "Partial patch of company fields to change.",
+      "additionalProperties": true
+    },
+    "what_changed": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 800
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "minItems": 1,
+      "maxItems": 20
+    },
+    "submitter": {
+      "type": "object",
+      "required": [
+        "full_name",
+        "work_email",
+        "job_title",
+        "linkedin_url",
+        "role_at_company"
+      ],
+      "properties": {
+        "full_name": {
+          "type": "string"
+        },
+        "work_email": {
+          "type": "string",
+          "format": "email"
+        },
+        "job_title": {
+          "type": "string"
+        },
+        "linkedin_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "role_at_company": {
+          "type": "string",
+          "enum": [
+            "Founder / Co-founder",
+            "Executive",
+            "Product lead",
+            "Marketing lead",
+            "Authorized representative"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "attestations": {
+      "type": "object",
+      "required": [
+        "authorized_rep",
+        "info_accurate"
+      ],
+      "properties": {
+        "authorized_rep": {
+          "type": "boolean",
+          "const": true
+        },
+        "info_accurate": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

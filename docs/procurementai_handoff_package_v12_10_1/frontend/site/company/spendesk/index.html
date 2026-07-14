@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <base href="../../">
+<title>Company | ProcurementAI</title>
+  <meta name="description" content="Company page (prototype).">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/procurement-ai-favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/procurement-ai-logo.svg" alt="ProcurementAI"><span class="brand-text">Procurement<b>AI</b></span></a>
+<div class="nav-links">
+<a class="" href="index.html">Home</a>
+<a class="" href="tools.html">Explore Companies</a>
+<a class="" href="weekly-updates.html">Weekly Updates</a>
+<a class="" href="about.html">About</a>
+<a class="" href="faq.html">FAQ</a>
+</div></div></div>
+
+<div class="container">
+
+  <div class="tool-hero">
+    <div class="tool-hero-left">
+      <div class="breadcrumbs"><a href="index.html">Home</a> › <a href="tools.html">Companies</a> › <span id="toolNameCrumb">Tool</span></div>
+      <div class="hero-title-row"><div class="hero-logo-inline" id="toolLogoInline"></div><h1 id="toolName">Loading…</h1></div>
+      <p class="sub" id="toolOneLiner">Please wait.</p>
+            <div class="cta-row">
+        <a class="btn" id="visitWebsite" href="#" target="_blank" rel="noopener">Visit website</a>
+        <a class="btn ghost" id="claimTool" href="claim.html">Claim this company profile</a>
+        <a class="btn secondary" href="tools.html">Back to directory</a>
+      </div>
+    <div class="muted" style="margin-top:10px;">Claiming allows authorized company representatives to request factual updates for review. Claiming does not imply endorsement or ranking.</div>
+    </div>
+  </div>
+  <div class="mini-grid">
+    <div class="card">
+          <h2>Overview</h2>
+          <p id="toolOverviewText" class="muted">—</p>
+          <ul class="bullets" id="toolOverviewBullets"></ul>
+        </div>
+    <div class="card">
+          <h2>Company details</h2>
+          <div class="kv">
+            <div class="kv-row"><div class="k">Workflow category</div><div class="v" id="detailCategory">—</div></div>
+            <div class="kv-row"><div class="k">Automation maturity</div><div class="v" id="detailAutomation">—</div></div>
+            <div class="kv-row"><div class="k">Headquarters</div><div class="v" id="detailHQ">—</div></div>
+            <div class="kv-row"><div class="k">Founded</div><div class="v" id="detailFounded">—</div></div>
+            <div class="kv-row"><div class="k">Data last verified</div><div class="v" id="detailUpdated">—</div></div>
+            <div class="kv-row"><div class="k">Sources</div><div class="v" id="detailSources">—</div></div>
+          </div>
+        </div>
+  </div>
+
+  <div class="mini-grid">
+    <div class="card">
+          <h2>Key modules</h2>
+          <div class="badges" id="companyKeyModules"></div>
+        </div>
+    <div class="card">
+          <h2>Core use cases</h2>
+          <div class="badges" id="toolUseCases"></div>
+        </div>
+  </div>
+
+<div class="card" id="evalCard">
+    <div class="card-head">
+      <h2>Evaluation Framework</h2>
+      <button class="btn small ghost" id="toggleEval" type="button">Show</button>
+    </div>
+    <div id="evalBody" style="display:none;">
+      <ul class="bullets" id="toolEvalBullets"></ul>
+      <div class="section-note">These prompts help teams compare companies consistently. They are not a ranking.</div>
+    </div>
+  </div>
+
+  <div class="mini-grid">
+    <div class="card">
+      <h2>Related companies</h2>
+      <div class="tool-list" id="similarTools"></div>
+      <div class="section-note">Based on shared category and overlapping modules/use cases.</div>
+    </div>
+    <div class="card">
+      <h2>Explore the ecosystem</h2>
+      <div class="kv">
+        <div class="kv-row"><div class="k">Workflow category</div><div class="v"><a id="exploreCategory" href="#">—</a></div></div>
+        <div class="kv-row"><div class="k">All companies</div><div class="v"><a href="tools.html">Open full directory</a></div></div>
+      </div>
+      <div class="section-note">Jump to broader browsing from this company page.</div>
+    </div>
+  </div>
+</div>
+
+  <script src="assets/js/data.js"></script>
+  <script>
+    (async function(){
+      /* PAI_LOAD_GUARD */
+      try{
+      const slug = "spendesk";
+      const tools = await loadJSON("assets/data/companies.v1.0.json");
+      const t = tools.find(x => x.tool_slug === slug);
+      if(!t){
+        document.getElementById("toolName").textContent = "Company not found";
+        document.getElementById("toolOneLiner").textContent = "This company isn't in the current dataset.";
+        document.getElementById("visitWebsite").style.display = "none";
+        return;
+      }
+
+      document.title = `${t.tool_name} – AI Procurement Company | ProcurementAI`;
+
+      function formatSources(sources){
+        const arr = Array.isArray(sources) ? sources : (sources ? [sources] : []);
+        return arr.filter(Boolean);
+      }
+      function setNotAvail(id){
+        const el = document.getElementById(id);
+        if(el) el.innerHTML = '<span class="muted">Not available yet</span>';
+      }
+
+      document.getElementById("toolNameCrumb").textContent = t.tool_name;
+      document.getElementById("toolName").textContent = t.tool_name;
+      document.getElementById("toolOneLiner").textContent = (t.short_description || t.one_liner || "");
+      // v10.3 – Overview + evaluation blocks (demo-ready)
+      const modules = (t.key_modules||[]);
+      const ucs = (t.use_cases||[]);
+      const overview = document.getElementById("toolOverviewText");
+      if(overview){
+        const modStr = modules.slice(0,4).join(", ");
+        const ucStr = ucs.slice(0,3).join(", ");
+        overview.textContent = `${t.tool_name} is positioned for ${t.primary_category} workflows. Key modules include ${modStr || "core platform modules"}, and it is often used for ${ucStr || "day-to-day operational use cases"}.`;
+      }
+      const ovBul = document.getElementById("toolOverviewBullets");
+      if(ovBul){
+        ovBul.innerHTML = `<li>${esc('Compare vendor claims against workflows, controls, and integration depth.')}</li>`;
+      }
+      const evalBul = document.getElementById("toolEvalBullets");
+      if(evalBul){
+        const checklist = [
+          "What workflow steps are automated vs assisted?",
+          "Which systems does it integrate with (ERP/S2P/AP/ITSM/SSO)?",
+          "How configurable are forms, rules, and approval paths?",
+          "What audit trail, permissions, and controls are available?",
+          "What onboarding effort is required for rollout and maintenance?"
+        ];
+        evalBul.innerHTML = checklist.map(x=>`<li>${esc(x)}</li>`).join("");
+      }
+      const evalToggle = document.getElementById("toggleEval");
+      const evalBody = document.getElementById("evalBody");
+      if(evalToggle && evalBody){
+        evalToggle.addEventListener("click", (e)=>{
+          e.preventDefault();
+          const isHidden = (evalBody.style.display === "none" || evalBody.style.display === "");
+          evalBody.style.display = isHidden ? "block" : "none";
+          evalToggle.textContent = isHidden ? "Hide" : "Show";
+        });
+      }
+
+      // KPI chips removed in v11.7 (redundant with Company details)
+
+document.getElementById("detailCategory").textContent = t.primary_category;
+      document.getElementById("detailAutomation").textContent = t.automation_level;
+      document.getElementById("detailHQ").textContent = t.headquarters;
+      document.getElementById("detailFounded").textContent = (t.founded_year || "—");
+      document.getElementById("detailUpdated").textContent = formatDate(t.updated_utc);
+
+      const sources = (t.sources || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`).join("<br>");
+      document.getElementById("detailSources").innerHTML = sources || "—";
+
+      const visit = document.getElementById("visitWebsite");
+      visit.href = t.website_url;
+      visit.innerHTML = "Visit website";
+
+      // Claim
+      const claim = document.getElementById("claimTool");
+      if(claim){
+        const claimHref = "claim.html?tool=" + encodeURIComponent(t.tool_slug) + "&name=" + encodeURIComponent(t.tool_name);
+        claim.href = claimHref;
+        const cs = (t.claim_status || "unclaimed").toLowerCase();
+        if(cs === "claimed" || cs === "claimed_verified" || cs === "verified"){
+          claim.textContent = "Claimed ✓";
+          claim.classList.add("claimed");
+          claim.setAttribute("aria-disabled","true");
+        }else if(cs === "pending"){
+          claim.textContent = "Claim pending";
+          claim.classList.add("pending");
+        }
+      }
+
+      // Logo
+      const logoWrap = document.getElementById("toolLogoInline");
+      if(t.logo_url){
+        logoWrap.innerHTML = `<img class="hero-logo-small" src="${esc(t.logo_url)}" alt="${esc(t.tool_name)} logo" onerror="this.style.display='none'">`;
+      }
+
+      document.getElementById("companyKeyModules").innerHTML = (t.key_modules||[]).length ? (t.key_modules||[]).map(badge).join("") : `<span class="muted">Not available yet</span>`;
+document.getElementById("toolUseCases").innerHTML = (t.use_cases||[]).length ? (t.use_cases||[]).map(badge).join("") : `<span class="muted">Not available yet</span>`;
+// Related companies: weighted overlap (category + shared tags)
+      function overlapScore(a,b){
+        let score = 0;
+        if(a.primary_category && b.primary_category && a.primary_category===b.primary_category) score += 6;
+        const am = new Set(a.key_modules||[]);
+        const au = new Set(a.use_cases||[]);
+        (b.key_modules||[]).forEach(x=>{ if(am.has(x)) score += 2; });
+        (b.use_cases||[]).forEach(x=>{ if(au.has(x)) score += 1; });
+        return score;
+      }
+      const similar = tools
+        .filter(x => x.tool_slug!==t.tool_slug)
+        .map(x => [x, overlapScore(t,x)])
+        .filter(([,s]) => s>0)
+        .sort((a,b)=>b[1]-a[1])
+        .slice(0,6)
+        .map(([x])=>x);
+      document.getElementById("similarTools").innerHTML = similar.map(renderToolCard).join("") || "<p class='muted'>No related companies found yet.</p>";
+
+      // Explore category link
+      const catHref = 'tools.html';
+      const catLink = document.getElementById('exploreCategory');
+      if(catLink){ catLink.href = catHref; catLink.textContent = t.primary_category || '—'; }
+
+      // Related use cases
+      const ru = document.getElementById('relatedUseCases');
+      if(ru){
+        const ucs = (t.use_cases||[]);
+        ru.innerHTML = ucs.map(u => `<a class="badge" href="use-case/${toSlug(u)}/index.html">${esc(u)}</a>`).join('') || `<span class='muted'>—</span>`;
+      }
+          }catch(e){
+        console.error(e);
+        const meta = document.getElementById("resultsMeta");
+        if(meta) meta.textContent = "Failed to load data. If you opened this from disk, please use the included local fallback or serve via a local web server.";
+        const grid = document.getElementById("toolsGrid") || document.getElementById("listGrid");
+        if(grid) grid.innerHTML = "<p class='muted'>Data didn't load. Try opening via a local server (e.g., `python -m http.server`) or re-download the updated build.</p>";
+        const title = document.getElementById("title");
+        if(title && title.textContent==="Loading…") title.textContent = "Data not loaded";
+        const sub = document.getElementById("subtitle") || document.getElementById("toolOneLiner");
+        if(sub && sub.textContent==="Please wait.") sub.textContent = "The dataset couldn't be loaded in this environment.";
+      }
+    })();
+  </script>
+
+</div>
+</body>
+</html>

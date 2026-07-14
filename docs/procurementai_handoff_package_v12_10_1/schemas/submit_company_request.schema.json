@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SubmitCompanyRequest",
+  "type": "object",
+  "required": [
+    "company",
+    "submitter",
+    "attestations"
+  ],
+  "properties": {
+    "company": {
+      "type": "object",
+      "required": [
+        "name",
+        "website",
+        "headquarters_country",
+        "primary_workflow_category",
+        "use_cases",
+        "automation_maturity",
+        "short_description"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "headquarters_country": {
+          "type": "string"
+        },
+        "founded_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "primary_workflow_category": {
+          "type": "string"
+        },
+        "use_cases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 5
+        },
+        "automation_maturity": {
+          "type": "string",
+          "enum": [
+            "Assistive",
+            "Semi-automated",
+            "Autonomous",
+            "Agentic"
+          ]
+        },
+        "short_description": {
+          "type": "string",
+          "maxLength": 600
+        },
+        "key_modules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1,
+          "maxItems": 20
+        }
+      },
+      "additionalProperties": false
+    },
+    "submitter": {
+      "type": "object",
+      "required": [
+        "full_name",
+        "work_email",
+        "job_title",
+        "linkedin_url",
+        "role_at_company"
+      ],
+      "properties": {
+        "full_name": {
+          "type": "string"
+        },
+        "work_email": {
+          "type": "string",
+          "format": "email"
+        },
+        "job_title": {
+          "type": "string"
+        },
+        "linkedin_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "role_at_company": {
+          "type": "string",
+          "enum": [
+            "Founder / Co-founder",
+            "Executive",
+            "Product lead",
+            "Marketing lead",
+            "Authorized representative"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "attestations": {
+      "type": "object",
+      "required": [
+        "authorized_rep",
+        "info_accurate"
+      ],
+      "properties": {
+        "authorized_rep": {
+          "type": "boolean",
+          "const": true
+        },
+        "info_accurate": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

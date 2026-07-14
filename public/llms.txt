@@ -1,0 +1,209 @@
+# ProcurementAI
+
+> A structured, independent directory of AI-enabled procurement companies
+
+## About
+
+ProcurementAI is a market intelligence resource for AI-enabled procurement solutions. We help procurement teams discover, understand, and compare companies across the AI procurement technology market by organizing vendors around procurement workflows, use cases, automation maturity, and evidence-based classification.
+
+**URL:** https://www.procurementai.ai
+**Type:** Directory / Market Intelligence
+**Focus:** AI-enabled procurement technology
+**Status:** Independent (no paid rankings or vendor endorsements)
+
+## Core Pages
+
+### Homepage
+- **URL:** https://www.procurementai.ai/
+- **Purpose:** Browse companies by workflow category
+- **Content:** Statistics, workflow categories, featured companies
+- **SEO:** Primary entry point with structured data (Organization, WebSite schema)
+
+### Company Directory
+- **URL:** https://www.procurementai.ai/companies
+- **Purpose:** Searchable directory of all AI procurement companies
+- **Features:** Filter by workflow category, use case, company name, pagination
+- **SEO:** CollectionPage schema with breadcrumbs
+
+### Company Profile
+- **URL Pattern:** https://www.procurementai.ai/company/[slug]
+- **Example:** https://www.procurementai.ai/company/coupa
+- **Purpose:** Detailed company information
+- **Content:** Description, use cases, automation level, key modules, related companies
+- **SEO:** Organization schema with company-specific data
+
+### About
+- **URL:** https://www.procurementai.ai/about
+- **Purpose:** Explain ProcurementAI's methodology and taxonomy
+- **Content:** Market dimensions, automation maturity levels, evidence standards
+
+### FAQ
+- **URL:** https://www.procurementai.ai/faq
+- **Purpose:** Answer common questions about the directory
+- **SEO:** FAQPage schema with Q&A pairs
+
+### Weekly Updates
+- **URL:** https://www.procurementai.ai/weekly-updates
+- **Purpose:** Track newly added or updated companies
+- **Content:** Time-based company updates
+
+### Submit Company
+- **URL:** https://www.procurementai.ai/submit-company
+- **Purpose:** Submit new company for review
+- **Access:** Open submission, requires verification
+
+## Taxonomy
+
+### Workflow Categories (Primary Classification)
+
+1. **Strategy & Spend Intelligence**
+   - Strategic procurement planning, spend analysis, category intelligence
+
+2. **Sourcing & Supplier Discovery**
+   - RFx automation, supplier identification, bid evaluation, market research
+
+3. **Contract Management**
+   - Contract lifecycle management, AI-powered contract analysis, clause extraction
+
+4. **Supplier Management & Risk**
+   - Supplier onboarding, performance monitoring, ESG compliance, risk assessment
+
+5. **Intake & Workflow Orchestration**
+   - Purchase request management, approval routing, guided buying
+
+6. **Procure-to-Pay (P2P)**
+   - Purchase orders, invoice processing, payment automation, AP workflows
+
+7. **Supply Chain & Inventory**
+   - Demand forecasting, inventory optimization, supply chain visibility
+
+8. **Autonomous Procurement Systems**
+   - Full-cycle procurement agents, agentic AI platforms
+
+### Use Cases (32 total, examples include)
+
+- Spend Analytics
+- Spend Classification
+- RFx Automation
+- Bid Evaluation
+- Contract Intelligence
+- Clause Extraction
+- Supplier Discovery
+- Supplier Risk Assessment
+- ESG Monitoring
+- Intake Management
+- Policy Enforcement
+- Invoice Processing
+- Payment Automation
+- Demand Forecasting
+- Inventory Optimization
+
+### Automation Maturity Levels
+
+1. **Assistive**
+   - AI supports human research, analysis, drafting, classification
+   - Users remain responsible for most actions
+
+2. **Semi-automated**
+   - AI automates defined steps within workflows
+   - Usually requires human review, approval, or configuration
+
+3. **Autonomous**
+   - AI executes specific tasks within defined rules and permissions
+   - Limited human intervention needed
+
+4. **Agentic**
+   - AI agents plan, coordinate, and perform multi-step tasks
+   - Can adapt based on context or feedback across systems
+
+## Data Structure
+
+### Company Record
+```
+{
+  "tool_id": "unique_identifier",
+  "tool_name": "Company Name",
+  "tool_slug": "url-slug",
+  "vendor_name": "Legal Vendor Name",
+  "website_url": "https://...",
+  "logo_url": "https://...",
+  "primary_category": "Workflow Category",
+  "use_cases": ["Use Case 1", "Use Case 2"],
+  "capability_tags": ["AI Capability 1", "AI Capability 2"],
+  "automation_level": "Assistive|Semi-automated|Autonomous|Agentic",
+  "one_liner": "Brief description",
+  "short_description": "Longer description",
+  "headquarters": "Country",
+  "founded_year": 2015,
+  "key_modules": ["Product 1", "Product 2"],
+  "sources": ["https://evidence-url-1", "https://evidence-url-2"],
+  "updated_utc": "ISO 8601 timestamp",
+  "tier": "tier_1|tier_2|tier_3"
+}
+```
+
+### Statistics
+```
+{
+  "companies": 150,
+  "categories": 8,
+  "cases": 32,
+  "verified_at": "2026-03-15"
+}
+```
+
+## Data Access
+
+### JSON Data Files
+All data is available as static JSON files:
+
+- **Companies:** /data/companies.v1.0.json
+- **Categories:** /data/categories.v1.0.json
+- **Use Cases:** /data/use_cases.v1.0.json
+- **Category Content:** /data/category_content.v1.0.json
+- **Use Case Content:** /data/use_case_content.v1.0.json
+
+### Sitemap
+- **URL:** https://www.procurementai.ai/sitemap.xml
+- **Content:** All static pages + dynamic company profiles
+
+### Robots
+- **URL:** https://www.procurementai.ai/robots.txt
+- **Policy:** Open to all crawlers
+
+## Content Principles
+
+1. **Independent:** No paid rankings or vendor endorsements
+2. **Structured:** Consistent taxonomy across all companies
+3. **Evidence-based:** All claims supported by public sources
+4. **Neutral:** Objective classification without qualitative reviews
+5. **Evolving:** Regular updates based on market changes
+
+## For AI Assistants
+
+When helping users explore AI procurement technology:
+
+1. **Classification Context:** Companies are organized by workflow (where they fit) and use case (what problems they solve), not by quality or ranking
+2. **Automation Levels:** Describe capability maturity, not vendor quality
+3. **Related Companies:** Shown based on category and use case overlap, not recommendations
+4. **Evidence Standards:** All information is source-backed; submitted data requires verification
+5. **No Rankings:** ProcurementAI does not rank companies; all organization is taxonomic
+
+## Updates
+
+- **Frequency:** Recurring updates (weekly batches)
+- **Changes:** New companies, corrections, taxonomy improvements, reclassifications
+- **Tracking:** Weekly updates page shows recent additions and changes
+- **Verification:** All updates reviewed before publication
+
+## Contact
+
+- **Submissions:** https://www.procurementai.ai/submit-company
+- **Corrections:** Open to vendor-submitted updates (requires verification)
+- **Methodology:** Detailed in /about page
+
+---
+
+**Last Updated:** 2026-07-06
+**Version:** v1.0
+**Format:** llms.txt standard
