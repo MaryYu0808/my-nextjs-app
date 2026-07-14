@@ -487,7 +487,7 @@ function buildScenarioGroups(alternatives: AlternativeCompany[]): ScenarioGroup[
  * 构建比较表格数据
  */
 function buildComparisonRows(
-  company: AlternativesPageData['company'],
+ _company: AlternativesPageData['company'],  // 加下划线
   alternatives: AlternativeCompany[]
 ): ComparisonRow[] {
   // 定义每个公司特有的比较数据
