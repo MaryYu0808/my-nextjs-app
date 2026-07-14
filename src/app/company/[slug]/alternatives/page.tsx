@@ -3,11 +3,10 @@
 import CompanyAlternativesPage from '@/views/CompanyAlternativesPage'
 
 interface PageProps {
-  params: {
-    slug: string
-  }
+  params: Promise<{ slug: string }>
 }
 
-export default function Page({ params }: PageProps) {
-  return <CompanyAlternativesPage slug={params.slug} />
+export default async function Page({ params }: PageProps) {
+  const { slug } = await params
+  return <CompanyAlternativesPage slug={slug} />
 }
